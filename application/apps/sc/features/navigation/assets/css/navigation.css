@@ -1,0 +1,17 @@
+.navigation-header {
+	margin-bottom: 20px;
+}
+
+.navigation-header .header-title {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.navigation-header .items-container {
+	margin-top: 3px;
+}
+
+.navigation-item {
+	margin-left: 10px;
+	cursor: pointer;
+}

@@ -1,0 +1,28 @@
+{
+  "name": "symphony-client",
+  "version": "0.0.1",
+  "description": "An open source client using the symphony public api",
+  "dependencies": {
+    "q": "^1.4.1",
+    "sapphire-express": "^1.1.4",
+    "sapphire-rpc": "^0.1.1",
+    "socket.io": "^2.0.3"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ondoher/symphony-client.git"
+  },
+  "keywords": [
+    "symphony"
+  ],
+  "author": "Glenn Anderson",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Ondoher/symphony-client/issues"
+  },
+  "homepage": "https://github.com/Ondoher/symphony-client#readme"
+}

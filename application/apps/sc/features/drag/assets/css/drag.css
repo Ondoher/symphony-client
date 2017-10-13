@@ -1,0 +1,10 @@
+.dropzone {
+	position: absolute;
+	background-color: blue;
+	opacity: 0.4;
+}
+
+.dropzone-hover {
+	background-color: red;
+	opacity: 0.8;
+}

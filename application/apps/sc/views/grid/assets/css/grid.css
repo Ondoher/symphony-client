@@ -1,0 +1,29 @@
+.grid-content {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: stretch;
+	width: auto;
+	height: 100%;
+}
+
+.grid-content-h {
+	flex-direction: column;
+	flex-grow: 1;
+}
+
+.grid-content-v {
+	flex-direction: row;
+	flex-grow: 1;
+}
+
+.grid-module {
+    color: yellow;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    max-height: 100%;
+    overflow-y: hidden;
+}

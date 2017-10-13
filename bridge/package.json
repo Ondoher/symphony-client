@@ -1,0 +1,20 @@
+{
+  "name": "sc-bridge",
+  "version": "0.0.1",
+  "description": "The bridge between the agent api and the open source symphony client",
+  "main": "bridge.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "m2",
+    "symphony-api",
+    "symphony"
+  ],
+  "author": "Glenn Anderson",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "sapphire-rpc": "^0.1.1",
+    "symphony-api": "0.1.4"
+  }
+}
