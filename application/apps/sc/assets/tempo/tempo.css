@@ -1,0 +1,1597 @@
+html, body {
+  height: 100%;
+  min-height: 100%;
+  margin: 0; }
+
+html {
+  box-sizing: border-box;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+body {
+  line-height: 1.17;
+  margin: 0;
+  padding: 0; }
+
+main {
+  display: block; }
+
+progress {
+  vertical-align: baseline; }
+
+a:active,
+a:hover {
+  outline: 0; }
+
+b, strong {
+  font-weight: bold; }
+
+iframe {
+  border: 0; }
+
+small {
+  font-size: 0.77rem; }
+
+sub,
+sup {
+  font-size: 0.72rem;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -0.5rem; }
+
+sub {
+  bottom: -0.25rem; }
+
+img {
+  border: 0; }
+
+svg:not(:root) {
+  overflow: hidden; }
+
+figure {
+  margin: 1rem 20px; }
+
+hr {
+  box-sizing: content-box;
+  height: 0; }
+
+pre {
+  overflow: auto; }
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 0.9rem; }
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit; }
+
+button,
+select {
+  text-transform: none; }
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+  box-sizing: content-box; }
+
+textarea {
+  overflow: auto; }
+
+optgroup {
+  font-weight: bold; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+td,
+th {
+  padding: 0; }
+
+:root {
+  line-height: 1;
+  box-sizing: border-box; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.42; }
+
+h1 {
+  font-size: 2.2rem; }
+
+h2 {
+  font-size: 1.6rem; }
+
+h3 {
+  font-size: 1.3rem; }
+
+h4 {
+  font-size: 1.2rem; }
+
+h5 {
+  font-size: 1.1rem; }
+
+h6 {
+  font-size: 1rem; }
+
+p {
+  font-size: 1rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.24; }
+
+ul, ol {
+  padding-left: 0;
+  list-style-position: inside; }
+  ul ul, ul ol, ol ul, ol ol {
+    padding-left: 1rem; }
+
+.bold {
+  font-family: "Roboto", "Avenir", "Tahoma", sans-serif;
+  font-weight: bold; }
+
+.bold-italic {
+  font-family: "Roboto", "Avenir", "Tahoma", sans-serif;
+  font-weight: bold;
+  font-style: italic; }
+
+.light-font {
+  font-family: "Roboto", "Avenir", "Tahoma", sans-serif;
+  font-weight: 300; }
+
+.light-italic {
+  font-family: "Roboto", "Avenir", "Tahoma", sans-serif;
+  font-weight: 300;
+  font-style: italic; }
+
+.thin {
+  font-family: "Roboto", "Avenir", "Tahoma", sans-serif;
+  font-weight: 100; }
+
+.medium-font {
+  font-family: "Roboto", "Avenir", "Tahoma", sans-serif;
+  font-weight: 500; }
+
+.medium-italic {
+  font-family: "Roboto", "Avenir", "Tahoma", sans-serif;
+  font-weight: 500;
+  font-style: italic; }
+
+.italic {
+  font-family: "Roboto", "Avenir", "Tahoma", sans-serif;
+  font-weight: normal;
+  font-style: italic; }
+
+.hidden {
+  display: none !important; }
+
+html.xsmall {
+  font-size: 11px; }
+
+html.small {
+  font-size: 13px; }
+
+html.medium {
+  font-size: 16px; }
+
+html.large {
+  font-size: 18px; }
+
+body {
+  min-width: 560px; }
+
+.button {
+  font-family: "Roboto", "Avenir", "Tahoma", sans-serif;
+  font-weight: 500;
+  color: #FFF;
+  background-color: #44B3DD;
+  cursor: pointer;
+  box-shadow: none;
+  border: none;
+  border-radius: 1px;
+  font-size: 1rem;
+  text-align: center;
+  padding: 12px 60px;
+  outline: none;
+  display: inline-block;
+  text-decoration: none;
+  line-height: 1;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-transition: background-color, opacity 100ms ease-out;
+  transition: background-color, opacity 100ms ease-out; }
+  .button:focus, .button.focus {
+    color: #FFF;
+    background-color: #5abce1; }
+  .button:hover {
+    color: #FFF;
+    background-color: #5abce1; }
+  .button:active, .button.active {
+    color: #FFF;
+    background-color: #2eaad9; }
+  .button:hover {
+    background-color: #67c1e3;
+    color: #FFFFFF; }
+  .button:active {
+    background-color: #26a3d2;
+    color: #FFFFFF;
+    outline: none; }
+  .button:focus {
+    outline: 0; }
+  .button:visited {
+    color: #FFFFFF; }
+  .button.create {
+    color: #FFF;
+    background-color: #66BB66; }
+    .button.create:focus, .button.create.focus {
+      color: #FFF;
+      background-color: #78c378; }
+    .button.create:hover {
+      color: #FFF;
+      background-color: #78c378; }
+    .button.create:active, .button.create.active {
+      color: #FFF;
+      background-color: #54b354; }
+  .button.primary {
+    color: #FFF;
+    background-color: #44B3DD; }
+    .button.primary:focus, .button.primary.focus {
+      color: #FFF;
+      background-color: #5abce1; }
+    .button.primary:hover {
+      color: #FFF;
+      background-color: #5abce1; }
+    .button.primary:active, .button.primary.active {
+      color: #FFF;
+      background-color: #2eaad9; }
+  .button.secondary {
+    color: #FFF;
+    background-color: rgba(0, 0, 0, 0.3); }
+    .button.secondary:focus, .button.secondary.focus {
+      color: #FFF;
+      background-color: rgba(13, 13, 13, 0.3); }
+    .button.secondary:hover {
+      color: #FFF;
+      background-color: rgba(13, 13, 13, 0.3); }
+    .button.secondary:active, .button.secondary.active {
+      color: #FFF;
+      background-color: rgba(0, 0, 0, 0.3); }
+  .button.warning {
+    color: #FFF;
+    background-color: #EE5555; }
+    .button.warning:focus, .button.warning.focus {
+      color: #FFF;
+      background-color: #f06c6c; }
+    .button.warning:hover {
+      color: #FFF;
+      background-color: #f06c6c; }
+    .button.warning:active, .button.warning.active {
+      color: #FFF;
+      background-color: #ec3e3e; }
+  .button.cancel-link, .button.cancel {
+    color: #aaaaaa;
+    background: none;
+    padding: 8px 0 6px; }
+    .button.cancel-link:hover, .button.cancel:hover {
+      color: #f06c6c;
+      background: none; }
+    .button.cancel-link:active, .button.cancel:active {
+      color: #ec3e3e;
+      background: none; }
+  .button.close-button {
+    height: 12px;
+    width: 12px;
+    background: url(../img/icons/icon-close-black-12.png) no-repeat;
+    opacity: 0.3;
+    cursor: pointer; }
+    .button.close-button:hover {
+      opacity: 0.25; }
+    .button.close-button:active {
+      opacity: 0.35; }
+  .button.link {
+    background: none;
+    color: #47A8FF; }
+    .button.link:hover {
+      color: #61b4ff; }
+    .button.link:active {
+      color: #2e9cff; }
+  .button.compact, .button.mini {
+    padding: 4px; }
+  .button.icon {
+    padding-left: 24px; }
+  .button.remove {
+    background: transparent;
+    color: #EE5555;
+    padding: 0; }
+    .button.remove:hover {
+      color: #f06c6c; }
+    .button.remove:active {
+      color: #ec3e3e; }
+  .button.positive-red {
+    background-color: #EE5555; }
+    .button.positive-red:hover {
+      background-color: #f06c6c; }
+    .button.positive-red:active {
+      background-color: #ec3e3e; }
+  .button.negative {
+    background: transparent;
+    color: #44B3DD;
+    padding: 0; }
+    .button.negative:hover {
+      color: #5abce1; }
+    .button.negative:active {
+      color: #2eaad9; }
+  .button.standard {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 4px; }
+  .button.disabled {
+    background-color: #DDD;
+    color: #B9B9B9;
+    cursor: default; }
+    .button.disabled:hover {
+      color: #B9B9B9;
+      background-color: #DDD; }
+    .button.disabled:active {
+      color: #B9B9B9;
+      background-color: #DDD; }
+  .button[disabled] {
+    opacity: .4;
+    cursor: default; }
+    .button[disabled]:hover {
+      background-color: #44B3DD; }
+
+input[type="text"], input[type="password"] {
+  border: 0;
+  border-bottom: 1px solid #aaa;
+  display: block;
+  width: 100%;
+  z-index: 0;
+  background: rgba(255, 255, 255, 0);
+  padding: 8px; }
+  input[type="text"]:focus, input[type="password"]:focus {
+    border-bottom: 1px solid #44B3DD;
+    outline: none; }
+    input[type="text"]:focus + .input-label, input[type="password"]:focus + .input-label {
+      font-size: 0.9rem;
+      margin-top: -1.3rem;
+      margin-bottom: 0.5rem;
+      color: #44B3DD; }
+
+.tempo-input-container {
+  margin-top: 40px;
+  position: relative; }
+  .tempo-input-container input {
+    position: relative; }
+  .tempo-input-container label {
+    display: block;
+    position: absolute;
+    top: 0;
+    padding: 8px;
+    color: rgba(0, 0, 0, 0.38);
+    -webkit-transition: margin 100ms ease-out, font 100ms ease-out, color 100ms ease-out;
+    transition: margin 100ms ease-out, font 100ms ease-out, color 100ms ease-out;
+    z-index: -1; }
+  .tempo-input-container.populated label {
+    font-size: 0.9rem;
+    margin-top: -1.3rem;
+    margin-bottom: 0.5rem; }
+    .tempo-input-container.populated label:focus {
+      color: #44B3DD; }
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px white inset; }
+
+.icon {
+  background-repeat: no-repeat;
+  background-position: 8px center;
+  background-size: 12px;
+  line-height: 1;
+  vertical-align: middle; }
+
+span.icon {
+  height: 12px;
+  padding-left: 16px;
+  background-position: 2px center;
+  display: inline-block; }
+  span.icon.icon--small {
+    height: 8px;
+    padding-left: 12px;
+    background-size: 8px; }
+  span.icon.icon--large {
+    height: 24px;
+    padding-left: 28px;
+    background-size: 24px; }
+  span.icon.icon--xlarge {
+    height: 32px;
+    padding-left: 36px;
+    background-size: 32px; }
+
+button.compact.icon {
+  padding-left: 20px;
+  background-position: 4px center; }
+
+.icon__addcode {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_addcode.svg"); }
+
+.icon__addcode--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_addcode-light.svg"); }
+
+.icon__addcontact {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_addcontact.svg"); }
+
+.icon__addcontact--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_addcontact-light.svg"); }
+
+.icon__adddocument {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_adddocument.svg"); }
+
+.icon__adddocument--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_adddocument-light.svg"); }
+
+.icon__addressbook {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_addressbook.svg"); }
+
+.icon__addressbook--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_addressbook-light.svg"); }
+
+.icon__alarm {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_alarm.svg"); }
+
+.icon__alarm--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_alarm-light.svg"); }
+
+.icon__applications_marketplace1 {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_applications_marketplace1.svg"); }
+
+.icon__applications_marketplace1--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_applications_marketplace1-light.svg"); }
+
+.icon__applications_marketplace2 {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_applications_marketplace2.svg"); }
+
+.icon__applications_marketplace2--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_applications_marketplace2-light.svg"); }
+
+.icon__applications_marketplace3 {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_applications_marketplace3.svg"); }
+
+.icon__applications_marketplace3--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_applications_marketplace3-light.svg"); }
+
+.icon__appstore {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_appstore.svg"); }
+
+.icon__appstore--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_appstore-light.svg"); }
+
+.icon__arrow_down_stem {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_arrow_down_stem.svg"); }
+
+.icon__arrow_down_stem--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_arrow_down_stem-light.svg"); }
+
+.icon__arrow_down {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_arrow_down.svg"); }
+
+.icon__arrow_down--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_arrow_down-light.svg"); }
+
+.icon__arrow_left_stem {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_arrow_left_stem.svg"); }
+
+.icon__arrow_left_stem--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_arrow_left_stem-light.svg"); }
+
+.icon__arrow_left {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_arrow_left.svg"); }
+
+.icon__arrow_left--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_arrow_left-light.svg"); }
+
+.icon__arrow_right_stem {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_arrow_right_stem.svg"); }
+
+.icon__arrow_right_stem--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_arrow_right_stem-light.svg"); }
+
+.icon__arrow_right {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_arrow_right.svg"); }
+
+.icon__arrow_right--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_arrow_right-light.svg"); }
+
+.icon__arrow_up_stem {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_arrow_up_stem.svg"); }
+
+.icon__arrow_up_stem--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_arrow_up_stem-light.svg"); }
+
+.icon__arrow_up {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_arrow_up.svg"); }
+
+.icon__arrow_up--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_arrow_up-light.svg"); }
+
+.icon__asterisk {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_asterisk.svg"); }
+
+.icon__asterisk--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_asterisk-light.svg"); }
+
+.icon__attach {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_attach.svg"); }
+
+.icon__attach--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_attach-light.svg"); }
+
+.icon__binoculars {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_binoculars.svg"); }
+
+.icon__binoculars--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_binoculars-light.svg"); }
+
+.icon__browseaccounts {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_browseaccounts.svg"); }
+
+.icon__browseaccounts--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_browseaccounts-light.svg"); }
+
+.icon__bulkmanageaccounts {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_bulkmanageaccounts.svg"); }
+
+.icon__bulkmanageaccounts--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_bulkmanageaccounts-light.svg"); }
+
+.icon__calendar {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_calendar.svg"); }
+
+.icon__calendar--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_calendar-light.svg"); }
+
+.icon__cashtag {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_cashtag.svg"); }
+
+.icon__cashtag--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_cashtag-light.svg"); }
+
+.icon__chart1 {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_chart1.svg"); }
+
+.icon__chart1--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_chart1-light.svg"); }
+
+.icon__chart2 {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_chart2.svg"); }
+
+.icon__chart2--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_chart2-light.svg"); }
+
+.icon__checkmark {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_checkmark.svg"); }
+
+.icon__checkmark--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_checkmark-light.svg"); }
+
+.icon__chime {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_chime.svg"); }
+
+.icon__chime--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_chime-light.svg"); }
+
+.icon__circlealert {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_circlealert.svg"); }
+
+.icon__circlealert--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_circlealert-light.svg"); }
+
+.icon__circlecheck {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_circlecheck.svg"); }
+
+.icon__circlecheck--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_circlecheck-light.svg"); }
+
+.icon__close {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_close.svg"); }
+
+.icon__close--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_close-light.svg"); }
+
+.icon__closedenvelope {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_closedenvelope.svg"); }
+
+.icon__closedenvelope--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_closedenvelope-light.svg"); }
+
+.icon__closedfolder {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_closedfolder.svg"); }
+
+.icon__closedfolder--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_closedfolder-light.svg"); }
+
+.icon__comment {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_comment.svg"); }
+
+.icon__comment--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_comment-light.svg"); }
+
+.icon__configuresso {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_configuresso.svg"); }
+
+.icon__configuresso--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_configuresso-light.svg"); }
+
+.icon__contact {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_contact.svg"); }
+
+.icon__contact--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_contact-light.svg"); }
+
+.icon__conversations {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_conversations.svg"); }
+
+.icon__conversations--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_conversations-light.svg"); }
+
+.icon__createsignal {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_createsignal.svg"); }
+
+.icon__createsignal--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_createsignal-light.svg"); }
+
+.icon__delete {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_delete.svg"); }
+
+.icon__delete--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_delete-light.svg"); }
+
+.icon__dial {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_dial.svg"); }
+
+.icon__dial--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_dial-light.svg"); }
+
+.icon__disable {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_disable.svg"); }
+
+.icon__disable--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_disable-light.svg"); }
+
+.icon__download {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_download.svg"); }
+
+.icon__download--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_download-light.svg"); }
+
+.icon__dropfile {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_dropfile.svg"); }
+
+.icon__dropfile--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_dropfile-light.svg"); }
+
+.icon__earth {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_earth.svg"); }
+
+.icon__earth--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_earth-light.svg"); }
+
+.icon__editentitlements {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_editentitlements.svg"); }
+
+.icon__editentitlements--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_editentitlements-light.svg"); }
+
+.icon__erase {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_erase.svg"); }
+
+.icon__erase--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_erase-light.svg"); }
+
+.icon__evenmore {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_evenmore.svg"); }
+
+.icon__evenmore--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_evenmore-light.svg"); }
+
+.icon__exportcontent {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_exportcontent.svg"); }
+
+.icon__exportcontent--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_exportcontent-light.svg"); }
+
+.icon__failed {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_failed.svg"); }
+
+.icon__failed--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_failed-light.svg"); }
+
+.icon__favorite {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_favorite.svg"); }
+
+.icon__favorite--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_favorite-light.svg"); }
+
+.icon__file {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_file.svg"); }
+
+.icon__file--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_file-light.svg"); }
+
+.icon__fileattached {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_fileattached.svg"); }
+
+.icon__fileattached--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_fileattached-light.svg"); }
+
+.icon__filetype_aac {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_aac.svg"); }
+
+.icon__filetype_aac--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_aac-light.svg"); }
+
+.icon__filetype_bmp {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_bmp.svg"); }
+
+.icon__filetype_bmp--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_bmp-light.svg"); }
+
+.icon__filetype_csv {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_csv.svg"); }
+
+.icon__filetype_csv--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_csv-light.svg"); }
+
+.icon__filetype_excelxml {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_excelxml.svg"); }
+
+.icon__filetype_excelxml--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_excelxml-light.svg"); }
+
+.icon__filetype_gif {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_gif.svg"); }
+
+.icon__filetype_gif--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_gif-light.svg"); }
+
+.icon__filetype_html {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_html.svg"); }
+
+.icon__filetype_html--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_html-light.svg"); }
+
+.icon__filetype_jpg {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_jpg.svg"); }
+
+.icon__filetype_jpg--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_jpg-light.svg"); }
+
+.icon__filetype_m4a {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_m4a.svg"); }
+
+.icon__filetype_m4a--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_m4a-light.svg"); }
+
+.icon__filetype_mov {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_mov.svg"); }
+
+.icon__filetype_mov--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_mov-light.svg"); }
+
+.icon__filetype_mp3 {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_mp3.svg"); }
+
+.icon__filetype_mp3--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_mp3-light.svg"); }
+
+.icon__filetype_mp4 {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_mp4.svg"); }
+
+.icon__filetype_mp4--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_mp4-light.svg"); }
+
+.icon__filetype_odm {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_odm.svg"); }
+
+.icon__filetype_odm--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_odm-light.svg"); }
+
+.icon__filetype_pdf {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_pdf.svg"); }
+
+.icon__filetype_pdf--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_pdf-light.svg"); }
+
+.icon__filetype_png {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_png.svg"); }
+
+.icon__filetype_png--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_png-light.svg"); }
+
+.icon__filetype_ppt {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_ppt.svg"); }
+
+.icon__filetype_ppt--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_ppt-light.svg"); }
+
+.icon__filetype_pptx {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_pptx.svg"); }
+
+.icon__filetype_pptx--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_pptx-light.svg"); }
+
+.icon__filetype_rtf {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_rtf.svg"); }
+
+.icon__filetype_rtf--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_rtf-light.svg"); }
+
+.icon__filetype_tif {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_tif.svg"); }
+
+.icon__filetype_tif--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_tif-light.svg"); }
+
+.icon__filetype_tiff {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_tiff.svg"); }
+
+.icon__filetype_tiff--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_tiff-light.svg"); }
+
+.icon__filetype_txt {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_txt.svg"); }
+
+.icon__filetype_txt--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_txt-light.svg"); }
+
+.icon__filetype_wav {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_wav.svg"); }
+
+.icon__filetype_wav--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_wav-light.svg"); }
+
+.icon__filetype_worddoc {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_worddoc.svg"); }
+
+.icon__filetype_worddoc--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_worddoc-light.svg"); }
+
+.icon__filetype_xls {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_xls.svg"); }
+
+.icon__filetype_xls--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_xls-light.svg"); }
+
+.icon__filetype_xtiff {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_xtiff.svg"); }
+
+.icon__filetype_xtiff--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_xtiff-light.svg"); }
+
+.icon__twitter {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_twitter.svg"); }
+
+.icon__twitter--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_twitter-light.svg"); }
+
+.icon__type_alightright {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_type_alightright.svg"); }
+
+.icon__type_alightright--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_type_alightright-light.svg"); }
+
+.icon__type_aligncenter {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_type_aligncenter.svg"); }
+
+.icon__type_aligncenter--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_type_aligncenter-light.svg"); }
+
+.icon__type_alignleft {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_type_alignleft.svg"); }
+
+.icon__type_alignleft--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_type_alignleft-light.svg"); }
+
+.icon__type_bold {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_type_bold.svg"); }
+
+.icon__type_bold--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_type_bold-light.svg"); }
+
+.icon__type_bulletedlist {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_type_bulletedlist.svg"); }
+
+.icon__type_bulletedlist--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_type_bulletedlist-light.svg"); }
+
+.icon__type_caps {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_type_caps.svg"); }
+
+.icon__type_caps--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_type_caps-light.svg"); }
+
+.icon__following {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_following.svg"); }
+
+.icon__following--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_following-light.svg"); }
+
+.icon__forward1 {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_forward1.svg"); }
+
+.icon__forward1--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_forward1-light.svg"); }
+
+.icon__forward2 {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_forward2.svg"); }
+
+.icon__forward2--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_forward2-light.svg"); }
+
+.icon__fullscreen1 {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_fullscreen1.svg"); }
+
+.icon__fullscreen1--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_fullscreen1-light.svg"); }
+
+.icon__fullscreen2 {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_fullscreen2.svg"); }
+
+.icon__fullscreen2--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_fullscreen2-light.svg"); }
+
+.icon__fullscreen3 {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_fullscreen3.svg"); }
+
+.icon__fullscreen3--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_fullscreen3-light.svg"); }
+
+.icon__grab {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_grab.svg"); }
+
+.icon__grab--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_grab-light.svg"); }
+
+.icon__hashtag {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_hashtag.svg"); }
+
+.icon__hashtag--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_hashtag-light.svg"); }
+
+.icon__help {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_help.svg"); }
+
+.icon__help--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_help-light.svg"); }
+
+.icon__hiddensearch {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_hiddensearch.svg"); }
+
+.icon__hiddensearch--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_hiddensearch-light.svg"); }
+
+.icon__hourglass {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_hourglass.svg"); }
+
+.icon__hourglass--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_hourglass-light.svg"); }
+
+.icon__image1 {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_image1.svg"); }
+
+.icon__image1--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_image1-light.svg"); }
+
+.icon__image2 {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_image2.svg"); }
+
+.icon__image2--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_image2-light.svg"); }
+
+.icon__info_barriers {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_info_barriers.svg"); }
+
+.icon__info_barriers--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_info_barriers-light.svg"); }
+
+.icon__info {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_info.svg"); }
+
+.icon__info--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_info-light.svg"); }
+
+.icon__keyhole {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_keyhole.svg"); }
+
+.icon__keyhole--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_keyhole-light.svg"); }
+
+.icon__layout1 {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_layout1.svg"); }
+
+.icon__layout1--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_layout1-light.svg"); }
+
+.icon__layout2 {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_layout2.svg"); }
+
+.icon__layout2--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_layout2-light.svg"); }
+
+.icon__layout3 {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_layout3.svg"); }
+
+.icon__layout3--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_layout3-light.svg"); }
+
+.icon__liked {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_liked.svg"); }
+
+.icon__liked--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_liked-light.svg"); }
+
+.icon__link {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_link.svg"); }
+
+.icon__link--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_link-light.svg"); }
+
+.icon__logout {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_logout.svg"); }
+
+.icon__logout--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_logout-light.svg"); }
+
+.icon__logout2 {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_logout2.svg"); }
+
+.icon__logout2--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_logout2-light.svg"); }
+
+.icon__messageblast {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_messageblast.svg"); }
+
+.icon__messageblast--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_messageblast-light.svg"); }
+
+.icon__messagestatus_delivered {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_messagestatus_delivered.svg"); }
+
+.icon__messagestatus_delivered--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_messagestatus_delivered-light.svg"); }
+
+.icon__messagestatus_read {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_messagestatus_read.svg"); }
+
+.icon__messagestatus_read--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_messagestatus_read-light.svg"); }
+
+.icon__microphone {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_microphone.svg"); }
+
+.icon__microphone--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_microphone-light.svg"); }
+
+.icon__minussign {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_minussign.svg"); }
+
+.icon__minussign--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_minussign-light.svg"); }
+
+.icon__more {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_more.svg"); }
+
+.icon__more--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_more-light.svg"); }
+
+.icon__multiplepeople {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_multiplepeople.svg"); }
+
+.icon__multiplepeople--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_multiplepeople-light.svg"); }
+
+.icon__notifications {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_notifications.svg"); }
+
+.icon__notifications--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_notifications-light.svg"); }
+
+.icon__openedenvelope {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_openedenvelope.svg"); }
+
+.icon__openedenvelope--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_openedenvelope-light.svg"); }
+
+.icon__openedfolder {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_openedfolder.svg"); }
+
+.icon__openedfolder--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_openedfolder-light.svg"); }
+
+.icon__openinnewwindow {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_openinnewwindow.svg"); }
+
+.icon__openinnewwindow--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_openinnewwindow-light.svg"); }
+
+.icon__password_hide1 {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_password_hide1.svg"); }
+
+.icon__password_hide1--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_password_hide1-light.svg"); }
+
+.icon__password_hide2 {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_password_hide2.svg"); }
+
+.icon__password_hide2--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_password_hide2-light.svg"); }
+
+.icon__password_show {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_password_show.svg"); }
+
+.icon__password_show--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_password_show-light.svg"); }
+
+.icon__password {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_password.svg"); }
+
+.icon__password--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_password-light.svg"); }
+
+.icon__pause {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_pause.svg"); }
+
+.icon__pause--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_pause-light.svg"); }
+
+.icon__playbutton {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_playbutton.svg"); }
+
+.icon__playbutton--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_playbutton-light.svg"); }
+
+.icon__plussign {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_plussign.svg"); }
+
+.icon__plussign--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_plussign-light.svg"); }
+
+.icon__post {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_post.svg"); }
+
+.icon__post--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_post-light.svg"); }
+
+.icon__posts {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_posts.svg"); }
+
+.icon__posts--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_posts-light.svg"); }
+
+.icon__print {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_print.svg"); }
+
+.icon__print--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_print-light.svg"); }
+
+.icon__profanityfilter {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_profanityfilter.svg"); }
+
+.icon__profanityfilter--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_profanityfilter-light.svg"); }
+
+.icon__quickaction {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_quickaction.svg"); }
+
+.icon__quickaction--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_quickaction-light.svg"); }
+
+.icon__quietmode-39 {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_quietmode-39.svg"); }
+
+.icon__quietmode-39--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_quietmode-39-light.svg"); }
+
+.icon__quietmode-87 {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_quietmode-87.svg"); }
+
+.icon__quietmode-87--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_quietmode-87-light.svg"); }
+
+.icon__quotationmarks1 {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_quotationmarks1.svg"); }
+
+.icon__quotationmarks1--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_quotationmarks1-light.svg"); }
+
+.icon__quotationmarks2 {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_quotationmarks2.svg"); }
+
+.icon__quotationmarks2--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_quotationmarks2-light.svg"); }
+
+.icon__razor {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_razor.svg"); }
+
+.icon__razor--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_razor-light.svg"); }
+
+.icon__reciept1 {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_reciept1.svg"); }
+
+.icon__reciept1--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_reciept1-light.svg"); }
+
+.icon__refresh {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_refresh.svg"); }
+
+.icon__refresh--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_refresh-light.svg"); }
+
+.icon__remove {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_remove.svg"); }
+
+.icon__remove--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_remove-light.svg"); }
+
+.icon__remove2 {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_remove2.svg"); }
+
+.icon__remove2--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_remove2-light.svg"); }
+
+.icon__removecontact {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_removecontact.svg"); }
+
+.icon__removecontact--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_removecontact-light.svg"); }
+
+.icon__reply1 {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_reply1.svg"); }
+
+.icon__reply1--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_reply1-light.svg"); }
+
+.icon__reply2 {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_reply2.svg"); }
+
+.icon__reply2--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_reply2-light.svg"); }
+
+.icon__rightarrow {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_rightarrow.svg"); }
+
+.icon__rightarrow--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_rightarrow-light.svg"); }
+
+.icon__robotavatar {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_robotavatar.svg"); }
+
+.icon__robotavatar--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_robotavatar-light.svg"); }
+
+.icon__room {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_room.svg"); }
+
+.icon__room--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_room-light.svg"); }
+
+.icon__rooms {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_rooms.svg"); }
+
+.icon__rooms--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_rooms-light.svg"); }
+
+.icon__rules {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_rules.svg"); }
+
+.icon__rules--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_rules-light.svg"); }
+
+.icon__screencapture {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_screencapture.svg"); }
+
+.icon__screencapture--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_screencapture-light.svg"); }
+
+.icon__screencapture1 {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_screencapture1.svg"); }
+
+.icon__screencapture1--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_screencapture1-light.svg"); }
+
+.icon__screencapture2 {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_screencapture2.svg"); }
+
+.icon__screencapture2--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_screencapture2-light.svg"); }
+
+.icon__screencapture3 {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_screencapture3.svg"); }
+
+.icon__screencapture3--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_screencapture3-light.svg"); }
+
+.icon__screencapture4 {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_screencapture4.svg"); }
+
+.icon__screencapture4--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_screencapture4-light.svg"); }
+
+.icon__screencapture5 {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_screencapture5.svg"); }
+
+.icon__screencapture5--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_screencapture5-light.svg"); }
+
+.icon__screencapture7 {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_screencapture7.svg"); }
+
+.icon__screencapture7--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_screencapture7-light.svg"); }
+
+.icon__screencapture8 {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_screencapture8.svg"); }
+
+.icon__screencapture8--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_screencapture8-light.svg"); }
+
+.icon__screencapture9 {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_screencapture9.svg"); }
+
+.icon__screencapture9--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_screencapture9-light.svg"); }
+
+.icon__screencapture10 {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_screencapture10.svg"); }
+
+.icon__screencapture10--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_screencapture10-light.svg"); }
+
+.icon__screencapture11 {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_screencapture11.svg"); }
+
+.icon__screencapture11--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_screencapture11-light.svg"); }
+
+.icon__screencapture13 {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_screencapture13.svg"); }
+
+.icon__screencapture13--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_screencapture13-light.svg"); }
+
+.icon__search {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_search.svg"); }
+
+.icon__search--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_search-light.svg"); }
+
+.icon__secure_locked {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_secure_locked.svg"); }
+
+.icon__secure_locked--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_secure_locked-light.svg"); }
+
+.icon__secure_unlocked {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_secure_unlocked.svg"); }
+
+.icon__secure_unlocked--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_secure_unlocked-light.svg"); }
+
+.icon__settings {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_settings.svg"); }
+
+.icon__settings--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_settings-light.svg"); }
+
+.icon__share {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_share.svg"); }
+
+.icon__share--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_share-light.svg"); }
+
+.icon__sharebubble {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_sharebubble.svg"); }
+
+.icon__sharebubble--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_sharebubble-light.svg"); }
+
+.icon__sharrow {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_sharrow.svg"); }
+
+.icon__sharrow--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_sharrow-light.svg"); }
+
+.icon__signal {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_signal.svg"); }
+
+.icon__signal--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_signal-light.svg"); }
+
+.icon__signals_old {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_signals_old.svg"); }
+
+.icon__signals_old--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_signals_old-light.svg"); }
+
+.icon__smiley {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_smiley.svg"); }
+
+.icon__smiley--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_smiley-light.svg"); }
+
+.icon__strikethrough {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_strikethrough.svg"); }
+
+.icon__strikethrough--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_strikethrough-light.svg"); }
+
+.icon__sxo_co_sessionlog {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_sxo_co_sessionlog.svg"); }
+
+.icon__sxo_co_sessionlog--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_sxo_co_sessionlog-light.svg"); }
+
+.icon__team {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_team.svg"); }
+
+.icon__team--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_team-light.svg"); }
+
+.icon__thumbprint {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_thumbprint.svg"); }
+
+.icon__thumbprint--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_thumbprint-light.svg"); }
+
+.icon__thumbtack_pressed {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_thumbtack_pressed.svg"); }
+
+.icon__thumbtack_pressed--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_thumbtack_pressed-light.svg"); }
+
+.icon__thumbtack {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_thumbtack.svg"); }
+
+.icon__thumbtack--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_thumbtack-light.svg"); }
+
+.icon__tool {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_tool.svg"); }
+
+.icon__tool--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_tool-light.svg"); }
+
+.icon__toolbox {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_toolbox.svg"); }
+
+.icon__toolbox--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_toolbox-light.svg"); }
+
+.icon__tools {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_tools.svg"); }
+
+.icon__tools--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_tools-light.svg"); }
+
+.icon__trashcan {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_trashcan.svg"); }
+
+.icon__trashcan--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_trashcan-light.svg"); }
+
+.icon__twogears {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_twogears.svg"); }
+
+.icon__twogears--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_twogears-light.svg"); }
+
+.icon__type_indent {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_type_indent.svg"); }
+
+.icon__type_indent--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_type_indent-light.svg"); }
+
+.icon__type_italic {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_type_italic.svg"); }
+
+.icon__type_italic--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_type_italic-light.svg"); }
+
+.icon__type_justify {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_type_justify.svg"); }
+
+.icon__type_justify--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_type_justify-light.svg"); }
+
+.icon__type_numberedlist {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_type_numberedlist.svg"); }
+
+.icon__type_numberedlist--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_type_numberedlist-light.svg"); }
+
+.icon__type_underline {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_type_underline.svg"); }
+
+.icon__type_underline--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_type_underline-light.svg"); }
+
+.icon__type_unindent {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_type_unindent.svg"); }
+
+.icon__type_unindent--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_type_unindent-light.svg"); }
+
+.icon__unlink1 {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_unlink1.svg"); }
+
+.icon__unlink1--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_unlink1-light.svg"); }
+
+.icon__unlink3 {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_unlink3.svg"); }
+
+.icon__unlink3--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_unlink3-light.svg"); }
+
+.icon__verify {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_verify.svg"); }
+
+.icon__verify--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_verify-light.svg"); }
+
+.icon__videocall {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_videocall.svg"); }
+
+.icon__videocall--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_videocall-light.svg"); }
+
+.icon__videoclip {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_videoclip.svg"); }
+
+.icon__videoclip--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_videoclip-light.svg"); }
+
+.icon__volume {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_volume.svg"); }
+
+.icon__volume--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_volume-light.svg"); }
+
+.icon__whoshere {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_whoshere.svg"); }
+
+.icon__whoshere--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_whoshere-light.svg"); }
+
+.icon__world {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_world.svg"); }
+
+.icon__world--light {
+  background-image: url("/sfe/assets/tempo/images/icons/icon_world-light.svg"); }
+
+.modal {
+  background: #fff;
+  color: rgba(0, 0, 0, 0.87); }

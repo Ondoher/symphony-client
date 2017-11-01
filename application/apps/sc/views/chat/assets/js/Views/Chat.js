@@ -14,10 +14,10 @@ Package('SC.Views', {
 			this.editor = editor;
 			this.messages = messages;
 
-//			this.editor.listen('enter', this.onEnter.bind(this));
+			this.editor.listen('enter', this.onEnter.bind(this));
 			module.setBody(selector);
 			selector.append(module);
-//			editor.attach(selector.find('.editor'));
+			editor.attach(selector.find('.editor'));
 			messages.attach(selector.find('.messages'));
 		},
 

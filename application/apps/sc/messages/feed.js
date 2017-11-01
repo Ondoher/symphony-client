@@ -4,7 +4,6 @@ exports.start = function(socket, data, callback)
 {
 	var userId = data.userId;
 	listener.addListener(userId, socket);
-	console.log('starting');
 	return SERVER.ask('sc', 'user', 'start', {id: userId})
 		.then(function(user)
 		{

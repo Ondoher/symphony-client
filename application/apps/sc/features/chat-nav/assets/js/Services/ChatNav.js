@@ -1,5 +1,5 @@
 var ChatNavService = new Class({
-	implements : ['start', 'ready'],
+	implements : ['start', 'ready', 'select'],
 
 	initialize : function()
 	{
@@ -16,6 +16,14 @@ var ChatNavService = new Class({
 
 	ready : function()
 	{
+		this.grid = SYMPHONY.services.subscribe('grid');
+	},
+
+	select : function(header, id)
+	{
+		console.log('select', header, id);
+		this.grid.show('chat', id);
+
 	},
 
 	onStarted : function()

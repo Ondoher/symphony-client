@@ -15,6 +15,6 @@
   "license": "Apache-2.0",
   "dependencies": {
     "sapphire-rpc": "^0.1.1",
-    "symphony-api": "0.1.4"
+    "symphony-api": "file:/dev/symphony-node-binding"
   }
 }

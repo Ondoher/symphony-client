@@ -31,7 +31,6 @@ Package('SC.Controllers', {
 					this.view.addNavSidebar(sidebar);
 					this.view.addGrid(grid);
 
-//					grid.show('chat', 'chat-1');
 					done();
 				}.bind(this))
 /**/

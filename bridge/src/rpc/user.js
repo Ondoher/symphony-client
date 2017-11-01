@@ -28,6 +28,18 @@ class RpcUser extends RpcHandler {
 		if (!user) return 'no user found.';
 		return user.getStreams();
 	}
+
+	members (channel, data)
+	{
+		var id = data.id;
+		var streamId = data.streamId;
+		var skip = data.skip;
+		var limit = data.limit;
+		var user = runner.getUser(id);
+
+		if (!user) return 'no user found.';
+		return user.getStreamMembers(streamId);
+	}
 }
 
 var rpc = new RpcUser();

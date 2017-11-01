@@ -480,8 +480,12 @@ html, body {
 }
 
 .layout {
-	min-width: 100%;
-	min-height: 100%;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    height: 100%;
 }
 
 .main-header {
@@ -489,15 +493,32 @@ html, body {
 	height: 74px;
 }
 
-.main-body {
-	min-width: 100%;
-	min-height: 100%;
+#main-body {
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0PX;
+    height: 100%;
 }
 
-.nav {
+#nav {
 	width: 200px;
+    top: 0px;
+    position: absolute;
+    width: 230px;
+    bottom: 0px;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(55, 71, 79);
 }
 
-.main-grid {
+#grid {
 	background-color: rgba(20,105,92,.1);
+	position: absolute;
+    left: 200px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    overflow: auto;
 }

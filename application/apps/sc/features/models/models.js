@@ -5,7 +5,7 @@ module.exports = function(req, res, app)
 {
 	var models = new Feature(app, '/sc/features/models/');
 
-	models.addJS(['assets/js/Models/Service.js', 'assets/js/Models/Datafeed.js', 'assets/js/Models/Messages.js']);
+	models.addJS(['assets/js/Models/Service.js', 'assets/js/Models/Datafeed.js', 'assets/js/Models/Messages.js', 'assets/js/Models/Streams.js']);
 
 	return Q(app);
 }

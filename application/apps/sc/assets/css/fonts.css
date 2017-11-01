@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "Alright Sans";
+  src: url("/sfe/assets/fonts/alright_sans_af/alright_sans_af_regular.eot");
+  src: url("/sfe/assets/fonts/alright_sans_af/alright_sans_af_regular.eot?") format("embedded-opentype"),
+       url("/sfe/assets/fonts/alright_sans_af/alright_sans_af_regular.woff") format("woff"),
+       url("/sfe/assets/fonts/alright_sans_af/alright_sans_af_regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Alright Sans";
+  src: url("/sfe/assets/fonts/alright_sans_af/alright_sans_af_regular_italic.eot");
+  src: url("/sfe/assets/fonts/alright_sans_af/alright_sans_af_regular_italic.eot?") format("embedded-opentype"),
+       url("/sfe/assets/fonts/alright_sans_af/alright_sans_af_regular_italic.woff") format("woff"),
+       url("/sfe/assets/fonts/alright_sans_af/alright_sans_af_regular_italic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Alright Sans";
+  src: url("/sfe/assets/fonts/alright_sans_af/alright_sans_af_bold.eot");
+  src: url("/sfe/assets/fonts/alright_sans_af/alright_sans_af_bold.eot?") format("embedded-opentype"),
+       url("/sfe/assets/fonts/alright_sans_af/alright_sans_af_bold.woff") format("woff"),
+       url("/sfe/assets/fonts/alright_sans_af/alright_sans_af_bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Alright Sans";
+  src: url("/sfe/assets/fonts/alright_sans_af/alright_sans_af_bold_italic.eot");
+  src: url("/sfe/assets/fonts/alright_sans_af/alright_sans_af_bold_italic.eot?") format("embedded-opentype"),
+       url("/sfe/assets/fonts/alright_sans_af/alright_sans_af_bold_italic.woff") format("woff"),
+       url("/sfe/assets/fonts/alright_sans_af/alright_sans_af_bold_italic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Alright Sans";
+  src: url("/sfe/assets/fonts/alright_sans_af/alright_sans_af_medium.eot");
+  src: url("/sfe/assets/fonts/alright_sans_af/alright_sans_af_medium.eot?") format("embedded-opentype"),
+       url("/sfe/assets/fonts/alright_sans_af/alright_sans_af_medium.woff") format("woff"),
+       url("/sfe/assets/fonts/alright_sans_af/alright_sans_af_medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Alright Sans";
+  src: url("/sfe/assets/fonts/alright_sans_af/alright_sans_af_medium_italic.eot");
+  src: url("/sfe/assets/fonts/alright_sans_af/alright_sans_af_medium_italic.eot?") format("embedded-opentype"),
+       url("/sfe/assets/fonts/alright_sans_af/alright_sans_af_medium_italic.woff") format("woff"),
+       url("/sfe/assets/fonts/alright_sans_af/alright_sans_af_medium_italic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Alright Sans";
+  src: url("/sfe/assets/fonts/alright_sans_af/alright_sans_af_light.eot");
+  src: url("/sfe/assets/fonts/alright_sans_af/alright_sans_af_light.eot?") format("embedded-opentype"),
+       url("/sfe/assets/fonts/alright_sans_af/alright_sans_af_light.woff") format("woff"),
+       url("/sfe/assets/fonts/alright_sans_af/alright_sans_af_light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Alright Sans";
+  src: url("/sfe/assets/fonts/alright_sans_af/alright_sans_af_thin.eot");
+  src: url("/sfe/assets/fonts/alright_sans_af/alright_sans_af_thin.eot?") format("embedded-opentype"),
+       url("/sfe/assets/fonts/alright_sans_af/alright_sans_af_thin.woff") format("woff"),
+       url("/sfe/assets/fonts/alright_sans_af/alright_sans_af_thin.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 100;
+}
+

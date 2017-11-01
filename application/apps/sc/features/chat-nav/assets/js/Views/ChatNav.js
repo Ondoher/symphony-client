@@ -1,5 +1,4 @@
-Package('SC.Views', {
-	ChatNav : new Class({
+Package('SC.Views', {	ChatNav : new Class({
 		Extends : Sapphire.View,
 
 		initialize : function()

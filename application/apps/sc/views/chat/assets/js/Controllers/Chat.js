@@ -11,8 +11,9 @@ Package('SC.Controllers', {
 
 		onNew : function(type, id, selector, name)
 		{
+			console.log('onNew', type, id, selector, name)
 			var service = new SC.Services.Chat(id, name, selector.children().first());
-			service.setup();
+			service.setup(name);
 		},
 	})
 });

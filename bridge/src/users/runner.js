@@ -2,6 +2,7 @@ var symphonyApi = require('symphony-api');
 var Q = require('q');
 var config = require('./config');
 var User = require('./user');
+var Messages = require('./messages');
 
 class Runner {
 	constructor ()
@@ -11,11 +12,18 @@ class Runner {
 
 	createUser (id)
 	{
+		console.log('createUser', id, userConfig)
 		var userConfig = config.users[id];
 		console.log(config, id);
-		console.log('createUser', id, userConfig)
 
 		return new User(id, userConfig);
+	}
+
+	createObjects (id, user)
+	{
+		if (!this.users[id]) return;
+		this.users[id].createObjects();
+		return user;
 	}
 
 	getUser (id)
@@ -35,7 +43,8 @@ class Runner {
 		var user = this.createUser(id);
 		this.users[id] = user;
 		return user.load()
-			.then(this.startFeed.bind(this));
+			.then(this.startFeed.bind(this))
+			.then(this.createObjects.bind(this, id));
 	}
 }
 

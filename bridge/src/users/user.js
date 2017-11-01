@@ -1,5 +1,6 @@
-var symphonyApi = require('symphony-api');
 var Q = require('q');
+var symphonyApi = require('symphony-api');
+var Messages = require('./messages');
 
 function base64EncodeUrl(str){
 	return str.replace(/\+/g, '-').replace(/\//g, '_').replace(/\=+$/, '');
@@ -41,9 +42,7 @@ class User {
 			.then(this.getMe.bind(this))
 			.then(function(me)
 			{
-				console.log('me', me);
 				this.me = me;
-//				this.api.message.v4.send(n2CrazyThreadId, '<messageML>Hi</messageML>', {});
 				return this;
 			}.bind(this));
 	}
@@ -62,6 +61,14 @@ class User {
 			}.bind(this));
 	}
 
+	getStreamMembers (threadId, skip, limit)
+	{
+		return this.api.stream.members(threadId, skip, limit)
+			.then(function(response) {
+				return response;
+			}.bind(this));
+	}
+
 	startFeed ()
 	{
 		this.api.feed.on('messages', this.onMessage.bind(this));
@@ -76,6 +83,11 @@ class User {
 		console.log('calling', this.id, 'feed', 'messages', messages);
 		global.SERVER.call(this.id, 'feed', 'messages', messages)
 		console.log(JSON.stringify(messages, null, '  '));
+	}
+
+	createObjects (id)
+	{
+		this.messages = new Messages(this.id, this.api);
 	}
 }
 

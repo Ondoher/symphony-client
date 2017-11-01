@@ -1,26 +1,19 @@
 .nav-sidebar-page {
-	color: white;
-	display: flex;
-	flex-grow: 1;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: flex-start;
-	height: 100%;
-	overflow-y: hidden;
-	background-color: rgb(55, 71, 79);
+    color: white;
+    bottom: 0px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
 }
 
 .nav-sidebar-page .navigation {
-	display: flex;
-	width: 100%;
-	padding: 5px;
-	padding-top: 20px;
-	margin: 0px;
-	color: white;
-	flex: 1 1 auto;
-	max-height: 100%;
-	overflow-y: hidden;
-	font-size: 14px;
+    width: 100%;
+    padding: 5px;
+    padding-top: 20px;
+    margin: 0px;
+    color: white;
+    max-height: 100%;
+    font-size: 14px;
 }
 
 .nav-sidebar-page .mini-profile {

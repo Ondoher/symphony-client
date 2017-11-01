@@ -1,0 +1,6 @@
+.edit-container {
+	padding: 5px;
+    overflow-y: auto;
+    max-height: 200px;
+    min-height: 200px;
+}

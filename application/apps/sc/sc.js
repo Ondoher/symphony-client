@@ -6,6 +6,11 @@ function main(req, res, app)
 {
 	app.addCSS([
 		'/sc/assets/css/sc.css',
+		'/sc/assets/css/flex.css',
+		'/sc/assets/css/fonts.css',
+		'/sc/assets/css/workspace.css',
+		'/sc/assets/css/grid.css',
+		'/sc/assets/tempo/tempo.css',
 	]);
 
 	app.addJS([
@@ -32,7 +37,7 @@ function use(type, name, req, res)
 exports.getApplication = function(req, res)
 {
 	var session = req.session.get();
-	var app = new sapphire.Application('sc', req, res);
+	var app = new sapphire.Application('SC', req, res);
 
 	app.setTitle('Open Source Symphony Client');
 	app.setBody('apps/sc/templates/body.html');
@@ -54,10 +59,14 @@ exports.getApplication = function(req, res)
 		.then(use('features', 'start', req, res))
 		.then(use('features', 'navigation', req, res))
 		.then(use('features', 'chat-nav', req, res))
-		.then(use('features', 'renderer', req, res))
+		.then(use('features', 'messages', req, res))
+        .then(use('features', 'renderer', req, res))
+        .then(use('features', 'entity', req, res))
+        .then(use('features', 'url-entity', req, res))
 		.then(use('views', 'nav-sidebar', req, res))
 		.then(use('views', 'grid', req, res))
 		.then(use('views', 'module', req, res))
+		.then(use('views', 'editor', req, res))
 		.then(use('views', 'messages', req, res))
 		.then(use('views', 'chat', req, res))
 		.then(function(app)
