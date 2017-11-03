@@ -10,7 +10,8 @@ Package('Sc.Services', {
 			this.selector = selector;
 			this.selector.attr('id', this.id);
 			this.searchers = [];
-			this.mentions = SYMPHONY.services.subscribe('mentions') || true;
+			this.mentions = SYMPHONY.services.subscribe('mentions');
+			this.streams = SYMPHONY.services.subscribe('streams-model');
 			return SYMPHONY.services.subscribe(this.serviceName);
 		},
 
@@ -20,11 +21,9 @@ Package('Sc.Services', {
 			this.composers = this.entityService.getComposers();
 			this.processComposers();
 
-			console.log('this.selector.find(\'.edit-content\')[0]', this.selector.find('.edit-content')[0]);
-
 			this.editor = new Quill(this.selector.find('.edit-content')[0], {
 				modules: {
-					mentions: (this.mentions) ? {getUsers: this.getUsers.bind(this)} : undefined,
+					mentions: {getUsers: this.typeahead.bind(this)},
 					formula: true,
 					syntax: true,
 					toolbar: this.selector.find('#toolbar-container')[0]
@@ -51,6 +50,75 @@ Package('Sc.Services', {
 		{
 			console.log('getUsers', query);
 			return Q([{name: 'Glenn Anderson', id: 1}, {name: 'George Washington', id: 2}, {name: 'Bucky McSkipperstein', id: 3}]);
+		},
+
+		loadMembers : function()
+		{
+			if (this.roomUsers) return Q(roomUsers);
+			return this.streams.members(this.streamId)
+				.then(function(members)
+				{
+					this.roomUsers = [];
+					members.each(function(member)
+					{
+						var user = member.user;
+						user.isCreator = member.isCreator;
+						user.isOwner = member.isOwner;
+						user.joinDate = member.joinDate;
+						this.roomUsers.push(user);
+					}, this);
+
+					return this.roomUsers;
+				});
+		},
+
+		typeahead : function(query)
+		{
+			return this.loadMembers()
+				.then(function(users)
+				{
+					function compare(a, b)
+					{
+						var namea = normalize(a.name);
+						var nameb = normalize(b.name);
+
+						return namea.localeCompare(nameb);
+					}
+
+					function normalize(name)
+					{
+						name = name.toLowerCase();
+						name = name.replace(/ /g, '');
+
+						return name;
+					}
+					var startList = [];
+					var anywhereList = [];
+					query = normalize(query);
+
+					users.each(function(user)
+					{
+						var name = user.displayName;
+						name = normalize(name);
+
+						var idx = name.indexOf(query);
+						if (idx === -1) return;
+						if (idx === 0) startList.push({name: user.displayName, id: user.userId});
+						else anywhereList.push({name: user.displayName, id: user.userId});
+					}, this);
+
+					startList.sort(compare);
+					anywhereList.sort(compare);
+
+					console.log(startList, anywhereList);
+
+					if (startList.length > 5) return startList.slice(0, 5);
+					var combinedList = startList.slice(0);
+					combinedList = combinedList.concat(anywhereList.slice(0, 5 - startList.length));
+					console.log(combinedList);
+
+					return combinedList;
+				}.bind(this));
 		},
 
 		processComposers : function()

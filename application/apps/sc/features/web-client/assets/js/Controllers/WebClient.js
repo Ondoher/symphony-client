@@ -16,6 +16,9 @@ Package('SC.Controllers', {
 			$(document.body).append(this.layout);
 			this.view = new SC.Views.WebClient();
 			this.views = SYMPHONY.services.subscribe('views');
+			this.emoji = SYMPHONY.services.subscribe('emoji-renderer');
+			this.emoji.configure('/sc/assets/images/emoji', 16);
+
 
 			promises.push(this.views.load('grid', '1'));
 			promises.push(this.views.load('nav-sidebar', 'nav-sidebar'));

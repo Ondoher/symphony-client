@@ -12,7 +12,13 @@ SAPPHIRE.application.listen('start', function(callback)
 		.then(function()
 		{
 			callback();
+		})
+		.catch(function(e)
+		{
+			console.error(e.stack);
+			return false;
 		});
+
 })
 
 SAPPHIRE.application.listen('ready', function()

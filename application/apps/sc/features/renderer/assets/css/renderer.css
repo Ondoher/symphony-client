@@ -1,0 +1,316 @@
+/* line 2, C:/dev/NEXUS/packages/extensionml/renderer.css */
+.card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%; }
+
+/* line 8, C:/dev/NEXUS/packages/extensionml/renderer.css */
+.card-container .card {
+  margin: 4px 0px 16px;
+  border: 1px transparent solid;
+  border-width: 1px 1px 1px 0px;
+  padding: 8px 10px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  display: inline-block;
+  flex-grow: 1;
+  flex-shrink: 1;
+  float: left;
+  background: rgba(255, 255, 255, 0);
+  transition: background 150ms ease-out, border-color 150ms ease-out; }
+
+/* line 24, C:/dev/NEXUS/packages/extensionml/renderer.css */
+.card:hover {
+  border-color: rgba(0, 0, 0, 0.05);
+  background: #fff;
+  border-radius: 3px; }
+
+/* line 29, C:/dev/NEXUS/packages/extensionml/renderer.css */
+.card.has-body:before {
+  content: "";
+  position: absolute;
+  width: 18px;
+  right: 0px;
+  bottom: 0px;
+  top: 0px;
+  background-color: rgba(0, 0, 0, 0.18);
+  opacity: 0;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url("data:image/svg+xml,%3Csvg%20fill%3D%22%23000000%22%20height%3D%2218%22%20viewBox%3D%220%200%2024%2024%22%20width%3D%2218%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Cpath%20d%3D%22M7.41%2015.41L12%2010.83l4.59%204.58L18%2014l-6-6-6%206z%22/%3E%3Cpath%20d%3D%22M0%200h24v24H0z%22%20fill%3D%22none%22/%3E%3C/svg%3E");
+  background-size: 18px;
+  cursor: pointer;
+  transition: opacity 150ms ease-out; }
+
+/* line 45, C:/dev/NEXUS/packages/extensionml/renderer.css */
+.card.has-body.collapsed:before {
+  background-image: url("data:image/svg+xml,%3Csvg%20fill%3D%22%23000000%22%20height%3D%2218%22%20viewBox%3D%220%200%2024%2024%22%20width%3D%2218%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Cpath%20d%3D%22M7.41%207.84L12%2012.42l4.59-4.58L18%209.25l-6%206-6-6z%22/%3E%3Cpath%20d%3D%22M0-.75h24v24H0z%22%20fill%3D%22none%22/%3E%3C/svg%3E"); }
+
+/* line 48, C:/dev/NEXUS/packages/extensionml/renderer.css */
+.card:hover:before {
+  opacity: 0.5; }
+
+/* line 51, C:/dev/NEXUS/packages/extensionml/renderer.css */
+.card .flair {
+  position: absolute;
+  width: 3px;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  border-radius: 1px;
+  background-color: rgba(0, 0, 0, 0.1); }
+
+/* line 60, C:/dev/NEXUS/packages/extensionml/renderer.css */
+.card-container:hover .card .flair {
+  border-radius: 3px 0px 0px 3px; }
+
+/* line 63, C:/dev/NEXUS/packages/extensionml/renderer.css */
+.card .content {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  position: relative; }
+
+/* line 69, C:/dev/NEXUS/packages/extensionml/renderer.css */
+.card .content .body {
+  margin-top: 0.5rem; }
+
+/* line 72, C:/dev/NEXUS/packages/extensionml/renderer.css */
+.card.has-body .content .header, .card.has-body .content .body {
+  padding-right: 12px;
+  overflow: hidden; }
+
+/* line 76, C:/dev/NEXUS/packages/extensionml/renderer.css */
+.card .content .entity-icon {
+  height: 16px;
+  vertical-align: text-bottom; }
+
+/* line 81, C:/dev/NEXUS/packages/extensionml/renderer.css */
+.card .content .small-entity-icon {
+  height: 13px; }
+
+/* line 85, C:/dev/NEXUS/packages/extensionml/renderer.css */
+.card .content .header br {
+  display: block;
+  width: 100%; }
+
+/* line 89, C:/dev/NEXUS/packages/extensionml/renderer.css */
+.card .content .hr {
+  display: block;
+  height: 1rem;
+  width: 100%; }
+
+/* line 94, C:/dev/NEXUS/packages/extensionml/renderer.css */
+.card.collapsed .body {
+  max-height: 1rem;
+  overflow: hidden;
+  cursor: pointer; }
+
+/* line 99, C:/dev/NEXUS/packages/extensionml/renderer.css */
+.card.has-body.collapsed .body {
+  display: none; }
+
+/* line 102, C:/dev/NEXUS/packages/extensionml/renderer.css */
+.card-container.has-sponsor .card-sponsor-container {
+  min-width: 0;
+  flex-shrink: 0; }
+
+/* line 106, C:/dev/NEXUS/packages/extensionml/renderer.css */
+.card-container.has-sponsor .card-sponsor {
+  display: inline-block;
+  z-index: 1;
+  margin: 4px 8px 0px 0px;
+  max-height: 28px;
+  max-width: 28px; }
+
+/* line 113, C:/dev/NEXUS/packages/extensionml/renderer.css */
+.condensed .card-container .card-sponsor-container {
+  display: none; }
+
+/* line 116, C:/dev/NEXUS/packages/extensionml/renderer.css */
+.condensed .card {
+  margin: 0px 0px 4px;
+  padding: 4px 8px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap; }
+
+/* line 123, C:/dev/NEXUS/packages/extensionml/renderer.css */
+.condensed .card .content .body {
+  margin: 0px;
+  margin-top: 0.8rem; }
+
+/* line 127, C:/dev/NEXUS/packages/extensionml/renderer.css */
+.condensed .card .body *, .condensed .card .header * {
+  align-self: baseline; }
+
+/* line 130, C:/dev/NEXUS/packages/extensionml/renderer.css */
+.dark .card {
+  color: rgba(255, 255, 255, 0.87); }
+
+/* line 133, C:/dev/NEXUS/packages/extensionml/renderer.css */
+.dark .card:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0); }
+
+/* line 137, C:/dev/NEXUS/packages/extensionml/renderer.css */
+.dark .card.has-body:before {
+  background-color: rgba(255, 255, 255, 0.25);
+  background-image: url("data:image/svg+xml,%3Csvg%20fill%3D%22%23ffffff%22%20height%3D%2218%22%20viewBox%3D%220%200%2024%2024%22%20width%3D%2218%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Cpath%20d%3D%22M7.41%2015.41L12%2010.83l4.59%204.58L18%2014l-6-6-6%206z%22/%3E%3Cpath%20d%3D%22M0%200h24v24H0z%22%20fill%3D%22none%22/%3E%3C/svg%3E"); }
+
+/* line 141, C:/dev/NEXUS/packages/extensionml/renderer.css */
+.dark .card.has-body.collapsed:before {
+  background-image: url("data:image/svg+xml,%3Csvg%20fill%3D%22%23ffffff%22%20height%3D%2218%22%20viewBox%3D%220%200%2024%2024%22%20width%3D%2218%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Cpath%20d%3D%22M7.41%207.84L12%2012.42l4.59-4.58L18%209.25l-6%206-6-6z%22/%3E%3Cpath%20d%3D%22M0-.75h24v24H0z%22%20fill%3D%22none%22/%3E%3C/svg%3E"); }
+
+/* line 144, C:/dev/NEXUS/packages/extensionml/renderer.css */
+.dark .flair {
+  background-color: rgba(255, 255, 255, 0.1); }
+
+/* line 151, C:/dev/NEXUS/packages/extensionml/renderer.css */
+.modal-sheet .presentationML,
+.message__body .presentationML {
+  display: inline-block;
+  position: relative;
+  width: 100%; }
+  /* line 157, C:/dev/NEXUS/packages/extensionml/renderer.css */
+  .modal-sheet .presentationML li, .modal-sheet .presentationML p,
+  .message__body .presentationML li,
+  .message__body .presentationML p {
+    white-space: normal; }
+  /* line 160, C:/dev/NEXUS/packages/extensionml/renderer.css */
+  .modal-sheet .presentationML h1,
+  .message__body .presentationML h1 {
+    font-size: 1.6rem;
+    text-align: initial; }
+  /* line 165, C:/dev/NEXUS/packages/extensionml/renderer.css */
+  .modal-sheet .presentationML h2,
+  .message__body .presentationML h2 {
+    font-size: 1.5rem;
+    text-align: initial; }
+  /* line 170, C:/dev/NEXUS/packages/extensionml/renderer.css */
+  .modal-sheet .presentationML h3,
+  .message__body .presentationML h3 {
+    font-size: 1.4rem;
+    text-align: initial; }
+  /* line 175, C:/dev/NEXUS/packages/extensionml/renderer.css */
+  .modal-sheet .presentationML h4,
+  .message__body .presentationML h4 {
+    font-size: 1.3rem;
+    text-align: initial; }
+  /* line 180, C:/dev/NEXUS/packages/extensionml/renderer.css */
+  .modal-sheet .presentationML h5,
+  .message__body .presentationML h5 {
+    font-size: 1.2rem;
+    text-align: initial; }
+  /* line 185, C:/dev/NEXUS/packages/extensionml/renderer.css */
+  .modal-sheet .presentationML h6,
+  .message__body .presentationML h6 {
+    font-size: 1.1rem;
+    text-align: initial; }
+
+/* line 191, C:/dev/NEXUS/packages/extensionml/renderer.css */
+.modal-sheet .presentationML .table-container,
+.message__body .presentationML .table-container {
+  max-width: 100%;
+  overflow: auto; }
+
+/* line 198, C:/dev/NEXUS/packages/extensionml/renderer.css */
+.condensed .message__body .presentationML {
+  margin-top: 2px;
+  display: inline; }
+
+/* line 202, C:/dev/NEXUS/packages/extensionml/renderer.css */
+.show-has-icon {
+  display: none; }
+
+/* line 205, C:/dev/NEXUS/packages/extensionml/renderer.css */
+.has-icon .show-has-icon {
+  display: inline; }
+
+/* line 208, C:/dev/NEXUS/packages/extensionml/renderer.css */
+.raw {
+  border-style: none;
+  width: 100%; }
+
+/* line 212, C:/dev/NEXUS/packages/extensionml/renderer.css */
+.entity-action {
+  cursor: pointer; }
+
+/* line 216, C:/dev/NEXUS/packages/extensionml/renderer.css */
+.presentationML tr {
+  border-style: none; }
+
+/* line 220, C:/dev/NEXUS/packages/extensionml/renderer.css */
+.presentationML table {
+  margin-bottom: 1rem; }
+
+/* line 224, C:/dev/NEXUS/packages/extensionml/renderer.css */
+.presentationML table tr td, .presentationML table tr th {
+  padding: 0.5rem;
+  border: 1px rgba(0, 0, 0, 0.1) solid;
+  border-width: 0px 0px 1px;
+  vertical-align: top; }
+
+/* line 231, C:/dev/NEXUS/packages/extensionml/renderer.css */
+.condensed .presentationML table tr td, .condensed .presentationML table tr th {
+  padding: 0.2rem; }
+
+/* line 235, C:/dev/NEXUS/packages/extensionml/renderer.css */
+.dark .presentationML table tr td, .dark .presentationML table tr th {
+  border-color: rgba(255, 255, 255, 0.1); }
+
+/* line 239, C:/dev/NEXUS/packages/extensionml/renderer.css */
+.presentationML table tr th {
+  font-weight: 800; }
+
+/* line 244, C:/dev/NEXUS/packages/extensionml/renderer.css */
+.presentationML li {
+  list-style-position: outside; }
+
+/* line 248, C:/dev/NEXUS/packages/extensionml/renderer.css */
+.presentationML ul, .presentationML ol {
+  margin-left: 1rem; }
+
+/* line 252, C:/dev/NEXUS/packages/extensionml/renderer.css */
+.presentationML hr {
+  border-color: rgba(0, 0, 0, 0.1);
+  margin: 0.5rem 0;
+  border-width: 1px 0px 0px; }
+
+/* line 257, C:/dev/NEXUS/packages/extensionml/renderer.css */
+.dark .presentationML hr {
+  border-color: rgba(255, 255, 255, 0.4); }
+
+/* line 261, C:/dev/NEXUS/packages/extensionml/renderer.css */
+.condensed .message__body .presentationML .card-container {
+  width: auto;
+  margin: -2px; }
+
+/* line 267, C:/dev/NEXUS/packages/extensionml/renderer.css */
+.textarea--container {
+  display: flex; }
+  /* line 270, C:/dev/NEXUS/packages/extensionml/renderer.css */
+  .textarea--container .textarea--element {
+    width: 97%;
+    border-radius: 2px;
+    background: #fff;
+    border: 1px rgba(0, 0, 0, 0.1) solid;
+    padding: 8px 16px;
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.87);
+    resize: vertical; }
+  /* line 281, C:/dev/NEXUS/packages/extensionml/renderer.css */
+  .textarea--container .textarea--element::-webkit-input-placeholder {
+    color: rgba(0, 0, 0, 0.38); }
+  /* line 284, C:/dev/NEXUS/packages/extensionml/renderer.css */
+  .textarea--container .textarea--element::-moz-placeholder {
+    color: rgba(0, 0, 0, 0.38); }
+  /* line 287, C:/dev/NEXUS/packages/extensionml/renderer.css */
+  .textarea--container .textarea--element:-ms-input-placeholder {
+    color: rgba(0, 0, 0, 0.38); }
+  /* line 290, C:/dev/NEXUS/packages/extensionml/renderer.css */
+  .textarea--container .textarea--element:-moz-placeholder {
+    color: rgba(0, 0, 0, 0.38); }

@@ -20,6 +20,7 @@ function main(req, res, app)
 		'/assets/js/lib/ajax-service.js',
 		'/assets/js/lib/socket-service.js',
 		'/sc/assets/js/polyfills.js',
+		'/sc/assets/js/3rdParty/underscore.js',
 	]);
 
 	return Q(app)

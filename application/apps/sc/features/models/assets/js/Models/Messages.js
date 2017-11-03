@@ -161,7 +161,7 @@ Package('SC.Models', {
 			{
 				if (this.isChatType(one))
 				{
-					var message = message.payload && message.payload.messageSent && message.payload.messageSent.message;
+					var message = one.payload && one.payload.messageSent && one.payload.messageSent.message;
 
 					if (!message) return;
 					var flattened = this.flattenMessage(message);

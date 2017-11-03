@@ -19,10 +19,10 @@ var corpTestThreadId = base64EncodeUrl('QBsRAH+GVNvyvRsK9AVufX///qOCFrt8dA==');
 module.exports = {
 	users: {
         '131' : {
-            keyUrl: 'https://' + nexus1Api + ':8444/keyauth',
-            sessionUrl: 'https://' + nexus1Api + ':8444/sessionauth',
-            agentUrl: 'https://' + nexus1 + ':443/agent',
-            podUrl: 'https://' + nexus1 + ':443/pod',
+            keyUrl: 'https://' + nexus2Api + ':8444/keyauth',
+            sessionUrl: 'https://' + nexus2Api + ':8444/sessionauth',
+            agentUrl: 'https://' + nexus2 + ':443/agent',
+            podUrl: 'https://' + nexus2 + ':443/pod',
 			auth: {
 				cert: fs.readFileSync(__dirname + '/certs/bot.user2-cert.pem', {encoding: 'utf-8'}),
 				key: fs.readFileSync(__dirname + '/certs/bot.user2-key.pem', {encoding: 'utf-8'}),
