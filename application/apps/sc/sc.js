@@ -21,6 +21,7 @@ function main(req, res, app)
 		'/assets/js/lib/socket-service.js',
 		'/sc/assets/js/polyfills.js',
 		'/sc/assets/js/3rdParty/underscore.js',
+		'/sc/assets/js/3rdParty/xml2js.js',
 	]);
 
 	return Q(app)

@@ -13,8 +13,10 @@ Package('SC.Views', {
 			this.module = module;
 			this.editor = editor;
 			this.messages = messages;
-
+			this.postButton = selector.find('.post-button');
+			this.postButton.click(this.onPost.bind(this));
 			this.editor.listen('enter', this.onEnter.bind(this));
+
 			module.setBody(selector);
 			selector.append(module);
 			editor.attach(selector.find('.editor'));
@@ -25,5 +27,10 @@ Package('SC.Views', {
 		{
 			this.fire('post', message);
 		},
+
+		onPost : function()
+		{
+			var content = this.editor.getContent();
+		}
 	})
 });

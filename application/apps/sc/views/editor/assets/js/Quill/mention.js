@@ -10,13 +10,16 @@ class MentionBlot extends Embed {
 		const node = super.create();
 		node.innerHTML = '@' + value.name;
 		node.setAttribute('data-id', value.id);
-		node.setAttribute('data-id', value.id);
+		node.setAttribute('data-name', value.name);
 		node.style.color = 'blue';
 		return node;
 	}
 
 	static value(domNode) {
-		return domNode.getAttribute('data-id');
+		return {
+			id : domNode.getAttribute('data-id'),
+			name : domNode.getAttribute('data-name'),
+		};
 	}
 }
 

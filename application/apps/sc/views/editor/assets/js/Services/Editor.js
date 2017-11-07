@@ -28,7 +28,7 @@ Package('Sc.Services', {
 					syntax: true,
 					toolbar: this.selector.find('#toolbar-container')[0]
 				},
-				placeholder: 'Compose an epic...',
+				placeholder: 'Type your message here...',
 				theme: 'snow'
 			});
 			parent.append(this.selector);
@@ -36,9 +36,12 @@ Package('Sc.Services', {
 
 		getContent : function()
 		{
-			var html = this.editor.value();
-			if (html === '<p><br></p>') return null;
-			return html;
+			var content = this.editor.editor.delta;
+			var html = this.editor.root.innerHTML;
+//			this.editor.setText('\n');
+			console.log(content);
+			console.log(html);
+			return content;
 		},
 
 		setStreamId : function(id)
