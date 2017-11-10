@@ -18,6 +18,21 @@ class RpcUser extends RpcHandler {
 
 		return messages.read(data.threadId, data.since, data.offset, data.limit);
 	}
+
+	post (channel, data)
+	{
+		var id = data.id;
+		var threadId = data.threadId;
+		var message = data.message;
+		var json = data.json;
+		var user = runner.getUser(id);
+		if (!user) return 'no user found.';
+
+		var messages = user.messages;
+		if (!messages) return 'user not initialized.';
+
+		return messages.post(threadId, message, json);
+	}
 }
 
 var rpc = new RpcUser();

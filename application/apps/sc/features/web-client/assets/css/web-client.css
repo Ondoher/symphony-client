@@ -479,46 +479,37 @@ html, body {
 	height: 100%;
 }
 
-.layout {
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    bottom: 0px;
-    height: 100%;
+#layout {
+	display: grid;
+	height: 100vh;
+	max-height: 100vh;
+	width: 100%;
+	grid-template-columns: 200px 1fr;
+	grid-template-rows: 25px 1fr;
+	grid-template-areas:
+		"header header"
+		"nav grid";
 }
 
-.main-header {
-	min-width: 100%;
-	height: 74px;
-}
-
-#main-body {
-    position: relative;
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
-    right: 0PX;
-    height: 100%;
+#main-header {
+	grid-area: header;
 }
 
 #nav {
-	width: 200px;
-    top: 0px;
-    position: absolute;
-    width: 230px;
-    bottom: 0px;
-    top: 0px;
-    left: 0px;
+	grid-area: nav;
     background-color: rgb(55, 71, 79);
 }
 
 #grid {
-	background-color: rgba(20,105,92,.1);
-	position: absolute;
-    left: 200px;
-    right: 0px;
-    top: 0px;
-    bottom: 0px;
-    overflow: auto;
+	grid-area: grid;
+	max-height: inherit;
+	overflow: hidden;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "module";
+    display: grid;
+}
+
+.page {
+	max-height: inherit;
 }

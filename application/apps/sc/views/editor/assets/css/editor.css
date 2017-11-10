@@ -1,6 +1,21 @@
-.edit-container {
-	padding: 5px;
-    overflow-y: auto;
-    max-height: 200px;
-    min-height: 200px;
+.editor-view {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto 1fr;
+	grid-template-areas:
+		"toolbar"
+		"editor";
+
+	overflow: hidden;
 }
+
+.standalone-container {
+	grid-area: toolbar;
+}
+
+.edit-container {
+	grid-area: editor;
+	overflow: hidden;
+	position:relative;
+}
+

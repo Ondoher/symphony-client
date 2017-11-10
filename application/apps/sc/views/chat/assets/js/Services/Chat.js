@@ -63,6 +63,11 @@ Package('SC.Services', {
 			parent.append(this.selector);
 		},
 
+		detach : function(parent)
+		{
+			this.selector.detach();
+		},
+
 		addMessages : function(messages)
 		{
 			this.received += messages.length;
@@ -77,10 +82,10 @@ Package('SC.Services', {
 		},
 
 /**/
-		onPost : function(message)
+		onPost : function(message, data)
 		{
-			message = message.replace(/\n$/g, '');
-			this.messagesModel.post(message);
+			this.messagesModel.post(this.streamId, message, data);
+			this.editor.clear();
 		},
 /**/
 		onMessages : function(streamId, messages)

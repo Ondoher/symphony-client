@@ -105,6 +105,7 @@ class Mentions /* extends Module*/ {
 		this.atIndex = range.index;
 		this.container.style.left = atSignBounds.left + "px";
 		this.container.style.top = atSignBounds.top + atSignBounds.height + "px",
+		this.container.style.position = 'absolute';
 		this.open = true;
 		this.quill.mentionDialogOpen = true;
 

@@ -13,6 +13,11 @@ class Messages {
 		return this.api.message.v4.read(threadId, since, offset, limit);
 	}
 
+	post (threadId, message, data)
+	{
+		console.log(threadId, message, data);
+		return this.api.message.v4.send(threadId, message, data);
+	}
 }
 
 

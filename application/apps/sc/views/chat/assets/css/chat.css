@@ -1,39 +1,41 @@
 .chat-page {
     color: white;
-    display: flex;
-    flex-grow: 1;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    max-height: 100%;
-    overflow-y: hidden;
+    display: grid;
+    overflow: hidden;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 50px 300px;
+	grid-template-areas:
+		"messages"
+		"controls"
+		"editor"
+
 }
 
 .chat-page .messages {
     background: white;
-    width: 100%;
-    padding: 0px;
-    margin: 0px;
     color: black;
-    flex: 1 1 auto;
-    max-height: 100%;
-    display: flex;
-    overflow-y: hidden;
+    overflow-y: auto;
+	grid-area: messages;
+	min-height: inherit;
+	max-height: inherit;
+}
+
+.chat-page .controls-container {
+	grid-area: controls;
+	max-height: inherit;
 }
 
 .chat-page .editor-container {
-    background: white;
-    width: 100%;
-    min-height: 200px;
-    max-height: 200px;
-    margin: 0px;
-    padding: 0px;
+	grid-area: editor;
+	max-height: inherit;
     color: black;
-    /* overflow: hidden; */
     border: 1px;
-    flex-basis: auto;
     border-style: solid;
-    margin: -2px;
-    flex: 0 0 auto;
+	overflow: hidden;
+	display: grid;
+}
+
+.editor {
+	height: 100%;
 }
 

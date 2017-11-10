@@ -1,8 +1,4 @@
 .messages-page {
-    font-weight: 500;
-    font-size: 14px;
-    flex: 1 1 auto;
-    display: flex;
 }
 
 .messages-page .message-presence {

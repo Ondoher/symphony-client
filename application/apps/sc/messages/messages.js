@@ -14,3 +14,19 @@ exports.read = function(socket, data, callback)
 			callback(messages);
 		}.bind(this));
 }
+
+exports.post = function(socket, data, callback)
+{
+	var params = {
+		id: data.userId,
+		threadId: data.threadId,
+		message: data.message,
+		json: data.data,
+	};
+
+	return SERVER.ask('sc', 'messages', 'post', params)
+		.then(function(response)
+		{
+			callback(response);
+		}.bind(this));
+}

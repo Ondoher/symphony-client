@@ -14,7 +14,7 @@ Package('Sfe.Services', {
 
 		attach : function(parent)
 		{
-			parent.append(this.selector);
+			this.selector = parent;
 		},
 
 		show : function(name, id)
@@ -35,20 +35,13 @@ Package('Sfe.Services', {
 			if (this.currentModule) this.hide(this.currentModule);
 			if (!this.modules[id])
 			{
-				selector = SAPPHIRE.templates.get('grid-module');
 				this.modules[id] = {
 					id : id,
 					service : service,
-					selector: selector,
 				}
 			}
-			else
-			{
-				selector = this.modules[id].selector;
-			}
 
-			service.attach(selector);
-			this.selector.append(selector);
+			service.attach(this.selector);
 			this.currentModule = id;
 		},
 
@@ -60,9 +53,9 @@ Package('Sfe.Services', {
 		{
 			var module = this.modules[id];
 			if (!module) return;
-			if (!module.selector) return;
+			if (!module.service) return;
 
-			module.selector.detach();
+			module.service.detach();
 		},
 	})
 })

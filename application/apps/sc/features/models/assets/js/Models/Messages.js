@@ -21,18 +21,22 @@ Package('SC.Models', {
 			this.messageLists = SYMPHONY.services.subscribe('messages');
 		},
 
-		post : function(messageText)
+		post : function(threadId, message, data)
 		{
-		/*
-			message = {
-				sessionHash : SFE.sessionToken,
-				threadHash : SFE.threadToken,
-				presentationML : messageText,
-				responseFormat: 'JSON',
+			console.log(threadId, message, data);
+			var params = {
+				userId: SC.userId,
+				threadId: threadId,
+				message: message,
+				data: data,
 			};
 
-			SFE.service.call(SFE.urls.send, message, 'POST');
-		*/
+			console.log(params);
+
+			SC.service.message('sc/messages/post', params)
+				.then(function(response) {
+					console.log(response);
+				}.bind(this));
 		},
 
 		read : function(threadId, since, offset, limit)

@@ -15,22 +15,17 @@ Package('SC.Views', {
 			this.messages = messages;
 			this.postButton = selector.find('.post-button');
 			this.postButton.click(this.onPost.bind(this));
-			this.editor.listen('enter', this.onEnter.bind(this));
 
 			module.setBody(selector);
 			selector.append(module);
-			editor.attach(selector.find('.editor'));
+			editor.attach(selector.find('.editor-container'));
 			messages.attach(selector.find('.messages'));
-		},
-
-		onEnter : function(message)
-		{
-			this.fire('post', message);
 		},
 
 		onPost : function()
 		{
-			var content = this.editor.getContent();
+			var content = this.editor.get();
+			this.fire('post', content, {});
 		}
 	})
 });

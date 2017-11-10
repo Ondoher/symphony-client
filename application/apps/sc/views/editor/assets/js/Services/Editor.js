@@ -1,6 +1,6 @@
 Package('Sc.Services', {
 	Editor : new Class({
-		implements : ['attach', 'clear', 'getContent', 'setStreamId'],
+		implements : ['attach', 'clear', 'get', 'set', 'setStreamId'],
 
 		initialize : function(id, name, selector)
 		{
@@ -12,6 +12,7 @@ Package('Sc.Services', {
 			this.searchers = [];
 			this.mentions = SYMPHONY.services.subscribe('mentions');
 			this.streams = SYMPHONY.services.subscribe('streams-model');
+			this.converter = SYMPHONY.services.subscribe('converter');
 			return SYMPHONY.services.subscribe(this.serviceName);
 		},
 
@@ -20,39 +21,42 @@ Package('Sc.Services', {
 			this.entityService = SYMPHONY.services.subscribe('entity');
 			this.composers = this.entityService.getComposers();
 			this.processComposers();
+			var container = this.selector.find('.edit-content')[0];
 
-			this.editor = new Quill(this.selector.find('.edit-content')[0], {
+			this.editor = new Quill(container, {
 				modules: {
 					mentions: {getUsers: this.typeahead.bind(this)},
 					formula: true,
 					syntax: true,
-					toolbar: this.selector.find('#toolbar-container')[0]
+					toolbar: this.selector.find('#toolbar-container')[0],
 				},
 				placeholder: 'Type your message here...',
-				theme: 'snow'
+				theme: 'snow',
+				bounds: container,
 			});
 			parent.append(this.selector);
 		},
 
-		getContent : function()
+		convertToMessageML : function(html) {
+			var result = this.converter.convert(html);
+			console.log(result);
+			return result;
+		},
+
+		get : function()
 		{
-			var content = this.editor.editor.delta;
 			var html = this.editor.root.innerHTML;
-//			this.editor.setText('\n');
-			console.log(content);
-			console.log(html);
-			return content;
+			return this.convertToMessageML(html);
+		},
+
+		clear : function()
+		{
+			this.editor.setText('\n');
 		},
 
 		setStreamId : function(id)
 		{
 			this.streamId = id;
-		},
-
-		getUsers : function(query)
-		{
-			console.log('getUsers', query);
-			return Q([{name: 'Glenn Anderson', id: 1}, {name: 'George Washington', id: 2}, {name: 'Bucky McSkipperstein', id: 3}]);
 		},
 
 		loadMembers : function()
@@ -113,12 +117,9 @@ Package('Sc.Services', {
 					startList.sort(compare);
 					anywhereList.sort(compare);
 
-					console.log(startList, anywhereList);
-
 					if (startList.length > 5) return startList.slice(0, 5);
 					var combinedList = startList.slice(0);
 					combinedList = combinedList.concat(anywhereList.slice(0, 5 - startList.length));
-					console.log(combinedList);
 
 					return combinedList;
 				}.bind(this));
@@ -135,35 +136,6 @@ Package('Sc.Services', {
 			}, this);
 		},
 
-		clear : function()
-		{
-			this.editor.value('<p><br></p>');
-		},
-
-		onTextChange : function(delta, original, source)
-		{
-			var text = this.editor.getText();
-
-			var searcher = this.searchers.find(function(searcher) {
-				var re = searcher.options && searcher.options.re;
-				var service = searcher.service;
-				if (!re || !service) return;
-
-				var result = re.exec(text);
-				return (result);
-			});
-
-			if (!searcher) return;
-			var re = searcher.options && searcher.options.re;
-			var service = searcher.service;
-			if (!re || !service) return;
-
-			var result = re.exec(text);
-			console.log(result, result[0].length, this.editor.getSelection());
-			var entity = service.get(result[0]);
-
-			console.log(entity);
-		}
 	})
 });
 
