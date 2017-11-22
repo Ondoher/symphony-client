@@ -9,11 +9,11 @@ Package('SC.Controllers', {
 			SAPPHIRE.application.listenViewEvent('new', 'chat', this.onNew.bind(this));
 		},
 
-		onNew : function(type, id, selector, name)
+		onNew : function(type, id, selector, name, room)
 		{
-			console.log('onNew', type, id, selector, name)
+			console.log('onNew', arguments)
 			var service = new SC.Services.Chat(id, name, selector.children().first());
-			service.setup(name);
+			service.setup(room);
 		},
 	})
 });

@@ -159,10 +159,6 @@ figure {
 	margin: 1em 40px;
 }
 
-li {
-	list-style: none;
-}
-
 hr {
 	-moz-box-sizing: content-box;
 	box-sizing: content-box;

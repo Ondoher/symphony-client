@@ -12,7 +12,7 @@ Package('SC.Controllers', {
 
 		onNew : function(type, id, selector, name)
 		{
-			var service = new SC.Services.Module(id, name, selector);
+			var service = new SC.Services.Module(id, name, selector.children().first());
 			selector.addClass('grid-module draggable');
 			selector.attr('draggable', "true");
 

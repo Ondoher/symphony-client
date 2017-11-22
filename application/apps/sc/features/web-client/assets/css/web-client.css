@@ -159,10 +159,6 @@ figure {
 	margin: 1em 40px;
 }
 
-li {
-	list-style: none;
-}
-
 hr {
 	-moz-box-sizing: content-box;
 	box-sizing: content-box;
@@ -222,9 +218,6 @@ html, body, .viewport {
 	margin: 0;
 }
 
-body {
-	font-family: "Alright Sans", Avenir, Tahoma, sans-serif;
-}
 
 .main-content {
 	display: flex;
@@ -310,172 +303,8 @@ Presence
 	background-image: url("/sfe/assets/images/icons/icon-presence-phone.png");
 }
 
-.button {
-	text-transform: uppercase;
-    cursor: pointer;
-    box-shadow: none;
-    border: none;
-    border-radius: 2px;
-    font-size: 11px;
-    text-align: center;
-    padding: 8px 8px 6px;
-    margin-left: 8px;
-    color: #fff;
-    background-color: #44B3DD;
-}
-
-.button,button.button,div.button {
-    cursor: pointer;
-    box-shadow: none;
-    border: none;
-    border-radius: 2px;
-    font-size: 11px;
-    text-align: center;
-    padding: 8px 8px 6px;
-    margin-left: 8px;
-    color: #fff;
-    background-color: #44B3DD;
-    user-select: none
-}
-
-.button.standard,button.button.standard,div.button.standard {
-    background: rgba(0,0,0,.3);
-    padding: 4px
-}
-
-.button:hover,button.button:hover,div.button:hover {
-    background-color: #5abce1;
-    color: #FFF
-}
-
-.button:active,button.button:active,div.button:active {
-    background-color: #2eaad9;
-    color: #FFF
-}
-
-.button:focus,button.button:focus,div.button:focus {
-    outline: 0
-}
-
-.button:visited,button.button:visited,div.button:visited {
-    color: #FFF
-}
-
-.button.create,button.button.create,div.button.create {
-    background-color: #6B6
-}
-
-.button.create:hover,button.button.create:hover,div.button.create:hover {
-    background-color: #78c378
-}
-
-.button.create:active,button.button.create:active,div.button.create:active {
-    background-color: #54b354
-}
-
-.button.mini,button.button.mini,div.button.mini {
-    font-size: 9px;
-    padding: 4px
-}
-
-.button.close-button,button.button.close-button,div.button.close-button {
-    height: 12px;
-    width: 12px;
-    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAQAAAD8fJRsAAAAM0lEQVR4AWMgGygAIZRGFX4PhAZACKIVUCX+AzGYRNVjABb8D9bHQEgC0ygClmM6l0wAAJwxHiWHBwruAAAAAElFTkSuQmCC) no-repeat;
-    opacity: .3;
-    cursor: pointer
-}
-
-.button.close-button:hover,button.button.close-button:hover,div.button.close-button:hover {
-    opacity: .25
-}
-
-.button.close-button:active,button.button.close-button:active,div.button.close-button:active {
-    opacity: .35
-}
-
-.button.cancel,button.button.cancel,div.button.cancel {
-    background: 0 0;
-    color: #AAA;
-    padding: 8px 0 6px
-}
-
-.button.cancel:hover,button.button.cancel:hover,div.button.cancel:hover {
-    background: 0 0!important;
-    color: #b7b7b7
-}
-
-.button.cancel:active,button.button.cancel:active,div.button.cancel:active {
-    background: 0 0!important;
-    color: #9d9d9d
-}
-
-.button.remove,button.button.remove,div.button.remove {
-    background: 0 0;
-    color: #E55;
-    padding: 0
-}
-
-.button.remove:hover,button.button.remove:hover,div.button.remove:hover {
-    color: #f06c6c
-}
-
-.button.remove:active,button.button.remove:active,div.button.remove:active {
-    color: #ec3e3e
-}
-
-.button.positive-red,button.button.positive-red,div.button.positive-red {
-    background-color: #E55
-}
-
-.button.positive-red:hover,button.button.positive-red:hover,div.button.positive-red:hover {
-    background-color: #f06c6c
-}
-
-.button.positive-red:active,button.button.positive-red:active,div.button.positive-red:active {
-    background-color: #ec3e3e
-}
-
-.button.negative,button.button.negative,div.button.negative {
-    background: 0 0;
-    color: #44B3DD;
-    padding: 0
-}
-
-.button.negative:hover,button.button.negative:hover,div.button.negative:hover {
-    color: #5abce1
-}
-
-.button.negative:active,button.button.negative:active,div.button.negative:active {
-    color: #2eaad9
-}
-
-.button.secondary,button.button.secondary,div.button.secondary {
-    background-color: rgba(0,0,0,.3);
-    color: #fff
-}
-
-.button.secondary:hover,button.button.secondary:hover,div.button.secondary:hover {
-    background-color: #5abce1
-}
-
-.button.secondary:active,button.button.secondary:active,div.button.secondary:active {
-    background-color: #2eaad9
-}
-
-.button.disabled,button.button.disabled,div.button.disabled {
-    background-color: #DDD;
-    color: #B9B9B9;
-    cursor: default
-}
-
-.button.disabled:active,.button.disabled:hover,button.button.disabled:active,button.button.disabled:hover,div.button.disabled:active,div.button.disabled:hover {
-    color: #B9B9B9;
-    background-color: #DDD
-}
-
 html, body {
-	font-size: 12px;
+	font-size: 13px;
 	height: 100%;
 }
 
@@ -502,7 +331,6 @@ html, body {
 
 #grid {
 	grid-area: grid;
-	max-height: inherit;
 	overflow: hidden;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
@@ -511,5 +339,4 @@ html, body {
 }
 
 .page {
-	max-height: inherit;
 }

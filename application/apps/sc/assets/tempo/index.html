@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0">
+    <title>TempoUI Library</title>
+    <link rel="stylesheet" href="tempo.css" media="screen" title="no title">
+    <style media="screen">
+      body {
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 0 48px;
+      }
+      h1 {
+        margin-bottom: 16px;
+        font-size: 4rem;
+      }
+      h2 {
+        margin-top: 48px;
+        margin-bottom: 8px;
+        border-bottom: 3px solid rgba(0, 0, 0, 0.12);
+        font-weight: 900;
+      }
+      h3 {
+        margin-bottom: 8px;
+        font-weight: normal;
+      }
+      h3:not(:first-of-type) {
+        margin-top: 48px;
+      }
+      h3:first-of-type {
+        margin-top: 32px;
+      }
+      pre {
+        border: 1px solid rgba(0, 0, 0, 0.05);
+        background: rgba(0, 0, 0, 0.045);
+        padding: 8px;
+        margin: 0 0 16px;
+      }
+      .icon-section small {
+        font-size: .66666667em;
+      }
+      .icon-section .tempo-icon {
+        font-size: 24px;
+      }
+      .icon-section a:hover, .icon-section a:focus {
+        box-shadow: 0 1px #e74c3c;
+      }
+      .bshadow0, .icon-section input {
+        box-shadow: inset 0 -2px #e7e7e7;
+      }
+      .icon-section input:hover {
+        box-shadow: inset 0 -2px #ccc;
+      }
+      .icon-section input, .icon-section fieldset {
+        margin: 0;
+        padding: 0;
+        border: 0;
+      }
+      .icon-section input {
+        color: inherit;
+        line-height: 1.5;
+        height: 1.5em;
+        padding: .25em 0;
+      }
+      .icon-section input:focus {
+        outline: none;
+        box-shadow: inset 0 -2px #449fdb;
+      }
+      .glyph {
+        font-size: 20px;
+        width: calc(50% - 32px);
+        padding-bottom: 16px;
+        margin-right: 32px;
+        margin-bottom: 16px;
+        float: left;
+        overflow: hidden;
+      }
+      .liga {
+        width: 80%;
+        width: calc(100% - 2.5em);
+      }
+      .talign-right {
+        text-align: right;
+      }
+      .talign-center {
+        text-align: center;
+      }
+      .mvm {
+        margin-top: .75em;
+        margin-bottom: .75em;
+      }
+      .mtn {
+        margin-top: 0;
+      }
+      .mtl, .mal {
+        margin-top: 1.5em;
+      }
+      .mbl, .mal {
+        margin-bottom: 1.5em;
+      }
+      .mhmm {
+        margin-left: 1em;
+        margin-right: 1em;
+      }
+      .mls {
+        margin-left: .25em;
+      }
+      .ptl {
+        padding-top: 1.5em;
+      }
+      .pbs, .pvs {
+        padding-bottom: .25em;
+      }
+      .pvs, .pts {
+        padding-top: .25em;
+      }
+      .unit {
+        float: left;
+      }
+      .unitRight {
+        float: right;
+      }
+      .size1of2 {
+        width: 50%;
+      }
+      .size1of1 {
+        width: 100%;
+      }
+      .clearfix:before, .clearfix:after {
+        content: " ";
+        display: table;
+      }
+      .clearfix:after {
+        clear: both;
+      }
+      .hidden-true {
+        display: none;
+      }
+      .textbox0 {
+        width: 3em;
+        background: #f1f1f1;
+        padding: .25em .5em;
+        line-height: 1.5;
+        height: 1.5em;
+      }
+      #testDrive {
+        display: block;
+        padding-top: 24px;
+        line-height: 1.5;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>TempoUI Library</h1>
+    <p>
+      TempoUI is a library of web element styles based on Symphony's emerging Tempo Design Language. This library is independent, free from dependence on external libraries and frameworks. TempoUI aims to be truly framework agnostic, yet framework friendly.
+    </p>
+    <p>
+      <strong>Get it on <a href="https://github.com/SymphonyOSF/TempoUI" target="_blank">GitHub</a></strong>
+    </p>
+    <p>
+      <strong>Run it: </strong> <pre><code>npm install<br/>gulp serve</code></pre>
+    </p>
+    <p>
+      <strong>Use it: </strong> <br/>include in your project any way you desire
+    </p>
+    <p>
+      <strong>Add to it: </strong> <pre><code>gulp watch</code></pre> Change stuff -> Create PR -> We'll take care of the rest
+    </p>
+    <section class="ui-section">
+      <h2>Buttons</h2>
+      <div>
+        Button background and text color are based on sass variables.
+      </div>
+      <h3>Floating Action Button</h3>
+      <div>
+        <button class="tempo-btn tempo-btn--fab tempo-btn--primary"><span class="tempo-icon tempo-icon--post"></span></button>
+        <pre><code>&lt;button class="tempo-btn tempo-btn--fab tempo-btn--primary"&gt;[button text]&lt;/button&gt;</code></pre>
+      </div>
+      <h3>Flat Button</h3>
+      <div>
+        <button class="tempo-btn tempo-btn--flat">Flat</button>
+        <pre><code>&lt;button class="tempo-btn tempo-btn--flat"&gt;[button text]&lt;/button&gt;</code></pre>
+      </div>
+      <h3>Raised Button</h3>
+      <div>
+        <button class="tempo-btn tempo-btn--raised tempo-btn--primary">Primary</button>
+        <pre><code>&lt;button class="tempo-btn tempo-btn--raised tempo-btn--primary"&gt;[button text]&lt;/button&gt;</code></pre>
+      </div>
+      <h3>Button Link</h3>
+      <div>
+        <button class="tempo-btn tempo-btn--link">Link</button>
+        <pre><code>&lt;button class="tempo-btn tempo-btn--link"&gt;[button text]&lt;/button&gt;</code></pre>
+      </div>
+      <h3>Cancel/Dismiss Button Link</h3>
+      <div>
+        <button class="tempo-btn tempo-btn--dismiss">cancel</button><button class="tempo-btn tempo-btn--raised tempo-btn--primary">Primary</button>
+        <pre><code>&lt;button class="tempo-btn tempo-btn--dismiss"&gt;[button text]&lt;/button&gt;</code></pre>
+      </div>
+      <h3>Other Variations</h3>
+      <div>
+        <button class="tempo-btn tempo-btn--raised tempo-btn--mini tempo-btn--secondary">Compact</button> for compact mode
+        <pre><code>&lt;button class="tempo-btn tempo-btn--raised tempo-btn--mini tempo-btn--secondary"&gt;[button text]&lt;/button&gt;</code></pre>
+        <button class="tempo-btn tempo-btn--raised tempo-btn--warning">Warning</button> warning variation
+        <pre><code>&lt;button class="tempo-btn tempo-btn--raised tempo-btn--warning"&gt;[button text]&lt;/button&gt;</code></pre>
+        <button class="tempo-btn tempo-btn--raised tempo-btn--disabled" disabled>Disabled</button> this is diabled, see
+        <pre><code>&lt;button class="tempo-btn tempo-btn--raised tempo-btn--disabled" disabled&gt;[button text]&lt;/button&gt;</code></pre>
+      </div>
+    </section>
+    <section class="ui-section">
+      <h2>Fields</h2>
+      <h3>Textfields</h3>
+      <p>
+        <form action="#">
+          <h4>Standard Input field</h4>
+          <div>
+            <input type="text" id="stdinput" placeholder="Type your text here" class="tempo-input-standard">
+          </div>
+          <br><br>
+          <h4>Underlined input field with pop-up label</h4>
+          <div class="tempo-input-container">
+            <div class="transition-layer">
+              <input id="username" class="login__username tempo-input-underlined" type="text" name="signin-email" tabindex="1">
+              <label for="username" class="input-label">Email address or username</label>
+            </div>
+          </div>
+        </form>
+      </p>
+    </section>
+    <section class="ui-section">
+      <h2>Switch, Checkboxes etc...</h2>
+      <h3>Switch</h3>
+      <p>
+        <div class="switch">
+          <label class="switch__label" for="switch1">
+            <input type="checkbox" id="switch1" class="switch__input" checked="checked">
+            <span class="switch__lever"></span>
+            <span>Switch default to on</span>
+          </label>
+        </div>
+      </p>
+      <p>
+        <div class="switch">
+          <label class="switch__label" for="switch2">
+            <input type="checkbox" id="switch2" class="switch__input">
+            <span class="switch__lever"></span>
+            <span>Switch default to off</span>
+          </label>
+        </div>
+      </p>
+<pre><code>&lt;div class=&quot;switch&quot;&gt;
+  &lt;label class=&quot;switch__label&quot; for=&quot;switch1&quot;&gt;
+    &lt;input type=&quot;checkbox&quot; id=&quot;switch1&quot; class=&quot;switch__input&quot;&gt;
+    &lt;span class=&quot;switch__lever&quot;&gt;&lt;/span&gt;
+    &lt;span&gt;Switch&lt;/span&gt;
+  &lt;/label&gt;
+&lt;/div&gt;</code></pre>
+      <h3>Some checkboxes :)</h3>
+      <p>
+        <div class="tempo-checkbox">
+          <input type="checkbox" name="checkbox" id="check1" checked/>
+          <label class="icon__checkmark" for="check1">Checkbox label</label>
+        </div>
+      </p>
+      <p>
+        <div class="tempo-checkbox">
+          <input type="checkbox" name="checkbox" id="check2"/>
+          <label class="icon__checkmark" for="check2">Checkbox label</label>
+        </div>
+      </p>
+      <p>
+        <div class="tempo-checkbox">
+          <input type="checkbox" name="checkbox" id="check3"/>
+          <label class="icon__checkmark" for="check3">Checkbox label</label>
+        </div>
+      </p>
+      <p>
+        <div class="tempo-checkbox">
+          <input type="checkbox" name="checkbox" id="check4"/>
+          <label class="icon__checkmark" for="check4">Checkbox label</label>
+        </div>
+      </p>
+      <h3>Some radio buttons :)</h3>
+      <form>
+        <p>
+          <div class="tempo-radio">
+            <input type="radio" name="radio" id="radio1" checked="checked" />
+            <label class="icon__radio" for="radio1">Radio button label</label>
+          </div>
+        </p>
+        <p>
+          <div class="tempo-radio">
+            <input type="radio" name="radio" id="radio2"/>
+            <label class="icon__radio" for="radio2">Radio button label</label>
+          </div>
+        </p>
+        <p>
+          <div class="tempo-radio">
+            <input type="radio" name="radio" id="radio3"/>
+            <label class="icon__radio" for="radio3">Radio button label</label>
+          </div>
+        </p>
+        <p>
+          <div class="tempo-radio">
+            <input type="radio" name="radio" id="radio4"/>
+            <label class="icon__radio" for="radio4">Radio button label</label>
+          </div>
+        </p>
+      </form>
+    </section>
+
+
+
+
+    <!-- <section class="ui-section">
+      <h2>Other stuff</h2>
+      <p>This is the good stuff</p>
+      <p><a href="demo/">Demos</a></p>
+    </section> -->
+    <section class="ui-section icon-section">
+      <h2>Tempo Icons</h2>
+      <p>Simple HTML:</p>
+      <pre><code>&lt;span class=&quot;tempo-icon tempo-icon--smiley&quot;&gt;&lt;/span&gt;</code></pre>
+      <p>HTML (using ligatures):</p>
+      <pre><code>&lt;span class=&quot;tempo-icon&quot;&gt;smiley&lt;/span&gt;</code></pre>
+      <p>CSS:</p>
+      <pre><code>.tempo-icon--smiley:before { content: &quot;\e919&quot;; }</code></pre>
+      <p>HTML Entity:</p>
+      <pre><code>&amp;#xe919;</code></pre>
+      <div class="clearfix mhl ptl">
+          <h3 class="mvm mtn fgc1">Grid Size: 16</h3>
+          <div class="glyph fs1">
+              <div class="clearfix bshadow0 pbs">
+                  <span class="tempo-icon tempo-icon--signal">
+
+                  </span>
+                  <span class="mls"> tempo-icon--signal</span>
+              </div>
+              <fieldset class="fs0 size1of1 clearfix hidden-false">
+                  <input type="text" readonly value="e918" class="unit size1of2" />
+                  <input type="text" maxlength="1" readonly value="&#xe918;" class="unitRight size1of2 talign-right" />
+              </fieldset>
+              <div class="fs0 bshadow0 clearfix hidden-false">
+                  <span class="unit pvs fgc1">liga: </span>
+                  <input type="text" readonly value="signal" class="liga unitRight" />
+              </div>
+          </div>
+          <div class="glyph fs1">
+              <div class="clearfix bshadow0 pbs">
+                  <span class="tempo-icon tempo-icon--smiley">
+
+                  </span>
+                  <span class="mls"> tempo-icon--smiley</span>
+              </div>
+              <fieldset class="fs0 size1of1 clearfix hidden-false">
+                  <input type="text" readonly value="e919" class="unit size1of2" />
+                  <input type="text" maxlength="1" readonly value="&#xe919;" class="unitRight size1of2 talign-right" />
+              </fieldset>
+              <div class="fs0 bshadow0 clearfix hidden-false">
+                  <span class="unit pvs fgc1">liga: </span>
+                  <input type="text" readonly value="smiley" class="liga unitRight" />
+              </div>
+          </div>
+      </div>
+
+      <!--[if gt IE 8]><!-->
+      <div class="mhl clearfix mbl">
+          <h2>Tempo Icon Font Test Drive</h2>
+          <label>
+              Font Size: <input id="fontSize" type="number" class="textbox0 mbm"
+              min="8" value="48" />
+              px
+          </label>
+          <input id="testText" type="text" class="phl size1of1 mvl"
+          placeholder="Type some text to test..." value="chevron audio_bridge border_color filetype_AVI filetype_blank filetype_CDI filetype_M4V filetype_MPEG filetype_MPG filetype_WBMP filetype_ACC filetype_BMP filetype_CSV filetype_DOC filetype_DOCX filetype_GIF filetype_HTML filetype_JPG filetype_M4A filetype_MOV filetype_MP3 filetype_MP4 filetype_MSG filetype_ODM filetype_PDF filetype_PNG filetype_PPT filetype_PPTX filetype_RFT filetype_TIF filetype_TIFF filetype_TXT filetype_WAV filetype_XLS filetype_XLSX filetype_XML filetype_XSD filetype_XTIFF filetype_ZIp sort addressbook2 check12 check18 circlealertoutline circlealertsolid circleinfooutline circleinfosolid close18 close24 close32 close36 close48 clouddownload cloudoutline cloudsolid dropdown email helpoutline helpsolid hourglassoutline hourglasssolid ic_apps ic_arrow ic_attach_file ic_chat_bubble ic_contacts ic_group_add ic_insert_chart ic_insert_comment ic_keyboard ic_label_outline ic_list ic_mic_none ic_mode_comment ic_notifications_none ic_ondemand_video ic_personal_video ic_view_quilt notavailableoutline notavailablesolid playoutline playsolid securelock singlequote starlike addressbook airplane alarmclock alert appsettings arrowdown arrowleft arrowright arrowup assetclass blacklist bot browserooms bulkjobhistory bulkmanageaccounts calendar camera carrotdown carrotleft carrotright carrotup cashtag check circlealert circlecheck circleinfo clipboard cloud cloudupload code collapse commentsmaller company configuresso connectionadd connectionfollowing connectionremove connections copy copydisabled directionbackward directionforward distrobutionlist division document documentcreate download entitlements equalsign error expand exportcontent expressionfilters filterfunnel filters fingerprint flag foldercreate fullscreen fullscreenexit globe gpspin graph hourglass image imagebroken informationbarriers layoutgrid layoutsingle lightbulb lightningbolt link linkunlink listnumbers listtodo logout mailopened mailunopened messagecheck messagenohistory messageplus messageviewhistory microphone microphoneoff minus mobiledevice movie mutualconnections notavailable paintpalette passwordinvisible passwordvisible peopleexternal peopleinternal peoplewhoshere person phone play plussmall print profile profilephoto quicksearch12 quotedouble quotesingle read refresh room rtecenter rteindent rteindentremove rtejustified rteleft rteletter rteright rtestrikethrough rteunderline rules screencapture1 screencapture2 searchpeople securekey secureunlocked sent settingstools settingswrench share signalcreate skiptobottom skiptofirst skiptolast skiptotop star table tag team trashcan update userstatistics verified video videohide volume volumemute warning webhooks smallsearch sortdown sortup settings popin popout appstore attach bigsearch chime close closedfolder comment conversations disable grab help inbox mentions messageblast more morevertical multiplepeople openedfolder plussign post quicksearch rtepostmode screenshare screenshare_end securelocked signal smiley thumbtack thumbtackpressed type_bold type_bulletedlist type_italic"/>
+          <div id="testDrive" class="tempo-icon">chevron audio_bridge border_color filetype_AVI filetype_blank filetype_CDI filetype_M4V filetype_MPEG filetype_MPG filetype_WBMP filetype_ACC filetype_BMP filetype_CSV filetype_DOC filetype_DOCX filetype_GIF filetype_HTML filetype_JPG filetype_M4A filetype_MOV filetype_MP3 filetype_MP4 filetype_MSG filetype_ODM filetype_PDF filetype_PNG filetype_PPT filetype_PPTX filetype_RFT filetype_TIF filetype_TIFF filetype_TXT filetype_WAV filetype_XLS filetype_XLSX filetype_XML filetype_XSD filetype_XTIFF filetype_ZIp sort addressbook2 check12 check18 circlealertoutline circlealertsolid circleinfooutline circleinfosolid close18 close24 close32 close36 close48 clouddownload cloudoutline cloudsolid dropdown email helpoutline helpsolid hourglassoutline hourglasssolid ic_apps ic_arrow ic_attach_file ic_chat_bubble ic_contacts ic_group_add ic_insert_chart ic_insert_comment ic_keyboard ic_label_outline ic_list ic_mic_none ic_mode_comment ic_notifications_none ic_ondemand_video ic_personal_video ic_view_quilt notavailableoutline notavailablesolid playoutline playsolid securelock singlequote starlike addressbook airplane alarmclock alert appsettings arrowdown arrowleft arrowright arrowup assetclass blacklist bot browserooms bulkjobhistory bulkmanageaccounts calendar camera carrotdown carrotleft carrotright carrotup cashtag check circlealert circlecheck circleinfo clipboard cloud cloudupload code collapse commentsmaller company configuresso connectionadd connectionfollowing connectionremove connections copy copydisabled directionbackward directionforward distrobutionlist division document documentcreate download entitlements equalsign error expand exportcontent expressionfilters filterfunnel filters fingerprint flag foldercreate fullscreen fullscreenexit globe gpspin graph hourglass image imagebroken informationbarriers layoutgrid layoutsingle lightbulb lightningbolt link linkunlink listnumbers listtodo logout mailopened mailunopened messagecheck messagenohistory messageplus messageviewhistory microphone microphoneoff minus mobiledevice movie mutualconnections notavailable paintpalette passwordinvisible passwordvisible peopleexternal peopleinternal peoplewhoshere person phone play plussmall print profile profilephoto quicksearch12 quotedouble quotesingle read refresh room rtecenter rteindent rteindentremove rtejustified rteleft rteletter rteright rtestrikethrough rteunderline rules screencapture1 screencapture2 searchpeople securekey secureunlocked sent settingstools settingswrench share signalcreate skiptobottom skiptofirst skiptolast skiptotop star table tag team trashcan update userstatistics verified video videohide volume volumemute warning webhooks smallsearch sortdown sortup settings popin popout appstore attach bigsearch chime close closedfolder comment conversations disable grab help inbox mentions messageblast more morevertical multiplepeople openedfolder plussign post quicksearch rtepostmode screenshare screenshare_end securelocked signal smiley thumbtack thumbtackpressed type_bold type_bulletedlist type_italic&nbsp;
+          </div>
+      </div>
+      <!--<![endif]-->
+    </section>
+    <script type="text/javascript">
+      if (!('boxShadow' in document.body.style)) {
+          document.body.setAttribute('class', 'noBoxShadow');
+      }
+
+      document.body.addEventListener("click", function(e) {
+          var target = e.target;
+          if (target.tagName === "INPUT" &&
+              target.getAttribute('class').indexOf('liga') === -1) {
+              target.select();
+          }
+      });
+
+      (function() {
+          var fontSize = document.getElementById('fontSize'),
+              testDrive = document.getElementById('testDrive'),
+              testText = document.getElementById('testText');
+          function updateTest() {
+              testDrive.innerHTML = testText.value || String.fromCharCode(160);
+              if (window.icomoonLiga) {
+                  window.icomoonLiga(testDrive);
+              }
+          }
+          function updateSize() {
+              testDrive.style.fontSize = fontSize.value + 'px';
+          }
+          fontSize.addEventListener('change', updateSize, false);
+          testText.addEventListener('input', updateTest, false);
+          testText.addEventListener('change', updateTest, false);
+          updateSize();
+      }());
+    </script>
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>

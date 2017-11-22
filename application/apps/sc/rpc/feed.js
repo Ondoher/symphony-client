@@ -1,6 +1,5 @@
 var Q = require('q');
 var RpcHandler =  require('sapphire-rpc').RpcHandler;
-var RpcHandler =  require('sapphire-rpc').RpcHandler;
 var listener = require('./listener');
 
 class RpcFeed extends RpcHandler {

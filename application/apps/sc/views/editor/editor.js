@@ -26,15 +26,14 @@ module.exports = function(req, res, app)
 			'assets/js/3rdParty/medium/medium.js',
 */
 		],
-		css: ['assets/css/editor.css',
+		css: [
+			'assets/css/editor.css',
+			'assets/css/mention.css',
 			'assets/css/3rdParty/quill/quill.core.css',
 			'assets/css/3rdParty/quill/quill.snow.css',
 			'assets/css/3rdParty/quill/quill.bubble.css',
 //			'assets/css/3rdParty/highlight/default.css',
 			'assets/css/3rdParty/highlight/codepen-embed.css',
-/*
-		, 'assets/css/3rdParty/medium-editor.css'],
-*/
 		],
 		clone: true,
 		detached: true,

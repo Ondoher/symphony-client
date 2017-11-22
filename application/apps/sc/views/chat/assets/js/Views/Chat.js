@@ -7,25 +7,17 @@ Package('SC.Views', {
 			this.parent();
 		},
 
-		setup : function(selector, module, editor, messages)
+		setup : function(module, header, body, room)
 		{
-			this.selector = selector;
 			this.module = module;
-			this.editor = editor;
-			this.messages = messages;
-			this.postButton = selector.find('.post-button');
-			this.postButton.click(this.onPost.bind(this));
+			this.header = header;
+			this.body = body;
 
-			module.setBody(selector);
-			selector.append(module);
-			editor.attach(selector.find('.editor-container'));
-			messages.attach(selector.find('.messages'));
+			this.header.setRoom(room);
+			this.body.setRoom(room);
+
+			module.setHeader(header);
+			module.setBody(body);
 		},
-
-		onPost : function()
-		{
-			var content = this.editor.get();
-			this.fire('post', content, {});
-		}
 	})
 });

@@ -13,6 +13,7 @@ Package('SC', {
 
 		start : function()
 		{
+			console.log('this.setupSocketServer', SC.socketUrl);
 			this.setupSocketServer(SC.socketUrl);
 		}
 	})

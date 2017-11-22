@@ -25,7 +25,7 @@ Package('Sc.Services', {
 
 			this.editor = new Quill(container, {
 				modules: {
-					mentions: {getUsers: this.typeahead.bind(this)},
+                    mentions: {getUsers: this.typeahead.bind(this)},
 					formula: true,
 					syntax: true,
 					toolbar: this.selector.find('#toolbar-container')[0],
@@ -68,6 +68,7 @@ Package('Sc.Services', {
 					this.roomUsers = [];
 					members.each(function(member)
 					{
+						console.log(member);
 						var user = member.user;
 						user.isCreator = member.isCreator;
 						user.isOwner = member.isOwner;

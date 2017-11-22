@@ -1,0 +1,602 @@
+/*
+ * Symphony UI static CSS for use by 3rd party app developers
+ */
+@font-face {
+  font-family: "Alright Sans";
+  src: url("https://symphony.com/resources/fonts/alright_sans_af/alright_sans_af_regular.eot");
+  src: url("https://symphony.com/resources/fonts/alright_sans_af/alright_sans_af_regular.eot?") format("embedded-opentype"), url("https://symphony.com/resources/fonts/alright_sans_af/alright_sans_af_regular.woff") format("woff"), url("https://symphony.com/resources/fonts/alright_sans_af/alright_sans_af_regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "Alright Sans";
+  src: url("https://symphony.com/resources/fonts/alright_sans_af/alright_sans_af_regular_italic.eot");
+  src: url("https://symphony.com/resources/fonts/alright_sans_af/alright_sans_af_regular_italic.eot?") format("embedded-opentype"), url("https://symphony.com/resources/fonts/alright_sans_af/alright_sans_af_regular_italic.woff") format("woff"), url("https://symphony.com/resources/fonts/alright_sans_af/alright_sans_af_regular_italic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "Alright Sans";
+  src: url("https://symphony.com/resources/fonts/alright_sans_af/alright_sans_af_bold.eot");
+  src: url("https://symphony.com/resources/fonts/alright_sans_af/alright_sans_af_bold.eot?") format("embedded-opentype"), url("https://symphony.com/resources/fonts/alright_sans_af/alright_sans_af_bold.woff") format("woff"), url("https://symphony.com/resources/fonts/alright_sans_af/alright_sans_af_bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: bold; }
+
+@font-face {
+  font-family: "Alright Sans";
+  src: url("https://symphony.com/resources/fonts/alright_sans_af/alright_sans_af_bold_italic.eot");
+  src: url("https://symphony.com/resources/fonts/alright_sans_af/alright_sans_af_bold_italic.eot?") format("embedded-opentype"), url("https://symphony.com/resources/fonts/alright_sans_af/alright_sans_af_bold_italic.woff") format("woff"), url("https://symphony.com/resources/fonts/alright_sans_af/alright_sans_af_bold_italic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: bold; }
+
+@font-face {
+  font-family: "Alright Sans";
+  src: url("https://symphony.com/resources/fonts/alright_sans_af/alright_sans_af_medium.eot");
+  src: url("https://symphony.com/resources/fonts/alright_sans_af/alright_sans_af_medium.eot?") format("embedded-opentype"), url("https://symphony.com/resources/fonts/alright_sans_af/alright_sans_af_medium.woff") format("woff"), url("https://symphony.com/resources/fonts/alright_sans_af/alright_sans_af_medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 500; }
+
+@font-face {
+  font-family: "Alright Sans";
+  src: url("https://symphony.com/resources/fonts/alright_sans_af/alright_sans_af_medium_italic.eot");
+  src: url("https://symphony.com/resources/fonts/alright_sans_af/alright_sans_af_medium_italic.eot?") format("embedded-opentype"), url("https://symphony.com/resources/fonts/alright_sans_af/alright_sans_af_medium_italic.woff") format("woff"), url("https://symphony.com/resources/fonts/alright_sans_af/alright_sans_af_medium_italic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 500; }
+
+@font-face {
+  font-family: "Alright Sans";
+  src: url("https://symphony.com/resources/fonts/alright_sans_af/alright_sans_af_light.eot");
+  src: url("https://symphony.com/resources/fonts/alright_sans_af/alright_sans_af_light.eot?") format("embedded-opentype"), url("https://symphony.com/resources/fonts/alright_sans_af/alright_sans_af_light.woff") format("woff"), url("https://symphony.com/resources/fonts/alright_sans_af/alright_sans_af_light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 300; }
+
+@font-face {
+  font-family: "Alright Sans";
+  src: url("https://symphony.com/resources/fonts/alright_sans_af/alright_sans_af_thin.eot");
+  src: url("https://symphony.com/resources/fonts/alright_sans_af/alright_sans_af_thin.eot?") format("embedded-opentype"), url("https://symphony.com/resources/fonts/alright_sans_af/alright_sans_af_thin.woff") format("woff"), url("https://symphony.com/resources/fonts/alright_sans_af/alright_sans_af_thin.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 100; }
+
+html {
+  font-size: 14px; }
+  html.xsmall {
+    font-size: 11px; }
+  html.small {
+    font-size: 12px; }
+  html.normal {
+    font-size: 14px; }
+  html.large {
+    font-size: 16px; }
+
+body {
+  font-family: "Alright Sans", "Avenir", "Tahoma", sans-serif;
+  line-height: 1.2;
+  font-weight: 400; }
+  body * {
+    outline: none; }
+  body p {
+    font-size: 1rem;
+    margin: 0.2rem 0px 0.2rem;
+    padding: 0px; }
+  body h1 {
+    font-family: "Alright Sans", "Avenir", "Tahoma", sans-serif;
+    font-weight: 500;
+    font-size: 1.4rem; }
+  body h2 {
+    font-family: "Alright Sans", "Avenir", "Tahoma", sans-serif;
+    font-weight: 500;
+    font-size: 1.3rem; }
+  body h3 {
+    font-family: "Alright Sans", "Avenir", "Tahoma", sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem; }
+  body h4 {
+    font-family: "Alright Sans", "Avenir", "Tahoma", sans-serif;
+    font-weight: bold;
+    font-size: 1.1rem; }
+  body h5 {
+    font-family: "Alright Sans", "Avenir", "Tahoma", sans-serif;
+    font-weight: bold;
+    font-weight: 400;
+    font-size: 1rem; }
+  body h6 {
+    font-family: "Alright Sans", "Avenir", "Tahoma", sans-serif;
+    font-weight: bold;
+    font-weight: 400;
+    font-size: 0.9rem; }
+  body h1, body h2, body h3 {
+    padding: 0px;
+    margin: 0.7rem 0px 0.5rem; }
+  body h4, body h5, body h6 {
+    padding: 0px;
+    margin: 0.6rem 0px 0.4rem; }
+  body em, body i {
+    font-family: "Alright Sans", "Avenir", "Tahoma", sans-serif;
+    font-weight: normal;
+    font-style: italic; }
+    body em strong, body em b, body i strong, body i b {
+      font-family: "Alright Sans", "Avenir", "Tahoma", sans-serif;
+      font-weight: bold;
+      font-style: italic; }
+  body strong, body b {
+    font-family: "Alright Sans", "Avenir", "Tahoma", sans-serif;
+    font-weight: bold; }
+    body strong em, body strong i, body b em, body b i {
+      font-family: "Alright Sans", "Avenir", "Tahoma", sans-serif;
+      font-weight: bold;
+      font-style: italic; }
+  body .symphony-grey {
+    background-color: #555555; }
+  body .symphony-blue {
+    background-color: #44b3dd; }
+  body .symphony-green {
+    background-color: #66bb66; }
+  body .symphony-yellow {
+    background-color: #f7bb00; }
+  body .symphony-magenta {
+    background-color: #ee5577; }
+  body .symphony-darkgrey {
+    background-color: #333333; }
+  body .symphony-darkblue {
+    background-color: #00557f; }
+  body .symphony-darkgreen {
+    background-color: #226622; }
+  body .symphony-darkyellow {
+    background-color: #915500; }
+  body .symphony-darkmagenta {
+    background-color: #912244; }
+  body .alias-standard-red {
+    background-color: #EE5555; }
+  body .alias-red {
+    background-color: #E70000; }
+  body .alias-red-orange {
+    background-color: #F24405; }
+  body .alias-orange {
+    background-color: #F68128; }
+  body .alias-yellow {
+    background-color: #FFBE00; }
+  body .alias-green {
+    background-color: #2EB700; }
+  body .alias-lightblue {
+    background-color: #0C85E8; }
+  body .alias-teal {
+    background-color: #00998C; }
+  body .alias-darkpink {
+    background-color: #FF4B9F; }
+  body .alias-lightpink {
+    background-color: #FF82E6; }
+  body .bold {
+    font-family: "Alright Sans", "Avenir", "Tahoma", sans-serif;
+    font-weight: bold; }
+  body .bold-italic {
+    font-family: "Alright Sans", "Avenir", "Tahoma", sans-serif;
+    font-weight: bold;
+    font-style: italic; }
+  body .light-font {
+    font-family: "Alright Sans", "Avenir", "Tahoma", sans-serif;
+    font-weight: 300; }
+  body .light-italic {
+    font-family: "Alright Sans", "Avenir", "Tahoma", sans-serif;
+    font-weight: 300;
+    font-style: italic; }
+  body .thin {
+    font-family: "Alright Sans", "Avenir", "Tahoma", sans-serif;
+    font-weight: 100; }
+  body .medium-font {
+    font-family: "Alright Sans", "Avenir", "Tahoma", sans-serif;
+    font-weight: 500; }
+  body .medium-italic {
+    font-family: "Alright Sans", "Avenir", "Tahoma", sans-serif;
+    font-weight: 500;
+    font-style: italic; }
+  body .italic {
+    font-family: "Alright Sans", "Avenir", "Tahoma", sans-serif;
+    font-weight: normal;
+    font-style: italic; }
+
+a {
+  color: #44b3dd; }
+  a:hover {
+    color: #5abce1; }
+  a:active {
+    color: #2eaad9; }
+
+.symphony-external-app.dark {
+  color: rgba(255, 255, 255, 0.8);
+  background-color: #666666; }
+  .symphony-external-app.dark .button {
+    cursor: pointer;
+    box-shadow: none;
+    border: none;
+    border-radius: 2px;
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 8px;
+    margin-right: 8px;
+    font-family: "Alright Sans", "Avenir", "Tahoma", sans-serif;
+    font-weight: 500;
+    outline: none;
+    display: inline-block;
+    text-decoration: none;
+    line-height: 1;
+    color: #FFF;
+    background-color: #44B3DD; }
+    .symphony-external-app.dark .button:focus {
+      outline: none; }
+    .symphony-external-app.dark .button:focus, .symphony-external-app.dark .button.focus {
+      color: #FFF;
+      background-color: #5abce1; }
+    .symphony-external-app.dark .button:hover {
+      color: #FFF;
+      background-color: #5abce1; }
+    .symphony-external-app.dark .button:active, .symphony-external-app.dark .button.active {
+      color: #FFF;
+      background-color: #2eaad9; }
+    .symphony-external-app.dark .button.warning {
+      color: #FFF;
+      background-color: #EE5555; }
+      .symphony-external-app.dark .button.warning:focus, .symphony-external-app.dark .button.warning.focus {
+        color: #FFF;
+        background-color: #f06c6c; }
+      .symphony-external-app.dark .button.warning:hover {
+        color: #FFF;
+        background-color: #f06c6c; }
+      .symphony-external-app.dark .button.warning:active, .symphony-external-app.dark .button.warning.active {
+        color: #FFF;
+        background-color: #ec3e3e; }
+    .symphony-external-app.dark .button.creation {
+      color: #FFF;
+      background-color: #66BB66; }
+      .symphony-external-app.dark .button.creation:focus, .symphony-external-app.dark .button.creation.focus {
+        color: #FFF;
+        background-color: #78c378; }
+      .symphony-external-app.dark .button.creation:hover {
+        color: #FFF;
+        background-color: #78c378; }
+      .symphony-external-app.dark .button.creation:active, .symphony-external-app.dark .button.creation.active {
+        color: #FFF;
+        background-color: #54b354; }
+    .symphony-external-app.dark .button.secondary {
+      color: #FFF;
+      background-color: rgba(0, 0, 0, 0.32); }
+      .symphony-external-app.dark .button.secondary:focus, .symphony-external-app.dark .button.secondary.focus {
+        color: #FFF;
+        background-color: rgba(13, 13, 13, 0.32); }
+      .symphony-external-app.dark .button.secondary:hover {
+        color: #FFF;
+        background-color: rgba(13, 13, 13, 0.32); }
+      .symphony-external-app.dark .button.secondary:active, .symphony-external-app.dark .button.secondary.active {
+        color: #FFF;
+        background-color: rgba(0, 0, 0, 0.32); }
+    .symphony-external-app.dark .button.cancel-link {
+      color: #aaaaaa;
+      background: none; }
+      .symphony-external-app.dark .button.cancel-link:hover {
+        color: #f06c6c; }
+      .symphony-external-app.dark .button.cancel-link:active {
+        color: #ec3e3e; }
+  .symphony-external-app.dark input, .symphony-external-app.dark textarea {
+    padding: 6px;
+    color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    margin: 4px 0;
+    font-size: 0.9em; }
+    .symphony-external-app.dark input:hover, .symphony-external-app.dark textarea:hover {
+      background-color: rgba(13, 13, 13, 0.4);
+      border-color: rgba(255, 255, 255, 0.08); }
+    .symphony-external-app.dark input:active, .symphony-external-app.dark textarea:active {
+      background-color: rgba(0, 0, 0, 0.4);
+      border-color: rgba(242, 242, 242, 0.08); }
+    .symphony-external-app.dark input:focus, .symphony-external-app.dark textarea:focus {
+      outline: none;
+      background-color: rgba(0, 0, 0, 0.4);
+      border-color: rgba(242, 242, 242, 0.08); }
+  .symphony-external-app.dark .module-wrapper {
+    padding: 8px;
+    background-color: #333333;
+    border-radius: 3px; }
+  .symphony-external-app.dark hr {
+    border-color: rgba(255, 255, 255, 0.08); }
+
+.symphony-external-app.light {
+  color: rgba(0, 0, 0, 0.8);
+  background-color: #e7e7e7; }
+  .symphony-external-app.light .button {
+    cursor: pointer;
+    box-shadow: none;
+    border: none;
+    border-radius: 2px;
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 8px;
+    margin-right: 8px;
+    font-family: "Alright Sans", "Avenir", "Tahoma", sans-serif;
+    font-weight: 500;
+    outline: none;
+    display: inline-block;
+    text-decoration: none;
+    line-height: 1;
+    color: #FFF;
+    background-color: #44B3DD; }
+    .symphony-external-app.light .button:focus {
+      outline: none; }
+    .symphony-external-app.light .button:focus, .symphony-external-app.light .button.focus {
+      color: #FFF;
+      background-color: #5abce1; }
+    .symphony-external-app.light .button:hover {
+      color: #FFF;
+      background-color: #5abce1; }
+    .symphony-external-app.light .button:active, .symphony-external-app.light .button.active {
+      color: #FFF;
+      background-color: #2eaad9; }
+    .symphony-external-app.light .button.warning {
+      color: #FFF;
+      background-color: #EE5555; }
+      .symphony-external-app.light .button.warning:focus, .symphony-external-app.light .button.warning.focus {
+        color: #FFF;
+        background-color: #f06c6c; }
+      .symphony-external-app.light .button.warning:hover {
+        color: #FFF;
+        background-color: #f06c6c; }
+      .symphony-external-app.light .button.warning:active, .symphony-external-app.light .button.warning.active {
+        color: #FFF;
+        background-color: #ec3e3e; }
+    .symphony-external-app.light .button.creation {
+      color: #FFF;
+      background-color: #66BB66; }
+      .symphony-external-app.light .button.creation:focus, .symphony-external-app.light .button.creation.focus {
+        color: #FFF;
+        background-color: #78c378; }
+      .symphony-external-app.light .button.creation:hover {
+        color: #FFF;
+        background-color: #78c378; }
+      .symphony-external-app.light .button.creation:active, .symphony-external-app.light .button.creation.active {
+        color: #FFF;
+        background-color: #54b354; }
+    .symphony-external-app.light .button.secondary {
+      color: #FFF;
+      background-color: rgba(0, 0, 0, 0.32); }
+      .symphony-external-app.light .button.secondary:focus, .symphony-external-app.light .button.secondary.focus {
+        color: #FFF;
+        background-color: rgba(13, 13, 13, 0.32); }
+      .symphony-external-app.light .button.secondary:hover {
+        color: #FFF;
+        background-color: rgba(13, 13, 13, 0.32); }
+      .symphony-external-app.light .button.secondary:active, .symphony-external-app.light .button.secondary.active {
+        color: #FFF;
+        background-color: rgba(0, 0, 0, 0.32); }
+    .symphony-external-app.light .button.cancel-link {
+      color: #aaaaaa;
+      background: none; }
+      .symphony-external-app.light .button.cancel-link:hover {
+        color: #f06c6c; }
+      .symphony-external-app.light .button.cancel-link:active {
+        color: #ec3e3e; }
+  .symphony-external-app.light input, .symphony-external-app.light textarea {
+    padding: 6px;
+    color: rgba(0, 0, 0, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 100%;
+    margin: 4px 0;
+    font-size: 0.9em; }
+    .symphony-external-app.light input:hover, .symphony-external-app.light textarea:hover {
+      background-color: rgba(255, 255, 255, 0.4);
+      border-color: rgba(13, 13, 13, 0.08); }
+    .symphony-external-app.light input:active, .symphony-external-app.light textarea:active {
+      background-color: rgba(242, 242, 242, 0.4);
+      border-color: rgba(0, 0, 0, 0.08); }
+    .symphony-external-app.light input:focus, .symphony-external-app.light textarea:focus {
+      outline: none;
+      background-color: rgba(242, 242, 242, 0.4);
+      border-color: rgba(0, 0, 0, 0.08); }
+  .symphony-external-app.light .module-wrapper {
+    padding: 8px;
+    background-color: #f9f9f9;
+    border-radius: 3px; }
+  .symphony-external-app.light hr {
+    border-color: rgba(0, 0, 0, 0.08); }
+
+.symphony-external-app.dark-contrast, .symphony-external-app.dark.contrast {
+  color: #FFF;
+  background-color: #111; }
+  .symphony-external-app.dark-contrast .button, .symphony-external-app.dark.contrast .button {
+    cursor: pointer;
+    box-shadow: none;
+    border: none;
+    border-radius: 2px;
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 8px;
+    margin-right: 8px;
+    font-family: "Alright Sans", "Avenir", "Tahoma", sans-serif;
+    font-weight: 500;
+    outline: none;
+    display: inline-block;
+    text-decoration: none;
+    line-height: 1;
+    color: #FFF;
+    background-color: #44B3DD; }
+    .symphony-external-app.dark-contrast .button:focus, .symphony-external-app.dark.contrast .button:focus {
+      outline: none; }
+    .symphony-external-app.dark-contrast .button:focus, .symphony-external-app.dark-contrast .button.focus, .symphony-external-app.dark.contrast .button:focus, .symphony-external-app.dark.contrast .button.focus {
+      color: #FFF;
+      background-color: #5abce1; }
+    .symphony-external-app.dark-contrast .button:hover, .symphony-external-app.dark.contrast .button:hover {
+      color: #FFF;
+      background-color: #5abce1; }
+    .symphony-external-app.dark-contrast .button:active, .symphony-external-app.dark-contrast .button.active, .symphony-external-app.dark.contrast .button:active, .symphony-external-app.dark.contrast .button.active {
+      color: #FFF;
+      background-color: #2eaad9; }
+    .symphony-external-app.dark-contrast .button.warning, .symphony-external-app.dark.contrast .button.warning {
+      color: #FFF;
+      background-color: #EE5555; }
+      .symphony-external-app.dark-contrast .button.warning:focus, .symphony-external-app.dark-contrast .button.warning.focus, .symphony-external-app.dark.contrast .button.warning:focus, .symphony-external-app.dark.contrast .button.warning.focus {
+        color: #FFF;
+        background-color: #f06c6c; }
+      .symphony-external-app.dark-contrast .button.warning:hover, .symphony-external-app.dark.contrast .button.warning:hover {
+        color: #FFF;
+        background-color: #f06c6c; }
+      .symphony-external-app.dark-contrast .button.warning:active, .symphony-external-app.dark-contrast .button.warning.active, .symphony-external-app.dark.contrast .button.warning:active, .symphony-external-app.dark.contrast .button.warning.active {
+        color: #FFF;
+        background-color: #ec3e3e; }
+    .symphony-external-app.dark-contrast .button.creation, .symphony-external-app.dark.contrast .button.creation {
+      color: #FFF;
+      background-color: #66BB66; }
+      .symphony-external-app.dark-contrast .button.creation:focus, .symphony-external-app.dark-contrast .button.creation.focus, .symphony-external-app.dark.contrast .button.creation:focus, .symphony-external-app.dark.contrast .button.creation.focus {
+        color: #FFF;
+        background-color: #78c378; }
+      .symphony-external-app.dark-contrast .button.creation:hover, .symphony-external-app.dark.contrast .button.creation:hover {
+        color: #FFF;
+        background-color: #78c378; }
+      .symphony-external-app.dark-contrast .button.creation:active, .symphony-external-app.dark-contrast .button.creation.active, .symphony-external-app.dark.contrast .button.creation:active, .symphony-external-app.dark.contrast .button.creation.active {
+        color: #FFF;
+        background-color: #54b354; }
+    .symphony-external-app.dark-contrast .button.secondary, .symphony-external-app.dark.contrast .button.secondary {
+      color: #FFF;
+      background-color: rgba(0, 0, 0, 0.32); }
+      .symphony-external-app.dark-contrast .button.secondary:focus, .symphony-external-app.dark-contrast .button.secondary.focus, .symphony-external-app.dark.contrast .button.secondary:focus, .symphony-external-app.dark.contrast .button.secondary.focus {
+        color: #FFF;
+        background-color: rgba(13, 13, 13, 0.32); }
+      .symphony-external-app.dark-contrast .button.secondary:hover, .symphony-external-app.dark.contrast .button.secondary:hover {
+        color: #FFF;
+        background-color: rgba(13, 13, 13, 0.32); }
+      .symphony-external-app.dark-contrast .button.secondary:active, .symphony-external-app.dark-contrast .button.secondary.active, .symphony-external-app.dark.contrast .button.secondary:active, .symphony-external-app.dark.contrast .button.secondary.active {
+        color: #FFF;
+        background-color: rgba(0, 0, 0, 0.32); }
+    .symphony-external-app.dark-contrast .button.cancel-link, .symphony-external-app.dark.contrast .button.cancel-link {
+      color: #aaaaaa;
+      background: none; }
+      .symphony-external-app.dark-contrast .button.cancel-link:hover, .symphony-external-app.dark.contrast .button.cancel-link:hover {
+        color: #f06c6c; }
+      .symphony-external-app.dark-contrast .button.cancel-link:active, .symphony-external-app.dark.contrast .button.cancel-link:active {
+        color: #ec3e3e; }
+  .symphony-external-app.dark-contrast input, .symphony-external-app.dark-contrast textarea, .symphony-external-app.dark.contrast input, .symphony-external-app.dark.contrast textarea {
+    padding: 6px;
+    color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    margin: 4px 0;
+    font-size: 0.9em; }
+    .symphony-external-app.dark-contrast input:hover, .symphony-external-app.dark-contrast textarea:hover, .symphony-external-app.dark.contrast input:hover, .symphony-external-app.dark.contrast textarea:hover {
+      background-color: rgba(13, 13, 13, 0.4);
+      border-color: rgba(255, 255, 255, 0.08); }
+    .symphony-external-app.dark-contrast input:active, .symphony-external-app.dark-contrast textarea:active, .symphony-external-app.dark.contrast input:active, .symphony-external-app.dark.contrast textarea:active {
+      background-color: rgba(0, 0, 0, 0.4);
+      border-color: rgba(242, 242, 242, 0.08); }
+    .symphony-external-app.dark-contrast input:focus, .symphony-external-app.dark-contrast textarea:focus, .symphony-external-app.dark.contrast input:focus, .symphony-external-app.dark.contrast textarea:focus {
+      outline: none;
+      background-color: rgba(0, 0, 0, 0.4);
+      border-color: rgba(242, 242, 242, 0.08); }
+  .symphony-external-app.dark-contrast .module-wrapper, .symphony-external-app.dark.contrast .module-wrapper {
+    padding: 8px;
+    background-color: #111;
+    border-radius: 3px; }
+  .symphony-external-app.dark-contrast hr, .symphony-external-app.dark.contrast hr {
+    border-color: rgba(255, 255, 255, 0.08); }
+
+.symphony-external-app.light-contrast, .symphony-external-app.light.contrast {
+  color: #111;
+  background-color: #f2f2f2; }
+  .symphony-external-app.light-contrast .button, .symphony-external-app.light.contrast .button {
+    cursor: pointer;
+    box-shadow: none;
+    border: none;
+    border-radius: 2px;
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 8px;
+    margin-right: 8px;
+    font-family: "Alright Sans", "Avenir", "Tahoma", sans-serif;
+    font-weight: 500;
+    outline: none;
+    display: inline-block;
+    text-decoration: none;
+    line-height: 1;
+    color: #FFF;
+    background-color: #44B3DD; }
+    .symphony-external-app.light-contrast .button:focus, .symphony-external-app.light.contrast .button:focus {
+      outline: none; }
+    .symphony-external-app.light-contrast .button:focus, .symphony-external-app.light-contrast .button.focus, .symphony-external-app.light.contrast .button:focus, .symphony-external-app.light.contrast .button.focus {
+      color: #FFF;
+      background-color: #5abce1; }
+    .symphony-external-app.light-contrast .button:hover, .symphony-external-app.light.contrast .button:hover {
+      color: #FFF;
+      background-color: #5abce1; }
+    .symphony-external-app.light-contrast .button:active, .symphony-external-app.light-contrast .button.active, .symphony-external-app.light.contrast .button:active, .symphony-external-app.light.contrast .button.active {
+      color: #FFF;
+      background-color: #2eaad9; }
+    .symphony-external-app.light-contrast .button.warning, .symphony-external-app.light.contrast .button.warning {
+      color: #FFF;
+      background-color: #EE5555; }
+      .symphony-external-app.light-contrast .button.warning:focus, .symphony-external-app.light-contrast .button.warning.focus, .symphony-external-app.light.contrast .button.warning:focus, .symphony-external-app.light.contrast .button.warning.focus {
+        color: #FFF;
+        background-color: #f06c6c; }
+      .symphony-external-app.light-contrast .button.warning:hover, .symphony-external-app.light.contrast .button.warning:hover {
+        color: #FFF;
+        background-color: #f06c6c; }
+      .symphony-external-app.light-contrast .button.warning:active, .symphony-external-app.light-contrast .button.warning.active, .symphony-external-app.light.contrast .button.warning:active, .symphony-external-app.light.contrast .button.warning.active {
+        color: #FFF;
+        background-color: #ec3e3e; }
+    .symphony-external-app.light-contrast .button.creation, .symphony-external-app.light.contrast .button.creation {
+      color: #FFF;
+      background-color: #66BB66; }
+      .symphony-external-app.light-contrast .button.creation:focus, .symphony-external-app.light-contrast .button.creation.focus, .symphony-external-app.light.contrast .button.creation:focus, .symphony-external-app.light.contrast .button.creation.focus {
+        color: #FFF;
+        background-color: #78c378; }
+      .symphony-external-app.light-contrast .button.creation:hover, .symphony-external-app.light.contrast .button.creation:hover {
+        color: #FFF;
+        background-color: #78c378; }
+      .symphony-external-app.light-contrast .button.creation:active, .symphony-external-app.light-contrast .button.creation.active, .symphony-external-app.light.contrast .button.creation:active, .symphony-external-app.light.contrast .button.creation.active {
+        color: #FFF;
+        background-color: #54b354; }
+    .symphony-external-app.light-contrast .button.secondary, .symphony-external-app.light.contrast .button.secondary {
+      color: #FFF;
+      background-color: rgba(0, 0, 0, 0.32); }
+      .symphony-external-app.light-contrast .button.secondary:focus, .symphony-external-app.light-contrast .button.secondary.focus, .symphony-external-app.light.contrast .button.secondary:focus, .symphony-external-app.light.contrast .button.secondary.focus {
+        color: #FFF;
+        background-color: rgba(13, 13, 13, 0.32); }
+      .symphony-external-app.light-contrast .button.secondary:hover, .symphony-external-app.light.contrast .button.secondary:hover {
+        color: #FFF;
+        background-color: rgba(13, 13, 13, 0.32); }
+      .symphony-external-app.light-contrast .button.secondary:active, .symphony-external-app.light-contrast .button.secondary.active, .symphony-external-app.light.contrast .button.secondary:active, .symphony-external-app.light.contrast .button.secondary.active {
+        color: #FFF;
+        background-color: rgba(0, 0, 0, 0.32); }
+    .symphony-external-app.light-contrast .button.cancel-link, .symphony-external-app.light.contrast .button.cancel-link {
+      color: #aaaaaa;
+      background: none; }
+      .symphony-external-app.light-contrast .button.cancel-link:hover, .symphony-external-app.light.contrast .button.cancel-link:hover {
+        color: #f06c6c; }
+      .symphony-external-app.light-contrast .button.cancel-link:active, .symphony-external-app.light.contrast .button.cancel-link:active {
+        color: #ec3e3e; }
+  .symphony-external-app.light-contrast input, .symphony-external-app.light-contrast textarea, .symphony-external-app.light.contrast input, .symphony-external-app.light.contrast textarea {
+    padding: 6px;
+    color: rgba(0, 0, 0, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 100%;
+    margin: 4px 0;
+    font-size: 0.9em; }
+    .symphony-external-app.light-contrast input:hover, .symphony-external-app.light-contrast textarea:hover, .symphony-external-app.light.contrast input:hover, .symphony-external-app.light.contrast textarea:hover {
+      background-color: rgba(255, 255, 255, 0.4);
+      border-color: rgba(13, 13, 13, 0.08); }
+    .symphony-external-app.light-contrast input:active, .symphony-external-app.light-contrast textarea:active, .symphony-external-app.light.contrast input:active, .symphony-external-app.light.contrast textarea:active {
+      background-color: rgba(242, 242, 242, 0.4);
+      border-color: rgba(0, 0, 0, 0.08); }
+    .symphony-external-app.light-contrast input:focus, .symphony-external-app.light-contrast textarea:focus, .symphony-external-app.light.contrast input:focus, .symphony-external-app.light.contrast textarea:focus {
+      outline: none;
+      background-color: rgba(242, 242, 242, 0.4);
+      border-color: rgba(0, 0, 0, 0.08); }
+  .symphony-external-app.light-contrast .module-wrapper, .symphony-external-app.light.contrast .module-wrapper {
+    padding: 8px;
+    background-color: #FFF;
+    border-radius: 3px; }
+  .symphony-external-app.light-contrast hr, .symphony-external-app.light.contrast hr {
+    border-color: rgba(0, 0, 0, 0.08); }

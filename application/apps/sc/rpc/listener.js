@@ -26,6 +26,7 @@ class Listener {
 			}
 			catch (e)
 			{
+				console.log(e.stack);
 			}
 		}, this);
 	}

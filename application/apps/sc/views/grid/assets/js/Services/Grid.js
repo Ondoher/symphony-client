@@ -19,13 +19,13 @@ Package('Sfe.Services', {
 
 		show : function(name, id)
 		{
+			var params = Array.prototype.slice.call(arguments, 0);
 			this.views = SYMPHONY.services.subscribe('views');
-			this.views.load(name, id)
+			this.views.load.apply(this.views, params)
 				.then(function(service)
 				{
 					this.add(id, service);
 				}.bind(this));
-
 		},
 
 		add : function(id, service)

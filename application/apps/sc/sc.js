@@ -6,8 +6,6 @@ function main(req, res, app)
 {
 	app.addCSS([
 		'/sc/assets/css/sc.css',
-		'/sc/assets/css/flex.css',
-		'/sc/assets/css/fonts.css',
 		'/sc/assets/css/workspace.css',
 		'/sc/assets/css/grid.css',
 		'/sc/assets/tempo/tempo.css',
@@ -62,10 +60,10 @@ exports.getApplication = function(req, res)
 		.then(use('features', 'navigation', req, res))
 		.then(use('features', 'chat-nav', req, res))
 		.then(use('features', 'messages', req, res))
-        .then(use('features', 'renderer', req, res))
-        .then(use('features', 'entity', req, res))
-        .then(use('features', 'url-entity', req, res))
-        .then(use('features', 'converter', req, res))
+		.then(use('features', 'renderer', req, res))
+		.then(use('features', 'entity', req, res))
+		.then(use('features', 'url-entity', req, res))
+		.then(use('features', 'converter', req, res))
 		.then(use('views', 'nav-sidebar', req, res))
 		.then(use('views', 'grid', req, res))
 		.then(use('views', 'module', req, res))

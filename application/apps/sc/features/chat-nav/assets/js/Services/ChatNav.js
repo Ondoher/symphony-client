@@ -5,6 +5,7 @@ var ChatNavService = new Class({
 	{
 		this.serviceName = 'chat-nav';
 		SYMPHONY.services.make(this.serviceName, this, this.implements, true);
+		this.streams = {};
 	},
 
 	start : function()
@@ -22,8 +23,7 @@ var ChatNavService = new Class({
 	select : function(header, id)
 	{
 		console.log('select', header, id);
-		this.grid.show('chat', id);
-
+		this.grid.show('chat', id, this.streams[id]);
 	},
 
 	onStarted : function()
@@ -35,6 +35,7 @@ var ChatNavService = new Class({
 		{
 			if (stream.streamType.type === 'ROOM')
 			{
+				this.streams[stream.id] = stream;
 				this.navigation.addItem('chat-header', stream.id, stream.roomAttributes.name);
 			}
 		}, this);

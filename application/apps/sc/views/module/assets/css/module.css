@@ -1,2 +1,41 @@
 .module-page {
+	color: white;
+	display: grid;
+	overflow: hidden;
+	rgba(249, 249, 249, 0.8);
+	grid-template-columns: 1fr;
+	grid-template-rows: 50px 1fr;
+	grid-template-areas:
+		"header"
+		"body";
+
+}
+.module-header {
+	padding: 8px;
+	grid-area: header;
+	color: rgba(0,0,0,.8);
+    font-weight: 500;
+    font-style: normal;
+}
+
+.module-body {
+	overflow: hidden;
+	grid-area: body;
+	display: grid;
+
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+	grid-template-areas:
+		"container";
+}
+
+.module-page .module-body h1 {
+	color: rgba(0, 0, 0, 0.8);
+	cursor: text;
+	display: inline;
+	font-family: SymphonyLato, sans-serif;
+	font-size: 1.22rem;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 19.032px;
 }

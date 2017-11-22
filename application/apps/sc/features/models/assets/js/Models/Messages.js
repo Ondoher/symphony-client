@@ -18,6 +18,7 @@ Package('SC.Models', {
 
 		ready : function()
 		{
+			console.log('Messages::ready');
 			this.messageLists = SYMPHONY.services.subscribe('messages');
 		},
 

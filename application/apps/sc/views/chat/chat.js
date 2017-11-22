@@ -1,5 +1,7 @@
 var Q = require('q');
 var Feature = require('sapphire-express').Feature;
+var header = require('./views/chat-header/chat-header.js');
+var body = require('./views/chat-body/chat-body.js');
 
 module.exports = function(req, res, app)
 {
@@ -14,5 +16,6 @@ module.exports = function(req, res, app)
 		detached: true,
 	});
 
-	return Q(app);
+	return header(req, res, app)
+		.then(body.bind(body, req, res))
 }

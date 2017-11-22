@@ -1,0 +1,36 @@
+.chat-body-page {
+    color: white;
+    display: grid;
+    overflow: hidden;
+	grid-area: container;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 50px 300px;
+	grid-template-areas:
+		"messages"
+		"controls"
+		"editor"
+}
+
+.chat-body-page .messages {
+    background: white;
+    color: black;
+    overflow-y: auto;
+	grid-area: messages;
+}
+
+.chat-body-page .controls-container {
+	grid-area: controls;
+}
+
+.chat-body-page .editor-container {
+	grid-area: editor;
+    color: black;
+    border: 1px;
+    border-style: solid;
+	overflow: hidden;
+	display: grid;
+}
+
+.editor {
+}
+

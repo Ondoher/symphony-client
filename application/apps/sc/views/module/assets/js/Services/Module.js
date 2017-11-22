@@ -1,6 +1,6 @@
 Package('SC.Services', {
 	Module : new Class({
-		implements : ['attach', 'setBody', 'canHandle', 'getTargets'],
+		implements : ['attach', 'detach', 'setBody', 'setHeader', 'canHandle', 'getTargets'],
 
 		initialize : function(id, name, selector)
 		{
@@ -22,9 +22,21 @@ Package('SC.Services', {
 			parent.append(this.selector);
 		},
 
+		detach : function(parent)
+		{
+			this.selector.detach();
+		},
+
 		setBody : function(body)
 		{
-			this.selector.append;
+			this.selector.find('.module-body').empty();
+			body.attach(this.selector.find('.module-body'));
+		},
+
+		setHeader : function(header)
+		{
+			this.selector.find('.module-header').empty();
+			header.attach(this.selector.find('.module-header'));
 		},
 
 		canHandle : function(target)

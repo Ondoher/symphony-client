@@ -5,15 +5,19 @@ Package('SC.Models', {
 		initialize : function()
 		{
 			SYMPHONY.services.make('datafeed', this, this.implements, true);
+			SC.service.listen('socketConnect', this.onSocketConnect.bind(this));
+		},
+
+		ready : function()
+		{
 		},
 
 		run : function(userId)
 		{
 			console.log('run', userId)
 			this.userId = userId;
-
-			SC.service.listen('socketConnect', this.onSocketConnect.bind(this));
 		},
+
 
 		listenFeed : function()
 		{

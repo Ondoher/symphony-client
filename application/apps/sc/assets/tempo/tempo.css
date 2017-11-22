@@ -1,3 +1,184 @@
+@charset "UTF-8";
+/* Webfont: Lato-Hairline */
+@font-face {
+  font-family: 'SymphonyLato';
+  src: url("/sc/assets/tempo/fonts/lato/Lato-Hairline.eot");
+  /* IE9 Compat Modes */
+  src: url("/sc/assets/tempo/fonts/lato/Lato-Hairline.eot?#iefix") format("embedded-opentype"), url("/sc/assets/tempo/fonts/lato/Lato-Hairline.woff2") format("woff2"), url("/sc/assets/tempo/fonts/lato/Lato-Hairline.woff") format("woff"), url("/sc/assets/tempo/fonts/lato/Lato-Hairline.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 100;
+  text-rendering: geometricPrecision; }
+
+/* Webfont: Lato-HairlineItalic */
+@font-face {
+  font-family: 'SymphonyLato';
+  src: url("/sc/assets/tempo/fonts/lato/Lato-HairlineItalic.eot");
+  /* IE9 Compat Modes */
+  src: url("/sc/assets/tempo/fonts/lato/Lato-HairlineItalic.eot?#iefix") format("embedded-opentype"), url("/sc/assets/tempo/fonts/lato/Lato-HairlineItalic.woff2") format("woff2"), url("/sc/assets/tempo/fonts/lato/Lato-HairlineItalic.woff") format("woff"), url("/sc/assets/tempo/fonts/lato/Lato-HairlineItalic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 100;
+  text-rendering: geometricPrecision; }
+
+/* Webfont: Lato-Thin */
+@font-face {
+  font-family: 'SymphonyLato';
+  src: url("/sc/assets/tempo/fonts/lato/Lato-Thin.eot");
+  /* IE9 Compat Modes */
+  src: url("/sc/assets/tempo/fonts/lato/Lato-Thin.eot?#iefix") format("embedded-opentype"), url("/sc/assets/tempo/fonts/lato/Lato-Thin.woff2") format("woff2"), url("/sc/assets/tempo/fonts/lato/Lato-Thin.woff") format("woff"), url("/sc/assets/tempo/fonts/lato/Lato-Thin.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 200;
+  text-rendering: geometricPrecision; }
+
+/* Webfont: Lato-ThinItalic */
+@font-face {
+  font-family: 'SymphonyLato';
+  src: url("/sc/assets/tempo/fonts/lato/Lato-ThinItalic.eot");
+  /* IE9 Compat Modes */
+  src: url("/sc/assets/tempo/fonts/lato/Lato-ThinItalic.eot?#iefix") format("embedded-opentype"), url("/sc/assets/tempo/fonts/lato/Lato-ThinItalic.woff2") format("woff2"), url("/sc/assets/tempo/fonts/lato/Lato-ThinItalic.woff") format("woff"), url("/sc/assets/tempo/fonts/lato/Lato-ThinItalic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 200;
+  text-rendering: geometricPrecision; }
+
+/* Webfont: Lato-Light */
+@font-face {
+  font-family: 'SymphonyLato';
+  src: url("/sc/assets/tempo/fonts/lato/Lato-Light.eot");
+  /* IE9 Compat Modes */
+  src: url("/sc/assets/tempo/fonts/lato/Lato-Light.eot?#iefix") format("embedded-opentype"), url("/sc/assets/tempo/fonts/lato/Lato-Light.woff2") format("woff2"), url("/sc/assets/tempo/fonts/lato/Lato-Light.woff") format("woff"), url("/sc/assets/tempo/fonts/lato/Lato-Light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 300;
+  text-rendering: geometricPrecision; }
+
+/* Webfont: Lato-LightItalic */
+@font-face {
+  font-family: 'SymphonyLato';
+  src: url("/sc/assets/tempo/fonts/lato/Lato-LightItalic.eot");
+  /* IE9 Compat Modes */
+  src: url("/sc/assets/tempo/fonts/lato/Lato-LightItalic.eot?#iefix") format("embedded-opentype"), url("/sc/assets/tempo/fonts/lato/Lato-LightItalic.woff2") format("woff2"), url("/sc/assets/tempo/fonts/lato/Lato-LightItalic.woff") format("woff"), url("/sc/assets/tempo/fonts/lato/Lato-LightItalic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 300;
+  text-rendering: geometricPrecision; }
+
+/* Webfont: Lato-Regular */
+@font-face {
+  font-family: 'SymphonyLato';
+  src: url("/sc/assets/tempo/fonts/lato/Lato-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("/sc/assets/tempo/fonts/lato/Lato-Regular.eot?#iefix") format("embedded-opentype"), url("/sc/assets/tempo/fonts/lato/Lato-Regular.woff2") format("woff2"), url("/sc/assets/tempo/fonts/lato/Lato-Regular.woff") format("woff"), url("/sc/assets/tempo/fonts/lato/Lato-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: geometricPrecision; }
+
+/* Webfont: Lato-Italic */
+@font-face {
+  font-family: 'SymphonyLato';
+  src: url("/sc/assets/tempo/fonts/lato/Lato-Italic.eot");
+  /* IE9 Compat Modes */
+  src: url("/sc/assets/tempo/fonts/lato/Lato-Italic.eot?#iefix") format("embedded-opentype"), url("/sc/assets/tempo/fonts/lato/Lato-Italic.woff2") format("woff2"), url("/sc/assets/tempo/fonts/lato/Lato-Italic.woff") format("woff"), url("/sc/assets/tempo/fonts/lato/Lato-Italic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: normal;
+  text-rendering: geometricPrecision; }
+
+/* Webfont: Lato-Medium */
+@font-face {
+  font-family: 'SymphonyLato';
+  src: url("/sc/assets/tempo/fonts/lato/Lato-Medium.eot");
+  /* IE9 Compat Modes */
+  src: url("/sc/assets/tempo/fonts/lato/Lato-Medium.eot?#iefix") format("embedded-opentype"), url("/sc/assets/tempo/fonts/lato/Lato-Medium.woff2") format("woff2"), url("/sc/assets/tempo/fonts/lato/Lato-Medium.woff") format("woff"), url("/sc/assets/tempo/fonts/lato/Lato-Medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 500;
+  text-rendering: geometricPrecision; }
+
+/* Webfont: Lato-MediumItalic */
+@font-face {
+  font-family: 'SymphonyLato';
+  src: url("/sc/assets/tempo/fonts/lato/Lato-MediumItalic.eot");
+  /* IE9 Compat Modes */
+  src: url("/sc/assets/tempo/fonts/lato/Lato-MediumItalic.eot?#iefix") format("embedded-opentype"), url("/sc/assets/tempo/fonts/lato/Lato-MediumItalic.woff2") format("woff2"), url("/sc/assets/tempo/fonts/lato/Lato-MediumItalic.woff") format("woff"), url("/sc/assets/tempo/fonts/lato/Lato-MediumItalic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 500;
+  text-rendering: geometricPrecision; }
+
+/* Webfont: Lato-Semibold */
+@font-face {
+  font-family: 'SymphonyLato';
+  src: url("/sc/assets/tempo/fonts/lato/Lato-Semibold.eot");
+  /* IE9 Compat Modes */
+  src: url("/sc/assets/tempo/fonts/lato/Lato-Semibold.eot?#iefix") format("embedded-opentype"), url("/sc/assets/tempo/fonts/lato/Lato-Semibold.woff2") format("woff2"), url("/sc/assets/tempo/fonts/lato/Lato-Semibold.woff") format("woff"), url("/sc/assets/tempo/fonts/lato/Lato-Semibold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 600;
+  text-rendering: geometricPrecision; }
+
+/* Webfont: Lato-SemiboldItalic */
+@font-face {
+  font-family: 'SymphonyLato';
+  src: url("/sc/assets/tempo/fonts/lato/Lato-SemiboldItalic.eot");
+  /* IE9 Compat Modes */
+  src: url("/sc/assets/tempo/fonts/lato/Lato-SemiboldItalic.eot?#iefix") format("embedded-opentype"), url("/sc/assets/tempo/fonts/lato/Lato-SemiboldItalic.woff2") format("woff2"), url("/sc/assets/tempo/fonts/lato/Lato-SemiboldItalic.woff") format("woff"), url("/sc/assets/tempo/fonts/lato/Lato-SemiboldItalic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 600;
+  text-rendering: geometricPrecision; }
+
+/* Webfont: Lato-Bold */
+@font-face {
+  font-family: 'SymphonyLato';
+  src: url("/sc/assets/tempo/fonts/lato/Lato-Bold.eot");
+  /* IE9 Compat Modes */
+  src: url("/sc/assets/tempo/fonts/lato/Lato-Bold.eot?#iefix") format("embedded-opentype"), url("/sc/assets/tempo/fonts/lato/Lato-Bold.woff2") format("woff2"), url("/sc/assets/tempo/fonts/lato/Lato-Bold.woff") format("woff"), url("/sc/assets/tempo/fonts/lato/Lato-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+  text-rendering: geometricPrecision; }
+
+/* Webfont: Lato-BoldItalic */
+@font-face {
+  font-family: 'SymphonyLato';
+  src: url("/sc/assets/tempo/fonts/lato/Lato-BoldItalic.eot");
+  /* IE9 Compat Modes */
+  src: url("/sc/assets/tempo/fonts/lato/Lato-BoldItalic.eot?#iefix") format("embedded-opentype"), url("/sc/assets/tempo/fonts/lato/Lato-BoldItalic.woff2") format("woff2"), url("/sc/assets/tempo/fonts/lato/Lato-BoldItalic.woff") format("woff"), url("/sc/assets/tempo/fonts/lato/Lato-BoldItalic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 700;
+  text-rendering: geometricPrecision; }
+
+/* Webfont: Lato-Heavy */
+@font-face {
+  font-family: 'SymphonyLato';
+  src: url("/sc/assets/tempo/fonts/lato/Lato-Heavy.eot");
+  /* IE9 Compat Modes */
+  src: url("/sc/assets/tempo/fonts/lato/Lato-Heavy.eot?#iefix") format("embedded-opentype"), url("/sc/assets/tempo/fonts/lato/Lato-Heavy.woff2") format("woff2"), url("/sc/assets/tempo/fonts/lato/Lato-Heavy.woff") format("woff"), url("/sc/assets/tempo/fonts/lato/Lato-Heavy.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 800;
+  text-rendering: geometricPrecision; }
+
+/* Webfont: Lato-HeavyItalic */
+@font-face {
+  font-family: 'SymphonyLato';
+  src: url("/sc/assets/tempo/fonts/lato/Lato-HeavyItalic.eot");
+  /* IE9 Compat Modes */
+  src: url("/sc/assets/tempo/fonts/lato/Lato-HeavyItalic.eot?#iefix") format("embedded-opentype"), url("/sc/assets/tempo/fonts/lato/Lato-HeavyItalic.woff2") format("woff2"), url("/sc/assets/tempo/fonts/lato/Lato-HeavyItalic.woff") format("woff"), url("/sc/assets/tempo/fonts/lato/Lato-HeavyItalic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 800;
+  text-rendering: geometricPrecision; }
+
+/* Webfont: Lato-Black */
+@font-face {
+  font-family: 'SymphonyLato';
+  src: url("/sc/assets/tempo/fonts/lato/Lato-Black.eot");
+  /* IE9 Compat Modes */
+  src: url("/sc/assets/tempo/fonts/lato/Lato-Black.eot?#iefix") format("embedded-opentype"), url("/sc/assets/tempo/fonts/lato/Lato-Black.woff2") format("woff2"), url("/sc/assets/tempo/fonts/lato/Lato-Black.woff") format("woff"), url("/sc/assets/tempo/fonts/lato/Lato-Black.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 900;
+  text-rendering: geometricPrecision; }
+
+/* Webfont: Lato-BlackItalic */
+@font-face {
+  font-family: 'SymphonyLato';
+  src: url("/sc/assets/tempo/fonts/lato/Lato-BlackItalic.eot");
+  /* IE9 Compat Modes */
+  src: url("/sc/assets/tempo/fonts/lato/Lato-BlackItalic.eot?#iefix") format("embedded-opentype"), url("/sc/assets/tempo/fonts/lato/Lato-BlackItalic.woff2") format("woff2"), url("/sc/assets/tempo/fonts/lato/Lato-BlackItalic.woff") format("woff"), url("/sc/assets/tempo/fonts/lato/Lato-BlackItalic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 900;
+  text-rendering: geometricPrecision; }
+
 html, body {
   height: 100%;
   min-height: 100%;
@@ -7,8 +188,6 @@ html {
   box-sizing: border-box;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   -webkit-tap-highlight-color: transparent; }
 
 *, *:before, *:after {
@@ -116,13 +295,14 @@ th {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0;
-  line-height: 1.42; }
+  line-height: 1.47;
+  font-weight: normal; }
 
 h1 {
-  font-size: 2.2rem; }
+  font-size: 1.6rem; }
 
 h2 {
-  font-size: 1.6rem; }
+  font-size: 1.4rem; }
 
 h3 {
   font-size: 1.3rem; }
@@ -139,7 +319,7 @@ h6 {
 p {
   font-size: 1rem;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: .63rem;
   line-height: 1.24; }
 
 ul, ol {
@@ -148,223 +328,1023 @@ ul, ol {
   ul ul, ul ol, ol ul, ol ol {
     padding-left: 1rem; }
 
-.bold {
-  font-family: "Roboto", "Avenir", "Tahoma", sans-serif;
-  font-weight: bold; }
-
-.bold-italic {
-  font-family: "Roboto", "Avenir", "Tahoma", sans-serif;
-  font-weight: bold;
-  font-style: italic; }
-
-.light-font {
-  font-family: "Roboto", "Avenir", "Tahoma", sans-serif;
-  font-weight: 300; }
-
-.light-italic {
-  font-family: "Roboto", "Avenir", "Tahoma", sans-serif;
-  font-weight: 300;
-  font-style: italic; }
-
-.thin {
-  font-family: "Roboto", "Avenir", "Tahoma", sans-serif;
-  font-weight: 100; }
-
-.medium-font {
-  font-family: "Roboto", "Avenir", "Tahoma", sans-serif;
-  font-weight: 500; }
-
-.medium-italic {
-  font-family: "Roboto", "Avenir", "Tahoma", sans-serif;
-  font-weight: 500;
-  font-style: italic; }
-
-.italic {
-  font-family: "Roboto", "Avenir", "Tahoma", sans-serif;
+@font-face {
+  font-family: 'Tempo-Icons';
+  src: url("/sc/assets/tempo/fonts/tempo-icons/Tempo-Icons.eot?v007");
+  src: url("/sc/assets/tempo/fonts/tempo-icons/Tempo-Icons.eot?v007#iefix") format("embedded-opentype"), url("/sc/assets/tempo/fonts/tempo-icons/Tempo-Icons.ttf?v007") format("truetype"), url("/sc/assets/tempo/fonts/tempo-icons/Tempo-Icons.woff?v007") format("woff"), url("/sc/assets/tempo/fonts/tempo-icons/Tempo-Icons.svg?v007#Tempo-Icons") format("svg");
   font-weight: normal;
-  font-style: italic; }
+  font-style: normal; }
 
-.hidden {
-  display: none !important; }
+.tempo-icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Tempo-Icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  font-size: 18px;
+  /* Enable Ligatures ================ */
+  letter-spacing: 0;
+  -webkit-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga";
+  -webkit-font-variant-ligatures: discretionary-ligatures;
+  font-variant-ligatures: discretionary-ligatures; }
 
-html.xsmall {
-  font-size: 11px; }
+.tempo-icon--chevron:before {
+  content: ""; }
 
-html.small {
-  font-size: 13px; }
+.tempo-icon--audio_bridge:before {
+  content: ""; }
 
-html.medium {
-  font-size: 16px; }
+.tempo-icon--border_color:before {
+  content: ""; }
 
-html.large {
-  font-size: 18px; }
+.tempo-icon--filetype_AVI:before {
+  content: ""; }
 
-body {
-  min-width: 560px; }
+.tempo-icon--filetype_blank:before {
+  content: ""; }
+
+.tempo-icon--filetype_CDI:before {
+  content: ""; }
+
+.tempo-icon--filetype_M4V:before {
+  content: ""; }
+
+.tempo-icon--filetype_MPEG:before {
+  content: ""; }
+
+.tempo-icon--filetype_MPG:before {
+  content: ""; }
+
+.tempo-icon--filetype_WBMP:before {
+  content: ""; }
+
+.tempo-icon--filetype_ACC:before {
+  content: ""; }
+
+.tempo-icon--filetype_BMP:before {
+  content: ""; }
+
+.tempo-icon--filetype_CSV:before {
+  content: ""; }
+
+.tempo-icon--filetype_DOC:before {
+  content: ""; }
+
+.tempo-icon--filetype_DOCX:before {
+  content: ""; }
+
+.tempo-icon--filetype_GIF:before {
+  content: ""; }
+
+.tempo-icon--filetype_HTML:before {
+  content: ""; }
+
+.tempo-icon--filetype_JPG:before {
+  content: ""; }
+
+.tempo-icon--filetype_M4A:before {
+  content: ""; }
+
+.tempo-icon--filetype_MOV:before {
+  content: ""; }
+
+.tempo-icon--filetype_MP3:before {
+  content: ""; }
+
+.tempo-icon--filetype_MP4:before {
+  content: ""; }
+
+.tempo-icon--filetype_MSG:before {
+  content: ""; }
+
+.tempo-icon--filetype_ODM:before {
+  content: ""; }
+
+.tempo-icon--filetype_PDF:before {
+  content: ""; }
+
+.tempo-icon--filetype_PNG:before {
+  content: ""; }
+
+.tempo-icon--filetype_PPT:before {
+  content: ""; }
+
+.tempo-icon--filetype_PPTX:before {
+  content: ""; }
+
+.tempo-icon--filetype_RFT:before {
+  content: ""; }
+
+.tempo-icon--filetype_TIF:before {
+  content: ""; }
+
+.tempo-icon--filetype_TIFF:before {
+  content: ""; }
+
+.tempo-icon--filetype_TXT:before {
+  content: ""; }
+
+.tempo-icon--filetype_WAV:before {
+  content: ""; }
+
+.tempo-icon--filetype_XLS:before {
+  content: ""; }
+
+.tempo-icon--filetype_XLSX:before {
+  content: ""; }
+
+.tempo-icon--filetype_XML:before {
+  content: ""; }
+
+.tempo-icon--filetype_XSD:before {
+  content: ""; }
+
+.tempo-icon--filetype_XTIFF:before {
+  content: ""; }
+
+.tempo-icon--filetype_ZIp:before {
+  content: ""; }
+
+.tempo-icon--sort:before {
+  content: ""; }
+
+.tempo-icon--addressbook2:before {
+  content: ""; }
+
+.tempo-icon--check12:before {
+  content: ""; }
+
+.tempo-icon--check18:before {
+  content: ""; }
+
+.tempo-icon--circlealertoutline:before {
+  content: ""; }
+
+.tempo-icon--circlealertsolid:before {
+  content: ""; }
+
+.tempo-icon--circleinfooutline:before {
+  content: ""; }
+
+.tempo-icon--circleinfosolid:before {
+  content: ""; }
+
+.tempo-icon--close18:before {
+  content: ""; }
+
+.tempo-icon--close24:before {
+  content: ""; }
+
+.tempo-icon--close32:before {
+  content: ""; }
+
+.tempo-icon--close36:before {
+  content: ""; }
+
+.tempo-icon--close48:before {
+  content: ""; }
+
+.tempo-icon--clouddownload:before {
+  content: ""; }
+
+.tempo-icon--cloudoutline:before {
+  content: ""; }
+
+.tempo-icon--cloudsolid:before {
+  content: ""; }
+
+.tempo-icon--dropdown:before {
+  content: ""; }
+
+.tempo-icon--email:before {
+  content: ""; }
+
+.tempo-icon--helpoutline:before {
+  content: ""; }
+
+.tempo-icon--helpsolid:before {
+  content: ""; }
+
+.tempo-icon--hourglassoutline:before {
+  content: ""; }
+
+.tempo-icon--hourglasssolid:before {
+  content: ""; }
+
+.tempo-icon--ic_apps_black_18px:before {
+  content: ""; }
+
+.tempo-icon--ic_arrow_forward_black_18px:before {
+  content: ""; }
+
+.tempo-icon--ic_attach_file_black_18px:before {
+  content: ""; }
+
+.tempo-icon--ic_chat_bubble_black_18px:before {
+  content: ""; }
+
+.tempo-icon--ic_contacts_black_18px:before {
+  content: ""; }
+
+.tempo-icon--ic_group_add_black_18px:before {
+  content: ""; }
+
+.tempo-icon--ic_insert_chart_black_18px:before {
+  content: ""; }
+
+.tempo-icon--ic_insert_comment_black_18px:before {
+  content: ""; }
+
+.tempo-icon--ic_keyboard_backspace_black_18px:before {
+  content: ""; }
+
+.tempo-icon--ic_label_outline_black_18px:before {
+  content: ""; }
+
+.tempo-icon--ic_list_black_18px:before {
+  content: ""; }
+
+.tempo-icon--ic_mic_none_black_18px:before {
+  content: ""; }
+
+.tempo-icon--ic_mode_comment_black_18px:before {
+  content: ""; }
+
+.tempo-icon--ic_notifications_none_black_18px:before {
+  content: ""; }
+
+.tempo-icon--ic_ondemand_video_black_18px:before {
+  content: ""; }
+
+.tempo-icon--ic_personal_video_black_18px:before {
+  content: ""; }
+
+.tempo-icon--ic_view_quilt_black_18px:before {
+  content: ""; }
+
+.tempo-icon--notavailableoutline:before {
+  content: ""; }
+
+.tempo-icon--notavailablesolid:before {
+  content: ""; }
+
+.tempo-icon--playoutline:before {
+  content: ""; }
+
+.tempo-icon--playsolid:before {
+  content: ""; }
+
+.tempo-icon--securelock:before {
+  content: ""; }
+
+.tempo-icon--singlequote:before {
+  content: ""; }
+
+.tempo-icon--starlike:before {
+  content: ""; }
+
+.tempo-icon--addressbook:before {
+  content: ""; }
+
+.tempo-icon--airplane:before {
+  content: ""; }
+
+.tempo-icon--alarmclock:before {
+  content: ""; }
+
+.tempo-icon--alert:before {
+  content: ""; }
+
+.tempo-icon--appsettings:before {
+  content: ""; }
+
+.tempo-icon--arrowdown:before {
+  content: ""; }
+
+.tempo-icon--arrowleft:before {
+  content: ""; }
+
+.tempo-icon--arrowright:before {
+  content: ""; }
+
+.tempo-icon--arrowup:before {
+  content: ""; }
+
+.tempo-icon--assetclass:before {
+  content: ""; }
+
+.tempo-icon--blacklist:before {
+  content: ""; }
+
+.tempo-icon--bot:before {
+  content: ""; }
+
+.tempo-icon--browserooms:before {
+  content: ""; }
+
+.tempo-icon--bulkjobhistory:before {
+  content: ""; }
+
+.tempo-icon--bulkmanageaccounts:before {
+  content: ""; }
+
+.tempo-icon--calendar:before {
+  content: ""; }
+
+.tempo-icon--camera:before {
+  content: ""; }
+
+.tempo-icon--carrotdown:before {
+  content: ""; }
+
+.tempo-icon--carrotleft:before {
+  content: ""; }
+
+.tempo-icon--carrotright:before {
+  content: ""; }
+
+.tempo-icon--carrotup:before {
+  content: ""; }
+
+.tempo-icon--cashtag:before {
+  content: ""; }
+
+.tempo-icon--check:before {
+  content: ""; }
+
+.tempo-icon--circlealert:before {
+  content: ""; }
+
+.tempo-icon--circlecheck:before {
+  content: ""; }
+
+.tempo-icon--circleinfo:before {
+  content: ""; }
+
+.tempo-icon--clipboard:before {
+  content: ""; }
+
+.tempo-icon--cloud:before {
+  content: ""; }
+
+.tempo-icon--cloudupload:before {
+  content: ""; }
+
+.tempo-icon--code:before {
+  content: ""; }
+
+.tempo-icon--collapse:before {
+  content: ""; }
+
+.tempo-icon--commentsmaller:before {
+  content: ""; }
+
+.tempo-icon--company:before {
+  content: ""; }
+
+.tempo-icon--configuresso:before {
+  content: ""; }
+
+.tempo-icon--connectionadd:before {
+  content: ""; }
+
+.tempo-icon--connectionfollowing:before {
+  content: ""; }
+
+.tempo-icon--connectionremove:before {
+  content: ""; }
+
+.tempo-icon--connections:before {
+  content: ""; }
+
+.tempo-icon--copy:before {
+  content: ""; }
+
+.tempo-icon--copydisabled:before {
+  content: ""; }
+
+.tempo-icon--directionbackward:before {
+  content: ""; }
+
+.tempo-icon--directionforward:before {
+  content: ""; }
+
+.tempo-icon--distrobutionlist:before {
+  content: ""; }
+
+.tempo-icon--division:before {
+  content: ""; }
+
+.tempo-icon--document:before {
+  content: ""; }
+
+.tempo-icon--documentcreate:before {
+  content: ""; }
+
+.tempo-icon--download:before {
+  content: ""; }
+
+.tempo-icon--entitlements:before {
+  content: ""; }
+
+.tempo-icon--equalsign:before {
+  content: ""; }
+
+.tempo-icon--error:before {
+  content: ""; }
+
+.tempo-icon--expand:before {
+  content: ""; }
+
+.tempo-icon--exportcontent:before {
+  content: ""; }
+
+.tempo-icon--expressionfilters:before {
+  content: ""; }
+
+.tempo-icon--filterfunnel:before {
+  content: ""; }
+
+.tempo-icon--filters:before {
+  content: ""; }
+
+.tempo-icon--fingerprint:before {
+  content: ""; }
+
+.tempo-icon--flag:before {
+  content: ""; }
+
+.tempo-icon--foldercreate:before {
+  content: ""; }
+
+.tempo-icon--fullscreen:before {
+  content: ""; }
+
+.tempo-icon--fullscreenexit:before {
+  content: ""; }
+
+.tempo-icon--globe:before {
+  content: ""; }
+
+.tempo-icon--gpspin:before {
+  content: ""; }
+
+.tempo-icon--graph:before {
+  content: ""; }
+
+.tempo-icon--hourglass:before {
+  content: ""; }
+
+.tempo-icon--image:before {
+  content: ""; }
+
+.tempo-icon--imagebroken:before {
+  content: ""; }
+
+.tempo-icon--informationbarriers:before {
+  content: ""; }
+
+.tempo-icon--layoutgrid:before {
+  content: ""; }
+
+.tempo-icon--layoutsingle:before {
+  content: ""; }
+
+.tempo-icon--lightbulb:before {
+  content: ""; }
+
+.tempo-icon--lightningbolt:before {
+  content: ""; }
+
+.tempo-icon--link:before {
+  content: ""; }
+
+.tempo-icon--linkunlink:before {
+  content: ""; }
+
+.tempo-icon--listnumbers:before {
+  content: ""; }
+
+.tempo-icon--listtodo:before {
+  content: ""; }
+
+.tempo-icon--logout:before {
+  content: ""; }
+
+.tempo-icon--mailopened:before {
+  content: ""; }
+
+.tempo-icon--mailunopened:before {
+  content: ""; }
+
+.tempo-icon--messagecheck:before {
+  content: ""; }
+
+.tempo-icon--messagenohistory:before {
+  content: ""; }
+
+.tempo-icon--messageplus:before {
+  content: ""; }
+
+.tempo-icon--messageviewhistory:before {
+  content: ""; }
+
+.tempo-icon--microphone:before {
+  content: ""; }
+
+.tempo-icon--microphoneoff:before {
+  content: ""; }
+
+.tempo-icon--minus:before {
+  content: ""; }
+
+.tempo-icon--mobiledevice:before {
+  content: ""; }
+
+.tempo-icon--movie:before {
+  content: ""; }
+
+.tempo-icon--mutualconnections:before {
+  content: ""; }
+
+.tempo-icon--notavailable:before {
+  content: ""; }
+
+.tempo-icon--paintpalette:before {
+  content: ""; }
+
+.tempo-icon--passwordinvisible:before {
+  content: ""; }
+
+.tempo-icon--passwordvisible:before {
+  content: ""; }
+
+.tempo-icon--peopleexternal:before {
+  content: ""; }
+
+.tempo-icon--peopleinternal:before {
+  content: ""; }
+
+.tempo-icon--peoplewhoshere:before {
+  content: ""; }
+
+.tempo-icon--person:before {
+  content: ""; }
+
+.tempo-icon--phone:before {
+  content: ""; }
+
+.tempo-icon--play:before {
+  content: ""; }
+
+.tempo-icon--plussmall:before {
+  content: ""; }
+
+.tempo-icon--print:before {
+  content: ""; }
+
+.tempo-icon--profile:before {
+  content: ""; }
+
+.tempo-icon--profilephoto:before {
+  content: ""; }
+
+.tempo-icon--quicksearch12:before {
+  content: ""; }
+
+.tempo-icon--quotedouble:before {
+  content: ""; }
+
+.tempo-icon--quotesingle:before {
+  content: ""; }
+
+.tempo-icon--read:before {
+  content: ""; }
+
+.tempo-icon--refresh:before {
+  content: ""; }
+
+.tempo-icon--room:before {
+  content: ""; }
+
+.tempo-icon--rtecenter:before {
+  content: ""; }
+
+.tempo-icon--rteindent:before {
+  content: ""; }
+
+.tempo-icon--rteindentremove:before {
+  content: ""; }
+
+.tempo-icon--rtejustified:before {
+  content: ""; }
+
+.tempo-icon--rteleft:before {
+  content: ""; }
+
+.tempo-icon--rteletter:before {
+  content: ""; }
+
+.tempo-icon--rteright:before {
+  content: ""; }
+
+.tempo-icon--rtestrikethrough:before {
+  content: ""; }
+
+.tempo-icon--rteunderline:before {
+  content: ""; }
+
+.tempo-icon--rules:before {
+  content: ""; }
+
+.tempo-icon--screencapture1:before {
+  content: ""; }
+
+.tempo-icon--screencapture2:before {
+  content: ""; }
+
+.tempo-icon--searchpeople:before {
+  content: ""; }
+
+.tempo-icon--securekey:before {
+  content: ""; }
+
+.tempo-icon--secureunlocked:before {
+  content: ""; }
+
+.tempo-icon--sent:before {
+  content: ""; }
+
+.tempo-icon--settingstools:before {
+  content: ""; }
+
+.tempo-icon--settingswrench:before {
+  content: ""; }
+
+.tempo-icon--share:before {
+  content: ""; }
+
+.tempo-icon--signalcreate:before {
+  content: ""; }
+
+.tempo-icon--skiptobottom:before {
+  content: ""; }
+
+.tempo-icon--skiptofirst:before {
+  content: ""; }
+
+.tempo-icon--skiptolast:before {
+  content: ""; }
+
+.tempo-icon--skiptotop:before {
+  content: ""; }
+
+.tempo-icon--star:before {
+  content: ""; }
+
+.tempo-icon--table:before {
+  content: ""; }
+
+.tempo-icon--tag:before {
+  content: ""; }
+
+.tempo-icon--team:before {
+  content: ""; }
+
+.tempo-icon--trashcan:before {
+  content: ""; }
+
+.tempo-icon--update:before {
+  content: ""; }
+
+.tempo-icon--userstatistics:before {
+  content: ""; }
+
+.tempo-icon--verified:before {
+  content: ""; }
+
+.tempo-icon--video:before {
+  content: ""; }
+
+.tempo-icon--videohide:before {
+  content: ""; }
+
+.tempo-icon--volume:before {
+  content: ""; }
+
+.tempo-icon--volumemute:before {
+  content: ""; }
+
+.tempo-icon--warning:before {
+  content: ""; }
+
+.tempo-icon--webhooks:before {
+  content: ""; }
+
+.tempo-icon--smallsearch:before {
+  content: ""; }
+
+.tempo-icon--sort_down:before {
+  content: ""; }
+
+.tempo-icon--sort_up:before {
+  content: ""; }
+
+.tempo-icon--settings:before {
+  content: ""; }
+
+.tempo-icon--pop_in:before {
+  content: ""; }
+
+.tempo-icon--pop_out:before {
+  content: ""; }
+
+.tempo-icon--appstore:before {
+  content: ""; }
+
+.tempo-icon--attach:before {
+  content: ""; }
+
+.tempo-icon--bigsearch:before {
+  content: ""; }
+
+.tempo-icon--chime:before {
+  content: ""; }
+
+.tempo-icon--close:before {
+  content: ""; }
+
+.tempo-icon--closedfolder:before {
+  content: ""; }
+
+.tempo-icon--comment:before {
+  content: ""; }
+
+.tempo-icon--conversations:before {
+  content: ""; }
+
+.tempo-icon--disable:before {
+  content: ""; }
+
+.tempo-icon--grab:before {
+  content: ""; }
+
+.tempo-icon--help:before {
+  content: ""; }
+
+.tempo-icon--inbox:before {
+  content: ""; }
+
+.tempo-icon--mentions:before {
+  content: ""; }
+
+.tempo-icon--messageblast:before {
+  content: ""; }
+
+.tempo-icon--more:before {
+  content: ""; }
+
+.tempo-icon--morevertical:before {
+  content: ""; }
+
+.tempo-icon--multiplepeople:before {
+  content: ""; }
+
+.tempo-icon--openedfolder:before {
+  content: ""; }
+
+.tempo-icon--plussign:before {
+  content: ""; }
+
+.tempo-icon--post:before {
+  content: ""; }
+
+.tempo-icon--quicksearch:before {
+  content: ""; }
+
+.tempo-icon--rtepostmode:before {
+  content: ""; }
+
+.tempo-icon--screenshare:before {
+  content: ""; }
+
+.tempo-icon--screenshare_end:before {
+  content: ""; }
+
+.tempo-icon--securelocked:before {
+  content: ""; }
+
+.tempo-icon--signal:before {
+  content: ""; }
+
+.tempo-icon--smiley:before {
+  content: ""; }
+
+.tempo-icon--thumbtack:before {
+  content: ""; }
+
+.tempo-icon--thumbtackpressed:before {
+  content: ""; }
+
+.tempo-icon--type_bold:before {
+  content: ""; }
+
+.tempo-icon--type_bulletedlist:before {
+  content: ""; }
+
+.tempo-icon--type_italic:before {
+  content: ""; }
 
 .button {
-  font-family: "Roboto", "Avenir", "Tahoma", sans-serif;
-  font-weight: 500;
+  padding: 4px 16px;
+  margin-right: 4px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  color: white;
+  background: #3DA2FD; }
+  .button:hover {
+    background-color: #339dfd; }
+  .button:active {
+    background-color: #47a7fd;
+    outline: none; }
+
+.tempo-btn {
+  font-family: "SymphonyLato", "Lato", "Segoe UI", "Helvetica Neue", "Verdana", "Arial", sans-serif;
+  font-weight: normal;
+  font-style: normal;
   color: #FFF;
-  background-color: #44B3DD;
+  background-color: #3DA2FD;
+  text-transform: uppercase;
   cursor: pointer;
   box-shadow: none;
   border: none;
-  border-radius: 1px;
-  font-size: 1rem;
+  border-radius: 20px;
+  font-size: 12px;
   text-align: center;
-  padding: 12px 60px;
+  padding: 8px 32px;
+  margin: 8px 8px 8px 0;
   outline: none;
   display: inline-block;
   text-decoration: none;
-  line-height: 1;
+  line-height: 12px;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  -webkit-transition: background-color, opacity 100ms ease-out;
-  transition: background-color, opacity 100ms ease-out; }
-  .button:focus, .button.focus {
+  overflow: hidden;
+  position: relative;
+  transition: all 120ms ease-in-out;
+  z-index: 1;
+  text-transform: uppercase; }
+  .tempo-btn.tempo-btn--flat {
+    color: #3DA2FD;
+    background-color: rgba(255, 255, 255, 0);
+    text-transform: uppercase;
+    box-shadow: 0 0 0 1px #3da2fd; }
+  .tempo-btn.tempo-btn--flat-secondary {
+    color: #9e9e9e;
+    background-color: rgba(255, 255, 255, 0);
+    text-transform: uppercase;
+    box-shadow: 0 0 0 1px #9e9e9e; }
+    .tempo-btn.tempo-btn--flat-secondary:hover {
+      box-shadow: 0 0 0 1px #3da2fd; }
+  .tempo-btn.tempo-btn--link {
+    color: #3DA2FD;
+    background-color: rgba(255, 255, 255, 0);
+    text-transform: uppercase;
+    margin: 0;
+    padding: 8px 16px; }
+    .tempo-btn.tempo-btn--link:hover {
+      background-color: rgba(255, 255, 255, 0);
+      color: #3DA2FD;
+      font-weight: bold; }
+    .tempo-btn.tempo-btn--link:active {
+      background-color: rgba(255, 255, 255, 0);
+      color: #3DA2FD;
+      font-weight: bold;
+      outline: none;
+      box-shadow: none; }
+    .tempo-btn.tempo-btn--link:disabled {
+      opacity: .4; }
+  .tempo-btn.tempo-btn--dismiss {
+    color: rgba(0, 0, 0, 0.38);
+    background-color: rgba(255, 255, 255, 0);
+    text-transform: uppercase;
+    margin: 0;
+    padding: 8px 16px; }
+    .tempo-btn.tempo-btn--dismiss:hover {
+      background-color: rgba(255, 255, 255, 0);
+      color: black; }
+    .tempo-btn.tempo-btn--dismiss:active {
+      background-color: rgba(255, 255, 255, 0);
+      color: rgba(13, 13, 13, 0.38);
+      outline: none;
+      box-shadow: none; }
+  .tempo-btn.tempo-btn--raised {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 0 2px 3px 0 rgba(0, 0, 0, 0.12); }
+  .tempo-btn.tempo-btn--fab {
+    width: 48px;
+    height: 48px;
+    padding: 0;
+    border-radius: 50%;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1), 0 4px 6px 0 rgba(0, 0, 0, 0.12); }
+  .tempo-btn.tempo-btn--primary {
     color: #FFF;
-    background-color: #5abce1; }
-  .button:hover {
-    color: #FFF;
-    background-color: #5abce1; }
-  .button:active, .button.active {
-    color: #FFF;
-    background-color: #2eaad9; }
-  .button:hover {
-    background-color: #67c1e3;
+    background-color: #3DA2FD;
+    text-transform: uppercase; }
+  .tempo-btn.tempo-btn--mini {
+    padding: 4px 16px;
+    min-width: 100px; }
+  .tempo-btn.tempo-btn--icon {
+    padding-left: 24px; }
+  .tempo-btn.tempo-btn--disabled:not(.tempo-btn--link), .tempo-btn[disabled]:not(.tempo-btn--link) {
+    background-color: #DDD;
+    color: #949494;
+    cursor: default;
+    box-shadow: none; }
+    .tempo-btn.tempo-btn--disabled:not(.tempo-btn--link):hover, .tempo-btn[disabled]:not(.tempo-btn--link):hover {
+      color: #949494;
+      background-color: #DDD; }
+    .tempo-btn.tempo-btn--disabled:not(.tempo-btn--link):active, .tempo-btn[disabled]:not(.tempo-btn--link):active {
+      color: #949494;
+      background-color: #DDD; }
+  .tempo-btn:hover {
+    background-color: #0b8afc;
     color: #FFFFFF; }
-  .button:active {
-    background-color: #26a3d2;
+  .tempo-btn:active {
+    background-color: #027deb;
     color: #FFFFFF;
     outline: none; }
-  .button:focus {
+  .tempo-btn:focus {
     outline: 0; }
-  .button:visited {
+  .tempo-btn:visited {
     color: #FFFFFF; }
-  .button.create {
+  .tempo-btn.tempo-btn--warning {
     color: #FFF;
-    background-color: #66BB66; }
-    .button.create:focus, .button.create.focus {
-      color: #FFF;
-      background-color: #78c378; }
-    .button.create:hover {
-      color: #FFF;
-      background-color: #78c378; }
-    .button.create:active, .button.create.active {
-      color: #FFF;
-      background-color: #54b354; }
-  .button.primary {
+    background-color: #EE5555;
+    text-transform: uppercase; }
+    .tempo-btn.tempo-btn--warning:hover {
+      background-color: #e92727; }
+    .tempo-btn.tempo-btn--warning:active {
+      background-color: #e01616; }
+  .tempo-btn.tempo-btn--secondary {
     color: #FFF;
-    background-color: #44B3DD; }
-    .button.primary:focus, .button.primary.focus {
-      color: #FFF;
-      background-color: #5abce1; }
-    .button.primary:hover {
-      color: #FFF;
-      background-color: #5abce1; }
-    .button.primary:active, .button.primary.active {
-      color: #FFF;
-      background-color: #2eaad9; }
-  .button.secondary {
-    color: #FFF;
-    background-color: rgba(0, 0, 0, 0.3); }
-    .button.secondary:focus, .button.secondary.focus {
-      color: #FFF;
-      background-color: rgba(13, 13, 13, 0.3); }
-    .button.secondary:hover {
-      color: #FFF;
-      background-color: rgba(13, 13, 13, 0.3); }
-    .button.secondary:active, .button.secondary.active {
-      color: #FFF;
-      background-color: rgba(0, 0, 0, 0.3); }
-  .button.warning {
-    color: #FFF;
-    background-color: #EE5555; }
-    .button.warning:focus, .button.warning.focus {
-      color: #FFF;
-      background-color: #f06c6c; }
-    .button.warning:hover {
-      color: #FFF;
-      background-color: #f06c6c; }
-    .button.warning:active, .button.warning.active {
-      color: #FFF;
-      background-color: #ec3e3e; }
-  .button.cancel-link, .button.cancel {
-    color: #aaaaaa;
-    background: none;
-    padding: 8px 0 6px; }
-    .button.cancel-link:hover, .button.cancel:hover {
-      color: #f06c6c;
-      background: none; }
-    .button.cancel-link:active, .button.cancel:active {
-      color: #ec3e3e;
-      background: none; }
-  .button.close-button {
-    height: 12px;
-    width: 12px;
-    background: url(../img/icons/icon-close-black-12.png) no-repeat;
-    opacity: 0.3;
-    cursor: pointer; }
-    .button.close-button:hover {
-      opacity: 0.25; }
-    .button.close-button:active {
-      opacity: 0.35; }
-  .button.link {
-    background: none;
-    color: #47A8FF; }
-    .button.link:hover {
-      color: #61b4ff; }
-    .button.link:active {
-      color: #2e9cff; }
-  .button.compact, .button.mini {
-    padding: 4px; }
-  .button.icon {
-    padding-left: 24px; }
-  .button.remove {
-    background: transparent;
-    color: #EE5555;
-    padding: 0; }
-    .button.remove:hover {
-      color: #f06c6c; }
-    .button.remove:active {
-      color: #ec3e3e; }
-  .button.positive-red {
-    background-color: #EE5555; }
-    .button.positive-red:hover {
-      background-color: #f06c6c; }
-    .button.positive-red:active {
-      background-color: #ec3e3e; }
-  .button.negative {
-    background: transparent;
-    color: #44B3DD;
-    padding: 0; }
-    .button.negative:hover {
-      color: #5abce1; }
-    .button.negative:active {
-      color: #2eaad9; }
-  .button.standard {
-    background: rgba(0, 0, 0, 0.3);
-    padding: 4px; }
-  .button.disabled {
-    background-color: #DDD;
-    color: #B9B9B9;
-    cursor: default; }
-    .button.disabled:hover {
-      color: #B9B9B9;
-      background-color: #DDD; }
-    .button.disabled:active {
-      color: #B9B9B9;
-      background-color: #DDD; }
-  .button[disabled] {
-    opacity: .4;
-    cursor: default; }
-    .button[disabled]:hover {
-      background-color: #44B3DD; }
+    background-color: #FF7043;
+    text-transform: uppercase; }
+    .tempo-btn.tempo-btn--secondary:hover {
+      background-color: #ff4910; }
+    .tempo-btn.tempo-btn--secondary:active {
+      background-color: #f63b00; }
 
-input[type="text"], input[type="password"] {
+.switch__input {
+  display: none; }
+
+.switch__lever {
+  width: 32px;
+  height: 14px;
+  background: #bdbdbd;
+  display: inline-block;
+  border-radius: 16px;
+  position: relative;
+  margin-right: 4px;
+  transition: all 0.15s cubic-bezier(0.22, 0.61, 0.36, 1) 0.28s; }
+
+.switch__lever:before {
+  content: "";
+  display: block;
+  height: 18px;
+  width: 18px;
+  background: #ececec;
+  border-radius: 50%;
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
+  transition: all 0.25s cubic-bezier(1, -0.07, 0.49, 1.19); }
+
+.switch input[type='checkbox']:checked + .switch__lever {
+  background: #7abffe; }
+
+.switch input[type='checkbox']:checked + .switch__lever:before {
+  left: 16px;
+  background: #3DA2FD; }
+
+input[type="text"].tempo-input-standard, input[type="password"].tempo-input-standard {
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  padding: 8px;
+  width: 100%; }
+  input[type="text"].tempo-input-standard:focus, input[type="password"].tempo-input-standard:focus {
+    border: 1px solid #3DA2FD;
+    outline: none; }
+
+input[type="text"].tempo-input-underlined, input[type="password"].tempo-input-underlined {
   border: 0;
   border-bottom: 1px solid #aaa;
   display: block;
@@ -372,14 +1352,14 @@ input[type="text"], input[type="password"] {
   z-index: 0;
   background: rgba(255, 255, 255, 0);
   padding: 8px; }
-  input[type="text"]:focus, input[type="password"]:focus {
-    border-bottom: 1px solid #44B3DD;
+  input[type="text"].tempo-input-underlined:focus, input[type="password"].tempo-input-underlined:focus {
+    border-bottom: 1px solid #3DA2FD;
     outline: none; }
-    input[type="text"]:focus + .input-label, input[type="password"]:focus + .input-label {
+    input[type="text"].tempo-input-underlined:focus + .input-label, input[type="password"].tempo-input-underlined:focus + .input-label {
       font-size: 0.9rem;
       margin-top: -1.3rem;
       margin-bottom: 0.5rem;
-      color: #44B3DD; }
+      color: #3DA2FD; }
 
 .tempo-input-container {
   margin-top: 40px;
@@ -392,7 +1372,6 @@ input[type="text"], input[type="password"] {
     top: 0;
     padding: 8px;
     color: rgba(0, 0, 0, 0.38);
-    -webkit-transition: margin 100ms ease-out, font 100ms ease-out, color 100ms ease-out;
     transition: margin 100ms ease-out, font 100ms ease-out, color 100ms ease-out;
     z-index: -1; }
   .tempo-input-container.populated label {
@@ -400,1198 +1379,398 @@ input[type="text"], input[type="password"] {
     margin-top: -1.3rem;
     margin-bottom: 0.5rem; }
     .tempo-input-container.populated label:focus {
-      color: #44B3DD; }
+      color: #3DA2FD; }
 
 input:-webkit-autofill {
   -webkit-box-shadow: 0 0 0px 1000px white inset; }
 
-.icon {
-  background-repeat: no-repeat;
-  background-position: 8px center;
-  background-size: 12px;
-  line-height: 1;
-  vertical-align: middle; }
+body {
+  font-family: "SymphonyLato", "Lato", "Segoe UI", "Helvetica Neue", "Verdana", "Arial", sans-serif; }
 
-span.icon {
-  height: 12px;
-  padding-left: 16px;
-  background-position: 2px center;
+.tempo-checkbox {
   display: inline-block; }
-  span.icon.icon--small {
-    height: 8px;
-    padding-left: 12px;
-    background-size: 8px; }
-  span.icon.icon--large {
-    height: 24px;
-    padding-left: 28px;
-    background-size: 24px; }
-  span.icon.icon--xlarge {
-    height: 32px;
-    padding-left: 36px;
-    background-size: 32px; }
+  .tempo-checkbox label {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start; }
+  .tempo-checkbox label:before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: transparent;
+    margin: 1px;
+    border-radius: 3px;
+    margin-right: 8px;
+    box-shadow: inset 0 0 0 2px #ccc;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto; }
+  .tempo-checkbox input[type='checkbox'] {
+    display: none;
+    position: absolute; }
+  .tempo-checkbox input[type='checkbox']:checked + label:before {
+    background-image: url("images/icons/icon_checkmark-light.svg");
+    box-shadow: inset 0 0 0 2px #3b99fc;
+    background-color: #3b99fc; }
+  .tempo-checkbox input[type='checkbox']:disabled + label {
+    opacity: .54; }
+
+.tempo-radio {
+  display: inline-block; }
+  .tempo-radio label {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start; }
+  .tempo-radio label:before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: transparent;
+    margin: 1px;
+    border-radius: 50%;
+    margin-right: 8px;
+    box-shadow: inset 0 0 0 2px #ccc;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto; }
+  .tempo-radio input[type='radio'] {
+    display: none;
+    position: absolute; }
+  .tempo-radio input[type='radio']:checked + label:before {
+    background-color: #3b99fc;
+    box-shadow: inset 0 0 0 2px #3b99fc, inset 0 0 0 4px white; }
+
+.optimal-performance * {
+  transition: none !important; }
+
+body .tempo-text-color--theme-primary {
+  color: #253238; }
+
+body .tempo-text-color--theme-accent {
+  color: #00a4b1; }
+
+body .tempo-bg-color--theme-primary {
+  background-color: #253238; }
+
+body .tempo-bg-color--theme-accent {
+  background-color: #00a4b1; }
+
+.tempo-text-color--white {
+  color: white; }
+
+.tempo-bg-color--white {
+  background-color: white; }
+
+.dark .tempo-text-color--white, .dark-contrast .tempo-text-color--white {
+  color: white; }
+
+.dark .tempo-bg-color--white, .dark-contrast .tempo-bg-color--white {
+  background-color: white; }
+
+.tempo-text-color--black {
+  color: black; }
+
+.tempo-bg-color--black {
+  background-color: black; }
+
+.dark .tempo-text-color--black, .dark-contrast .tempo-text-color--black {
+  color: black; }
 
-button.compact.icon {
-  padding-left: 20px;
-  background-position: 4px center; }
+.dark .tempo-bg-color--black, .dark-contrast .tempo-bg-color--black {
+  background-color: black; }
 
-.icon__addcode {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_addcode.svg"); }
+.tempo-text-color--red {
+  color: #e53935; }
 
-.icon__addcode--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_addcode-light.svg"); }
+.tempo-bg-color--red {
+  background-color: #e53935; }
 
-.icon__addcontact {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_addcontact.svg"); }
+.dark .tempo-text-color--red, .dark-contrast .tempo-text-color--red {
+  color: #e53935; }
 
-.icon__addcontact--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_addcontact-light.svg"); }
+.dark .tempo-bg-color--red, .dark-contrast .tempo-bg-color--red {
+  background-color: #e53935; }
 
-.icon__adddocument {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_adddocument.svg"); }
+.tempo-text-color--green {
+  color: #4caf50; }
 
-.icon__adddocument--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_adddocument-light.svg"); }
+.tempo-bg-color--green {
+  background-color: #4caf50; }
 
-.icon__addressbook {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_addressbook.svg"); }
+.dark .tempo-text-color--green, .dark-contrast .tempo-text-color--green {
+  color: #4caf50; }
 
-.icon__addressbook--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_addressbook-light.svg"); }
+.dark .tempo-bg-color--green, .dark-contrast .tempo-bg-color--green {
+  background-color: #4caf50; }
 
-.icon__alarm {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_alarm.svg"); }
+.tempo-text-color--blue {
+  color: #1e88e5; }
 
-.icon__alarm--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_alarm-light.svg"); }
+.tempo-bg-color--blue {
+  background-color: #1e88e5; }
 
-.icon__applications_marketplace1 {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_applications_marketplace1.svg"); }
+.dark .tempo-text-color--blue, .dark-contrast .tempo-text-color--blue {
+  color: #1e88e5; }
 
-.icon__applications_marketplace1--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_applications_marketplace1-light.svg"); }
+.dark .tempo-bg-color--blue, .dark-contrast .tempo-bg-color--blue {
+  background-color: #1e88e5; }
 
-.icon__applications_marketplace2 {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_applications_marketplace2.svg"); }
+.tempo-text-color--yellow {
+  color: #ffb300; }
 
-.icon__applications_marketplace2--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_applications_marketplace2-light.svg"); }
+.tempo-bg-color--yellow {
+  background-color: #ffb300; }
 
-.icon__applications_marketplace3 {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_applications_marketplace3.svg"); }
+.dark .tempo-text-color--yellow, .dark-contrast .tempo-text-color--yellow {
+  color: #ffb300; }
 
-.icon__applications_marketplace3--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_applications_marketplace3-light.svg"); }
+.dark .tempo-bg-color--yellow, .dark-contrast .tempo-bg-color--yellow {
+  background-color: #ffb300; }
 
-.icon__appstore {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_appstore.svg"); }
+.tempo-text-color--cyan {
+  color: #00acc1; }
 
-.icon__appstore--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_appstore-light.svg"); }
+.tempo-bg-color--cyan {
+  background-color: #00acc1; }
 
-.icon__arrow_down_stem {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_arrow_down_stem.svg"); }
+.dark .tempo-text-color--cyan, .dark-contrast .tempo-text-color--cyan {
+  color: #00acc1; }
 
-.icon__arrow_down_stem--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_arrow_down_stem-light.svg"); }
+.dark .tempo-bg-color--cyan, .dark-contrast .tempo-bg-color--cyan {
+  background-color: #00acc1; }
 
-.icon__arrow_down {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_arrow_down.svg"); }
+.tempo-text-color--purple {
+  color: #ab47bc; }
 
-.icon__arrow_down--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_arrow_down-light.svg"); }
+.tempo-bg-color--purple {
+  background-color: #ab47bc; }
 
-.icon__arrow_left_stem {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_arrow_left_stem.svg"); }
+.dark .tempo-text-color--purple, .dark-contrast .tempo-text-color--purple {
+  color: #ab47bc; }
 
-.icon__arrow_left_stem--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_arrow_left_stem-light.svg"); }
+.dark .tempo-bg-color--purple, .dark-contrast .tempo-bg-color--purple {
+  background-color: #ab47bc; }
 
-.icon__arrow_left {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_arrow_left.svg"); }
+.tempo-text-color--orange {
+  color: #f4511e; }
 
-.icon__arrow_left--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_arrow_left-light.svg"); }
+.tempo-bg-color--orange {
+  background-color: #f4511e; }
 
-.icon__arrow_right_stem {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_arrow_right_stem.svg"); }
+.dark .tempo-text-color--orange, .dark-contrast .tempo-text-color--orange {
+  color: #f4511e; }
 
-.icon__arrow_right_stem--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_arrow_right_stem-light.svg"); }
+.dark .tempo-bg-color--orange, .dark-contrast .tempo-bg-color--orange {
+  background-color: #f4511e; }
 
-.icon__arrow_right {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_arrow_right.svg"); }
+.tempo-text-color--external {
+  color: #F68128; }
 
-.icon__arrow_right--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_arrow_right-light.svg"); }
+.tempo-bg-color--external {
+  background-color: #F68128; }
 
-.icon__arrow_up_stem {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_arrow_up_stem.svg"); }
+.dark .tempo-text-color--external, .dark-contrast .tempo-text-color--external {
+  color: #F68128; }
 
-.icon__arrow_up_stem--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_arrow_up_stem-light.svg"); }
+.dark .tempo-bg-color--external, .dark-contrast .tempo-bg-color--external {
+  background-color: #F68128; }
 
-.icon__arrow_up {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_arrow_up.svg"); }
+.theme-color-grey .tempo-text-color--theme-primary {
+  color: #253238; }
 
-.icon__arrow_up--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_arrow_up-light.svg"); }
+.theme-color-grey .tempo-bg-color--theme-primary {
+  background-color: #253238; }
 
-.icon__asterisk {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_asterisk.svg"); }
+.theme-color-grey .tempo-text-color--theme-accent {
+  color: #00a4b1; }
 
-.icon__asterisk--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_asterisk-light.svg"); }
+.theme-color-grey .tempo-bg-color--theme-accent {
+  background-color: #00a4b1; }
 
-.icon__attach {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_attach.svg"); }
+.theme-color-grey.dark .tempo-text-color--theme-primary {
+  color: #253238; }
 
-.icon__attach--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_attach-light.svg"); }
+.theme-color-grey.dark .tempo-bg-color--theme-primary {
+  background-color: #253238; }
 
-.icon__binoculars {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_binoculars.svg"); }
+.theme-color-grey.dark .tempo-text-color--theme-accent {
+  color: #00a4b1; }
 
-.icon__binoculars--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_binoculars-light.svg"); }
+.theme-color-grey.dark .tempo-bg-color--theme-accent {
+  background-color: #00a4b1; }
 
-.icon__browseaccounts {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_browseaccounts.svg"); }
+.theme-color-blue .tempo-text-color--theme-primary {
+  color: #01579B; }
 
-.icon__browseaccounts--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_browseaccounts-light.svg"); }
+.theme-color-blue .tempo-bg-color--theme-primary {
+  background-color: #01579B; }
 
-.icon__bulkmanageaccounts {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_bulkmanageaccounts.svg"); }
+.theme-color-blue .tempo-text-color--theme-accent {
+  color: #71B94F; }
 
-.icon__bulkmanageaccounts--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_bulkmanageaccounts-light.svg"); }
+.theme-color-blue .tempo-bg-color--theme-accent {
+  background-color: #71B94F; }
 
-.icon__calendar {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_calendar.svg"); }
+.theme-color-green .tempo-text-color--theme-primary {
+  color: #14695C; }
 
-.icon__calendar--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_calendar-light.svg"); }
+.theme-color-green .tempo-bg-color--theme-primary {
+  background-color: #14695C; }
 
-.icon__cashtag {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_cashtag.svg"); }
+.theme-color-green .tempo-text-color--theme-accent {
+  color: #9575cd; }
 
-.icon__cashtag--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_cashtag-light.svg"); }
+.theme-color-green .tempo-bg-color--theme-accent {
+  background-color: #9575cd; }
 
-.icon__chart1 {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_chart1.svg"); }
+.theme-color-magenta .tempo-text-color--theme-primary {
+  color: #85174F; }
 
-.icon__chart1--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_chart1-light.svg"); }
+.theme-color-magenta .tempo-bg-color--theme-primary {
+  background-color: #85174F; }
 
-.icon__chart2 {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_chart2.svg"); }
+.theme-color-magenta .tempo-text-color--theme-accent {
+  color: #FF80AB; }
 
-.icon__chart2--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_chart2-light.svg"); }
+.theme-color-magenta .tempo-bg-color--theme-accent {
+  background-color: #FF80AB; }
 
-.icon__checkmark {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_checkmark.svg"); }
+.theme-color-yellow .tempo-text-color--theme-primary {
+  color: #3E2723; }
 
-.icon__checkmark--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_checkmark-light.svg"); }
+.theme-color-yellow .tempo-bg-color--theme-primary {
+  background-color: #3E2723; }
 
-.icon__chime {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_chime.svg"); }
+.theme-color-yellow .tempo-text-color--theme-accent {
+  color: #09A798; }
 
-.icon__chime--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_chime-light.svg"); }
+.theme-color-yellow .tempo-bg-color--theme-accent {
+  background-color: #09A798; }
 
-.icon__circlealert {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_circlealert.svg"); }
-
-.icon__circlealert--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_circlealert-light.svg"); }
-
-.icon__circlecheck {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_circlecheck.svg"); }
-
-.icon__circlecheck--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_circlecheck-light.svg"); }
-
-.icon__close {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_close.svg"); }
-
-.icon__close--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_close-light.svg"); }
-
-.icon__closedenvelope {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_closedenvelope.svg"); }
-
-.icon__closedenvelope--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_closedenvelope-light.svg"); }
-
-.icon__closedfolder {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_closedfolder.svg"); }
-
-.icon__closedfolder--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_closedfolder-light.svg"); }
-
-.icon__comment {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_comment.svg"); }
-
-.icon__comment--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_comment-light.svg"); }
-
-.icon__configuresso {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_configuresso.svg"); }
-
-.icon__configuresso--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_configuresso-light.svg"); }
-
-.icon__contact {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_contact.svg"); }
-
-.icon__contact--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_contact-light.svg"); }
-
-.icon__conversations {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_conversations.svg"); }
-
-.icon__conversations--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_conversations-light.svg"); }
-
-.icon__createsignal {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_createsignal.svg"); }
-
-.icon__createsignal--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_createsignal-light.svg"); }
-
-.icon__delete {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_delete.svg"); }
-
-.icon__delete--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_delete-light.svg"); }
-
-.icon__dial {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_dial.svg"); }
-
-.icon__dial--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_dial-light.svg"); }
-
-.icon__disable {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_disable.svg"); }
-
-.icon__disable--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_disable-light.svg"); }
-
-.icon__download {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_download.svg"); }
-
-.icon__download--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_download-light.svg"); }
-
-.icon__dropfile {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_dropfile.svg"); }
-
-.icon__dropfile--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_dropfile-light.svg"); }
-
-.icon__earth {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_earth.svg"); }
-
-.icon__earth--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_earth-light.svg"); }
-
-.icon__editentitlements {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_editentitlements.svg"); }
-
-.icon__editentitlements--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_editentitlements-light.svg"); }
-
-.icon__erase {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_erase.svg"); }
-
-.icon__erase--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_erase-light.svg"); }
-
-.icon__evenmore {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_evenmore.svg"); }
-
-.icon__evenmore--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_evenmore-light.svg"); }
-
-.icon__exportcontent {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_exportcontent.svg"); }
-
-.icon__exportcontent--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_exportcontent-light.svg"); }
-
-.icon__failed {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_failed.svg"); }
-
-.icon__failed--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_failed-light.svg"); }
-
-.icon__favorite {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_favorite.svg"); }
-
-.icon__favorite--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_favorite-light.svg"); }
-
-.icon__file {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_file.svg"); }
-
-.icon__file--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_file-light.svg"); }
-
-.icon__fileattached {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_fileattached.svg"); }
-
-.icon__fileattached--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_fileattached-light.svg"); }
-
-.icon__filetype_aac {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_aac.svg"); }
-
-.icon__filetype_aac--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_aac-light.svg"); }
-
-.icon__filetype_bmp {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_bmp.svg"); }
-
-.icon__filetype_bmp--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_bmp-light.svg"); }
-
-.icon__filetype_csv {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_csv.svg"); }
-
-.icon__filetype_csv--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_csv-light.svg"); }
-
-.icon__filetype_excelxml {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_excelxml.svg"); }
-
-.icon__filetype_excelxml--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_excelxml-light.svg"); }
-
-.icon__filetype_gif {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_gif.svg"); }
-
-.icon__filetype_gif--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_gif-light.svg"); }
-
-.icon__filetype_html {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_html.svg"); }
-
-.icon__filetype_html--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_html-light.svg"); }
-
-.icon__filetype_jpg {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_jpg.svg"); }
-
-.icon__filetype_jpg--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_jpg-light.svg"); }
-
-.icon__filetype_m4a {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_m4a.svg"); }
-
-.icon__filetype_m4a--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_m4a-light.svg"); }
-
-.icon__filetype_mov {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_mov.svg"); }
-
-.icon__filetype_mov--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_mov-light.svg"); }
-
-.icon__filetype_mp3 {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_mp3.svg"); }
-
-.icon__filetype_mp3--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_mp3-light.svg"); }
-
-.icon__filetype_mp4 {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_mp4.svg"); }
-
-.icon__filetype_mp4--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_mp4-light.svg"); }
-
-.icon__filetype_odm {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_odm.svg"); }
-
-.icon__filetype_odm--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_odm-light.svg"); }
-
-.icon__filetype_pdf {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_pdf.svg"); }
-
-.icon__filetype_pdf--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_pdf-light.svg"); }
-
-.icon__filetype_png {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_png.svg"); }
-
-.icon__filetype_png--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_png-light.svg"); }
-
-.icon__filetype_ppt {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_ppt.svg"); }
-
-.icon__filetype_ppt--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_ppt-light.svg"); }
-
-.icon__filetype_pptx {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_pptx.svg"); }
-
-.icon__filetype_pptx--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_pptx-light.svg"); }
-
-.icon__filetype_rtf {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_rtf.svg"); }
-
-.icon__filetype_rtf--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_rtf-light.svg"); }
-
-.icon__filetype_tif {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_tif.svg"); }
-
-.icon__filetype_tif--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_tif-light.svg"); }
-
-.icon__filetype_tiff {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_tiff.svg"); }
-
-.icon__filetype_tiff--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_tiff-light.svg"); }
-
-.icon__filetype_txt {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_txt.svg"); }
-
-.icon__filetype_txt--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_txt-light.svg"); }
-
-.icon__filetype_wav {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_wav.svg"); }
-
-.icon__filetype_wav--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_wav-light.svg"); }
-
-.icon__filetype_worddoc {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_worddoc.svg"); }
-
-.icon__filetype_worddoc--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_worddoc-light.svg"); }
-
-.icon__filetype_xls {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_xls.svg"); }
-
-.icon__filetype_xls--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_xls-light.svg"); }
-
-.icon__filetype_xtiff {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_xtiff.svg"); }
-
-.icon__filetype_xtiff--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_filetype_xtiff-light.svg"); }
-
-.icon__twitter {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_twitter.svg"); }
-
-.icon__twitter--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_twitter-light.svg"); }
-
-.icon__type_alightright {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_type_alightright.svg"); }
-
-.icon__type_alightright--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_type_alightright-light.svg"); }
-
-.icon__type_aligncenter {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_type_aligncenter.svg"); }
-
-.icon__type_aligncenter--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_type_aligncenter-light.svg"); }
-
-.icon__type_alignleft {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_type_alignleft.svg"); }
-
-.icon__type_alignleft--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_type_alignleft-light.svg"); }
-
-.icon__type_bold {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_type_bold.svg"); }
-
-.icon__type_bold--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_type_bold-light.svg"); }
-
-.icon__type_bulletedlist {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_type_bulletedlist.svg"); }
-
-.icon__type_bulletedlist--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_type_bulletedlist-light.svg"); }
-
-.icon__type_caps {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_type_caps.svg"); }
-
-.icon__type_caps--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_type_caps-light.svg"); }
-
-.icon__following {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_following.svg"); }
-
-.icon__following--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_following-light.svg"); }
-
-.icon__forward1 {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_forward1.svg"); }
-
-.icon__forward1--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_forward1-light.svg"); }
-
-.icon__forward2 {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_forward2.svg"); }
-
-.icon__forward2--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_forward2-light.svg"); }
-
-.icon__fullscreen1 {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_fullscreen1.svg"); }
-
-.icon__fullscreen1--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_fullscreen1-light.svg"); }
-
-.icon__fullscreen2 {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_fullscreen2.svg"); }
-
-.icon__fullscreen2--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_fullscreen2-light.svg"); }
-
-.icon__fullscreen3 {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_fullscreen3.svg"); }
-
-.icon__fullscreen3--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_fullscreen3-light.svg"); }
-
-.icon__grab {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_grab.svg"); }
-
-.icon__grab--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_grab-light.svg"); }
-
-.icon__hashtag {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_hashtag.svg"); }
-
-.icon__hashtag--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_hashtag-light.svg"); }
-
-.icon__help {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_help.svg"); }
-
-.icon__help--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_help-light.svg"); }
-
-.icon__hiddensearch {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_hiddensearch.svg"); }
-
-.icon__hiddensearch--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_hiddensearch-light.svg"); }
-
-.icon__hourglass {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_hourglass.svg"); }
-
-.icon__hourglass--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_hourglass-light.svg"); }
-
-.icon__image1 {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_image1.svg"); }
-
-.icon__image1--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_image1-light.svg"); }
-
-.icon__image2 {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_image2.svg"); }
-
-.icon__image2--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_image2-light.svg"); }
-
-.icon__info_barriers {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_info_barriers.svg"); }
-
-.icon__info_barriers--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_info_barriers-light.svg"); }
-
-.icon__info {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_info.svg"); }
-
-.icon__info--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_info-light.svg"); }
-
-.icon__keyhole {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_keyhole.svg"); }
-
-.icon__keyhole--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_keyhole-light.svg"); }
-
-.icon__layout1 {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_layout1.svg"); }
-
-.icon__layout1--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_layout1-light.svg"); }
-
-.icon__layout2 {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_layout2.svg"); }
-
-.icon__layout2--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_layout2-light.svg"); }
-
-.icon__layout3 {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_layout3.svg"); }
-
-.icon__layout3--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_layout3-light.svg"); }
-
-.icon__liked {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_liked.svg"); }
-
-.icon__liked--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_liked-light.svg"); }
-
-.icon__link {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_link.svg"); }
-
-.icon__link--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_link-light.svg"); }
-
-.icon__logout {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_logout.svg"); }
-
-.icon__logout--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_logout-light.svg"); }
-
-.icon__logout2 {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_logout2.svg"); }
-
-.icon__logout2--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_logout2-light.svg"); }
-
-.icon__messageblast {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_messageblast.svg"); }
-
-.icon__messageblast--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_messageblast-light.svg"); }
-
-.icon__messagestatus_delivered {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_messagestatus_delivered.svg"); }
-
-.icon__messagestatus_delivered--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_messagestatus_delivered-light.svg"); }
-
-.icon__messagestatus_read {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_messagestatus_read.svg"); }
-
-.icon__messagestatus_read--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_messagestatus_read-light.svg"); }
-
-.icon__microphone {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_microphone.svg"); }
-
-.icon__microphone--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_microphone-light.svg"); }
-
-.icon__minussign {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_minussign.svg"); }
-
-.icon__minussign--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_minussign-light.svg"); }
-
-.icon__more {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_more.svg"); }
-
-.icon__more--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_more-light.svg"); }
-
-.icon__multiplepeople {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_multiplepeople.svg"); }
-
-.icon__multiplepeople--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_multiplepeople-light.svg"); }
-
-.icon__notifications {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_notifications.svg"); }
-
-.icon__notifications--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_notifications-light.svg"); }
-
-.icon__openedenvelope {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_openedenvelope.svg"); }
-
-.icon__openedenvelope--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_openedenvelope-light.svg"); }
-
-.icon__openedfolder {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_openedfolder.svg"); }
-
-.icon__openedfolder--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_openedfolder-light.svg"); }
-
-.icon__openinnewwindow {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_openinnewwindow.svg"); }
-
-.icon__openinnewwindow--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_openinnewwindow-light.svg"); }
-
-.icon__password_hide1 {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_password_hide1.svg"); }
-
-.icon__password_hide1--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_password_hide1-light.svg"); }
-
-.icon__password_hide2 {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_password_hide2.svg"); }
-
-.icon__password_hide2--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_password_hide2-light.svg"); }
-
-.icon__password_show {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_password_show.svg"); }
-
-.icon__password_show--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_password_show-light.svg"); }
-
-.icon__password {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_password.svg"); }
-
-.icon__password--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_password-light.svg"); }
-
-.icon__pause {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_pause.svg"); }
-
-.icon__pause--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_pause-light.svg"); }
-
-.icon__playbutton {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_playbutton.svg"); }
-
-.icon__playbutton--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_playbutton-light.svg"); }
-
-.icon__plussign {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_plussign.svg"); }
-
-.icon__plussign--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_plussign-light.svg"); }
-
-.icon__post {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_post.svg"); }
-
-.icon__post--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_post-light.svg"); }
-
-.icon__posts {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_posts.svg"); }
-
-.icon__posts--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_posts-light.svg"); }
-
-.icon__print {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_print.svg"); }
-
-.icon__print--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_print-light.svg"); }
-
-.icon__profanityfilter {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_profanityfilter.svg"); }
-
-.icon__profanityfilter--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_profanityfilter-light.svg"); }
-
-.icon__quickaction {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_quickaction.svg"); }
-
-.icon__quickaction--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_quickaction-light.svg"); }
-
-.icon__quietmode-39 {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_quietmode-39.svg"); }
-
-.icon__quietmode-39--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_quietmode-39-light.svg"); }
-
-.icon__quietmode-87 {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_quietmode-87.svg"); }
-
-.icon__quietmode-87--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_quietmode-87-light.svg"); }
-
-.icon__quotationmarks1 {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_quotationmarks1.svg"); }
-
-.icon__quotationmarks1--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_quotationmarks1-light.svg"); }
-
-.icon__quotationmarks2 {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_quotationmarks2.svg"); }
-
-.icon__quotationmarks2--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_quotationmarks2-light.svg"); }
-
-.icon__razor {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_razor.svg"); }
-
-.icon__razor--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_razor-light.svg"); }
-
-.icon__reciept1 {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_reciept1.svg"); }
-
-.icon__reciept1--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_reciept1-light.svg"); }
-
-.icon__refresh {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_refresh.svg"); }
-
-.icon__refresh--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_refresh-light.svg"); }
-
-.icon__remove {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_remove.svg"); }
-
-.icon__remove--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_remove-light.svg"); }
-
-.icon__remove2 {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_remove2.svg"); }
-
-.icon__remove2--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_remove2-light.svg"); }
-
-.icon__removecontact {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_removecontact.svg"); }
-
-.icon__removecontact--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_removecontact-light.svg"); }
-
-.icon__reply1 {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_reply1.svg"); }
-
-.icon__reply1--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_reply1-light.svg"); }
-
-.icon__reply2 {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_reply2.svg"); }
-
-.icon__reply2--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_reply2-light.svg"); }
-
-.icon__rightarrow {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_rightarrow.svg"); }
-
-.icon__rightarrow--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_rightarrow-light.svg"); }
-
-.icon__robotavatar {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_robotavatar.svg"); }
-
-.icon__robotavatar--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_robotavatar-light.svg"); }
-
-.icon__room {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_room.svg"); }
-
-.icon__room--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_room-light.svg"); }
-
-.icon__rooms {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_rooms.svg"); }
-
-.icon__rooms--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_rooms-light.svg"); }
-
-.icon__rules {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_rules.svg"); }
-
-.icon__rules--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_rules-light.svg"); }
-
-.icon__screencapture {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_screencapture.svg"); }
-
-.icon__screencapture--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_screencapture-light.svg"); }
-
-.icon__screencapture1 {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_screencapture1.svg"); }
-
-.icon__screencapture1--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_screencapture1-light.svg"); }
-
-.icon__screencapture2 {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_screencapture2.svg"); }
-
-.icon__screencapture2--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_screencapture2-light.svg"); }
-
-.icon__screencapture3 {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_screencapture3.svg"); }
-
-.icon__screencapture3--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_screencapture3-light.svg"); }
-
-.icon__screencapture4 {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_screencapture4.svg"); }
-
-.icon__screencapture4--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_screencapture4-light.svg"); }
-
-.icon__screencapture5 {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_screencapture5.svg"); }
-
-.icon__screencapture5--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_screencapture5-light.svg"); }
-
-.icon__screencapture7 {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_screencapture7.svg"); }
-
-.icon__screencapture7--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_screencapture7-light.svg"); }
-
-.icon__screencapture8 {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_screencapture8.svg"); }
-
-.icon__screencapture8--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_screencapture8-light.svg"); }
-
-.icon__screencapture9 {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_screencapture9.svg"); }
-
-.icon__screencapture9--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_screencapture9-light.svg"); }
-
-.icon__screencapture10 {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_screencapture10.svg"); }
-
-.icon__screencapture10--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_screencapture10-light.svg"); }
-
-.icon__screencapture11 {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_screencapture11.svg"); }
-
-.icon__screencapture11--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_screencapture11-light.svg"); }
-
-.icon__screencapture13 {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_screencapture13.svg"); }
-
-.icon__screencapture13--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_screencapture13-light.svg"); }
-
-.icon__search {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_search.svg"); }
-
-.icon__search--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_search-light.svg"); }
-
-.icon__secure_locked {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_secure_locked.svg"); }
-
-.icon__secure_locked--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_secure_locked-light.svg"); }
-
-.icon__secure_unlocked {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_secure_unlocked.svg"); }
-
-.icon__secure_unlocked--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_secure_unlocked-light.svg"); }
-
-.icon__settings {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_settings.svg"); }
-
-.icon__settings--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_settings-light.svg"); }
-
-.icon__share {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_share.svg"); }
-
-.icon__share--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_share-light.svg"); }
-
-.icon__sharebubble {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_sharebubble.svg"); }
-
-.icon__sharebubble--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_sharebubble-light.svg"); }
-
-.icon__sharrow {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_sharrow.svg"); }
-
-.icon__sharrow--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_sharrow-light.svg"); }
-
-.icon__signal {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_signal.svg"); }
-
-.icon__signal--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_signal-light.svg"); }
-
-.icon__signals_old {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_signals_old.svg"); }
-
-.icon__signals_old--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_signals_old-light.svg"); }
-
-.icon__smiley {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_smiley.svg"); }
-
-.icon__smiley--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_smiley-light.svg"); }
-
-.icon__strikethrough {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_strikethrough.svg"); }
-
-.icon__strikethrough--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_strikethrough-light.svg"); }
-
-.icon__sxo_co_sessionlog {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_sxo_co_sessionlog.svg"); }
-
-.icon__sxo_co_sessionlog--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_sxo_co_sessionlog-light.svg"); }
-
-.icon__team {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_team.svg"); }
-
-.icon__team--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_team-light.svg"); }
-
-.icon__thumbprint {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_thumbprint.svg"); }
-
-.icon__thumbprint--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_thumbprint-light.svg"); }
-
-.icon__thumbtack_pressed {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_thumbtack_pressed.svg"); }
-
-.icon__thumbtack_pressed--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_thumbtack_pressed-light.svg"); }
-
-.icon__thumbtack {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_thumbtack.svg"); }
-
-.icon__thumbtack--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_thumbtack-light.svg"); }
-
-.icon__tool {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_tool.svg"); }
-
-.icon__tool--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_tool-light.svg"); }
-
-.icon__toolbox {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_toolbox.svg"); }
-
-.icon__toolbox--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_toolbox-light.svg"); }
-
-.icon__tools {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_tools.svg"); }
-
-.icon__tools--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_tools-light.svg"); }
-
-.icon__trashcan {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_trashcan.svg"); }
-
-.icon__trashcan--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_trashcan-light.svg"); }
-
-.icon__twogears {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_twogears.svg"); }
-
-.icon__twogears--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_twogears-light.svg"); }
-
-.icon__type_indent {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_type_indent.svg"); }
-
-.icon__type_indent--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_type_indent-light.svg"); }
-
-.icon__type_italic {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_type_italic.svg"); }
-
-.icon__type_italic--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_type_italic-light.svg"); }
-
-.icon__type_justify {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_type_justify.svg"); }
-
-.icon__type_justify--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_type_justify-light.svg"); }
-
-.icon__type_numberedlist {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_type_numberedlist.svg"); }
-
-.icon__type_numberedlist--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_type_numberedlist-light.svg"); }
-
-.icon__type_underline {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_type_underline.svg"); }
-
-.icon__type_underline--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_type_underline-light.svg"); }
-
-.icon__type_unindent {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_type_unindent.svg"); }
-
-.icon__type_unindent--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_type_unindent-light.svg"); }
-
-.icon__unlink1 {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_unlink1.svg"); }
-
-.icon__unlink1--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_unlink1-light.svg"); }
-
-.icon__unlink3 {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_unlink3.svg"); }
-
-.icon__unlink3--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_unlink3-light.svg"); }
-
-.icon__verify {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_verify.svg"); }
-
-.icon__verify--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_verify-light.svg"); }
-
-.icon__videocall {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_videocall.svg"); }
-
-.icon__videocall--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_videocall-light.svg"); }
-
-.icon__videoclip {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_videoclip.svg"); }
-
-.icon__videoclip--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_videoclip-light.svg"); }
-
-.icon__volume {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_volume.svg"); }
-
-.icon__volume--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_volume-light.svg"); }
-
-.icon__whoshere {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_whoshere.svg"); }
-
-.icon__whoshere--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_whoshere-light.svg"); }
-
-.icon__world {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_world.svg"); }
-
-.icon__world--light {
-  background-image: url("/sfe/assets/tempo/images/icons/icon_world-light.svg"); }
-
-.modal {
-  background: #fff;
+.light .tempo-text-color--normal, body .tempo-text-color--normal {
   color: rgba(0, 0, 0, 0.87); }
+
+.light .tempo-text-color--secondary, body .tempo-text-color--secondary {
+  color: rgba(0, 0, 0, 0.54); }
+
+.light .tempo-text-color--placeholder, body .tempo-text-color--placeholder {
+  color: rgba(0, 0, 0, 0.38); }
+
+.light .tempo-text-color--disabled, body .tempo-text-color--disabled {
+  color: rgba(0, 0, 0, 0.2); }
+
+.light .tempo-ui--background, body .tempo-ui--background {
+  background-color: white; }
+
+.light .tempo-ui--layout, body .tempo-ui--layout {
+  background-color: black; }
+
+.dark .tempo-text-color--normal {
+  color: #fff; }
+
+.dark .tempo-text-color--secondary {
+  color: rgba(255, 255, 255, 0.7); }
+
+.dark .tempo-text-color--placeholder {
+  color: rgba(255, 255, 255, 0.5); }
+
+.dark .tempo-text-color--disabled {
+  color: rgba(255, 255, 255, 0.4); }
+
+.dark .tempo-ui--background {
+  background-color: #282828; }
+
+.dark .tempo-ui--layout {
+  background-color: white; }
+
+.dark-contrast .tempo-text-color--normal, .dark.contrast .tempo-text-color--normal {
+  color: #fff; }
+
+.dark-contrast .tempo-text-color--secondary, .dark.contrast .tempo-text-color--secondary {
+  color: rgba(255, 255, 255, 0.7); }
+
+.dark-contrast .tempo-text-color--placeholder, .dark.contrast .tempo-text-color--placeholder {
+  color: rgba(255, 255, 255, 0.5); }
+
+.dark-contrast .tempo-text-color--disabled, .dark.contrast .tempo-text-color--disabled {
+  color: rgba(255, 255, 255, 0.4); }
+
+.dark-contrast .tempo-ui--background, .dark.contrast .tempo-ui--background {
+  background-color: black; }
+
+.dark-contrast .tempo-ui--layout, .dark.contrast .tempo-ui--layout {
+  background-color: white; }
+
+.tempo-text-color--link {
+  cursor: pointer;
+  color: #0091ea; }
+
+.tempo-token {
+  font-size: 0.8rem;
+  padding: 0.1rem 0.2rem;
+  border-radius: 2px;
+  font-weight: 500;
+  display: inline-block; }
+
+.tempo-tabs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  margin-bottom: 16px; }
+
+.tempo-tabs__tab {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 auto;
+          flex: 0 1 auto;
+  display: block;
+  font-weight: normal;
+  padding: 8px 16px;
+  margin: 0px 28px;
+  border-bottom: 3px solid transparent;
+  cursor: pointer;
+  opacity: 0.54;
+  text-transform: uppercase;
+  text-align: center; }
+
+.tempo-tabs__tab--active {
+  cursor: default;
+  border-bottom: 3px solid;
+  opacity: 1; }
+
+@media only screen and (max-width: 980px) {
+  .tempo-tabs__tab {
+    margin: 0; } }
+
+.simple-jack-tiny .tempo-tabs__tab, .simple-jack-small .tempo-tabs__tab {
+  margin: 0; }
+
+.simple-jack-medium .tempo-tabs__tab {
+  margin: 0px 12px; }

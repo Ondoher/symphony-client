@@ -1,0 +1,1769 @@
+@charset "UTF-8";
+/* Webfont: Lato-Hairline */
+@font-face {
+  font-family: 'SymphonyLato';
+  src: url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-Hairline.eot");
+  /* IE9 Compat Modes */
+  src: url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-Hairline.eot?#iefix") format("embedded-opentype"), url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-Hairline.woff2") format("woff2"), url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-Hairline.woff") format("woff"), url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-Hairline.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 100;
+  text-rendering: geometricPrecision; }
+
+/* Webfont: Lato-HairlineItalic */
+@font-face {
+  font-family: 'SymphonyLato';
+  src: url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-HairlineItalic.eot");
+  /* IE9 Compat Modes */
+  src: url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-HairlineItalic.eot?#iefix") format("embedded-opentype"), url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-HairlineItalic.woff2") format("woff2"), url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-HairlineItalic.woff") format("woff"), url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-HairlineItalic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 100;
+  text-rendering: geometricPrecision; }
+
+/* Webfont: Lato-Thin */
+@font-face {
+  font-family: 'SymphonyLato';
+  src: url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-Thin.eot");
+  /* IE9 Compat Modes */
+  src: url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-Thin.eot?#iefix") format("embedded-opentype"), url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-Thin.woff2") format("woff2"), url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-Thin.woff") format("woff"), url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-Thin.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 200;
+  text-rendering: geometricPrecision; }
+
+/* Webfont: Lato-ThinItalic */
+@font-face {
+  font-family: 'SymphonyLato';
+  src: url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-ThinItalic.eot");
+  /* IE9 Compat Modes */
+  src: url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-ThinItalic.eot?#iefix") format("embedded-opentype"), url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-ThinItalic.woff2") format("woff2"), url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-ThinItalic.woff") format("woff"), url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-ThinItalic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 200;
+  text-rendering: geometricPrecision; }
+
+/* Webfont: Lato-Light */
+@font-face {
+  font-family: 'SymphonyLato';
+  src: url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-Light.eot");
+  /* IE9 Compat Modes */
+  src: url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-Light.eot?#iefix") format("embedded-opentype"), url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-Light.woff2") format("woff2"), url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-Light.woff") format("woff"), url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-Light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 300;
+  text-rendering: geometricPrecision; }
+
+/* Webfont: Lato-LightItalic */
+@font-face {
+  font-family: 'SymphonyLato';
+  src: url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-LightItalic.eot");
+  /* IE9 Compat Modes */
+  src: url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-LightItalic.eot?#iefix") format("embedded-opentype"), url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-LightItalic.woff2") format("woff2"), url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-LightItalic.woff") format("woff"), url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-LightItalic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 300;
+  text-rendering: geometricPrecision; }
+
+/* Webfont: Lato-Regular */
+@font-face {
+  font-family: 'SymphonyLato';
+  src: url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-Regular.eot?#iefix") format("embedded-opentype"), url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-Regular.woff2") format("woff2"), url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-Regular.woff") format("woff"), url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: geometricPrecision; }
+
+/* Webfont: Lato-Italic */
+@font-face {
+  font-family: 'SymphonyLato';
+  src: url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-Italic.eot");
+  /* IE9 Compat Modes */
+  src: url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-Italic.eot?#iefix") format("embedded-opentype"), url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-Italic.woff2") format("woff2"), url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-Italic.woff") format("woff"), url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-Italic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: normal;
+  text-rendering: geometricPrecision; }
+
+/* Webfont: Lato-Medium */
+@font-face {
+  font-family: 'SymphonyLato';
+  src: url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-Medium.eot");
+  /* IE9 Compat Modes */
+  src: url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-Medium.eot?#iefix") format("embedded-opentype"), url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-Medium.woff2") format("woff2"), url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-Medium.woff") format("woff"), url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-Medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 500;
+  text-rendering: geometricPrecision; }
+
+/* Webfont: Lato-MediumItalic */
+@font-face {
+  font-family: 'SymphonyLato';
+  src: url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-MediumItalic.eot");
+  /* IE9 Compat Modes */
+  src: url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-MediumItalic.eot?#iefix") format("embedded-opentype"), url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-MediumItalic.woff2") format("woff2"), url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-MediumItalic.woff") format("woff"), url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-MediumItalic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 500;
+  text-rendering: geometricPrecision; }
+
+/* Webfont: Lato-Semibold */
+@font-face {
+  font-family: 'SymphonyLato';
+  src: url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-Semibold.eot");
+  /* IE9 Compat Modes */
+  src: url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-Semibold.eot?#iefix") format("embedded-opentype"), url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-Semibold.woff2") format("woff2"), url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-Semibold.woff") format("woff"), url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-Semibold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 600;
+  text-rendering: geometricPrecision; }
+
+/* Webfont: Lato-SemiboldItalic */
+@font-face {
+  font-family: 'SymphonyLato';
+  src: url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-SemiboldItalic.eot");
+  /* IE9 Compat Modes */
+  src: url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-SemiboldItalic.eot?#iefix") format("embedded-opentype"), url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-SemiboldItalic.woff2") format("woff2"), url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-SemiboldItalic.woff") format("woff"), url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-SemiboldItalic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 600;
+  text-rendering: geometricPrecision; }
+
+/* Webfont: Lato-Bold */
+@font-face {
+  font-family: 'SymphonyLato';
+  src: url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-Bold.eot");
+  /* IE9 Compat Modes */
+  src: url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-Bold.eot?#iefix") format("embedded-opentype"), url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-Bold.woff2") format("woff2"), url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-Bold.woff") format("woff"), url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+  text-rendering: geometricPrecision; }
+
+/* Webfont: Lato-BoldItalic */
+@font-face {
+  font-family: 'SymphonyLato';
+  src: url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-BoldItalic.eot");
+  /* IE9 Compat Modes */
+  src: url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-BoldItalic.eot?#iefix") format("embedded-opentype"), url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-BoldItalic.woff2") format("woff2"), url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-BoldItalic.woff") format("woff"), url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-BoldItalic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 700;
+  text-rendering: geometricPrecision; }
+
+/* Webfont: Lato-Heavy */
+@font-face {
+  font-family: 'SymphonyLato';
+  src: url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-Heavy.eot");
+  /* IE9 Compat Modes */
+  src: url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-Heavy.eot?#iefix") format("embedded-opentype"), url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-Heavy.woff2") format("woff2"), url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-Heavy.woff") format("woff"), url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-Heavy.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 800;
+  text-rendering: geometricPrecision; }
+
+/* Webfont: Lato-HeavyItalic */
+@font-face {
+  font-family: 'SymphonyLato';
+  src: url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-HeavyItalic.eot");
+  /* IE9 Compat Modes */
+  src: url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-HeavyItalic.eot?#iefix") format("embedded-opentype"), url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-HeavyItalic.woff2") format("woff2"), url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-HeavyItalic.woff") format("woff"), url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-HeavyItalic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 800;
+  text-rendering: geometricPrecision; }
+
+/* Webfont: Lato-Black */
+@font-face {
+  font-family: 'SymphonyLato';
+  src: url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-Black.eot");
+  /* IE9 Compat Modes */
+  src: url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-Black.eot?#iefix") format("embedded-opentype"), url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-Black.woff2") format("woff2"), url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-Black.woff") format("woff"), url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-Black.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 900;
+  text-rendering: geometricPrecision; }
+
+/* Webfont: Lato-BlackItalic */
+@font-face {
+  font-family: 'SymphonyLato';
+  src: url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-BlackItalic.eot");
+  /* IE9 Compat Modes */
+  src: url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-BlackItalic.eot?#iefix") format("embedded-opentype"), url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-BlackItalic.woff2") format("woff2"), url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-BlackItalic.woff") format("woff"), url("https://symphony.com/resources/api/v2.0/fonts/lato/Lato-BlackItalic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 900;
+  text-rendering: geometricPrecision; }
+
+html, body {
+  height: 100%;
+  min-height: 100%;
+  margin: 0; }
+
+html {
+  box-sizing: border-box;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+body {
+  line-height: 1.17;
+  margin: 0;
+  padding: 0; }
+
+main {
+  display: block; }
+
+progress {
+  vertical-align: baseline; }
+
+a:active,
+a:hover {
+  outline: 0; }
+
+b, strong {
+  font-weight: bold; }
+
+iframe {
+  border: 0; }
+
+small {
+  font-size: 0.77rem; }
+
+sub,
+sup {
+  font-size: 0.72rem;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -0.5rem; }
+
+sub {
+  bottom: -0.25rem; }
+
+img {
+  border: 0; }
+
+svg:not(:root) {
+  overflow: hidden; }
+
+figure {
+  margin: 1rem 20px; }
+
+hr {
+  box-sizing: content-box;
+  height: 0; }
+
+pre {
+  overflow: auto; }
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 0.9rem; }
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit; }
+
+button,
+select {
+  text-transform: none; }
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+  box-sizing: content-box; }
+
+textarea {
+  overflow: auto; }
+
+optgroup {
+  font-weight: bold; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+td,
+th {
+  padding: 0; }
+
+:root {
+  line-height: 1;
+  box-sizing: border-box; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.47;
+  font-weight: normal; }
+
+h1 {
+  font-size: 1.6rem; }
+
+h2 {
+  font-size: 1.4rem; }
+
+h3 {
+  font-size: 1.3rem; }
+
+h4 {
+  font-size: 1.2rem; }
+
+h5 {
+  font-size: 1.1rem; }
+
+h6 {
+  font-size: 1rem; }
+
+p {
+  font-size: 1rem;
+  margin-top: 0;
+  margin-bottom: .63rem;
+  line-height: 1.24; }
+
+ul, ol {
+  padding-left: 0;
+  list-style-position: inside; }
+  ul ul, ul ol, ol ul, ol ol {
+    padding-left: 1rem; }
+
+@font-face {
+  font-family: 'Tempo-Icons';
+  src: url("https://symphony.com/resources/api/v2.0/fonts/tempo-icons/Tempo-Icons.eot?v007");
+  src: url("https://symphony.com/resources/api/v2.0/fonts/tempo-icons/Tempo-Icons.eot?v007#iefix") format("embedded-opentype"), url("https://symphony.com/resources/api/v2.0/fonts/tempo-icons/Tempo-Icons.ttf?v007") format("truetype"), url("https://symphony.com/resources/api/v2.0/fonts/tempo-icons/Tempo-Icons.woff?v007") format("woff"), url("https://symphony.com/resources/api/v2.0/fonts/tempo-icons/Tempo-Icons.svg?v007#Tempo-Icons") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+.tempo-icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Tempo-Icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  font-size: 18px;
+  /* Enable Ligatures ================ */
+  letter-spacing: 0;
+  -webkit-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga";
+  -webkit-font-variant-ligatures: discretionary-ligatures;
+  font-variant-ligatures: discretionary-ligatures; }
+
+.tempo-icon--chevron:before {
+  content: ""; }
+
+.tempo-icon--audio_bridge:before {
+  content: ""; }
+
+.tempo-icon--border_color:before {
+  content: ""; }
+
+.tempo-icon--filetype_AVI:before {
+  content: ""; }
+
+.tempo-icon--filetype_blank:before {
+  content: ""; }
+
+.tempo-icon--filetype_CDI:before {
+  content: ""; }
+
+.tempo-icon--filetype_M4V:before {
+  content: ""; }
+
+.tempo-icon--filetype_MPEG:before {
+  content: ""; }
+
+.tempo-icon--filetype_MPG:before {
+  content: ""; }
+
+.tempo-icon--filetype_WBMP:before {
+  content: ""; }
+
+.tempo-icon--filetype_ACC:before {
+  content: ""; }
+
+.tempo-icon--filetype_BMP:before {
+  content: ""; }
+
+.tempo-icon--filetype_CSV:before {
+  content: ""; }
+
+.tempo-icon--filetype_DOC:before {
+  content: ""; }
+
+.tempo-icon--filetype_DOCX:before {
+  content: ""; }
+
+.tempo-icon--filetype_GIF:before {
+  content: ""; }
+
+.tempo-icon--filetype_HTML:before {
+  content: ""; }
+
+.tempo-icon--filetype_JPG:before {
+  content: ""; }
+
+.tempo-icon--filetype_M4A:before {
+  content: ""; }
+
+.tempo-icon--filetype_MOV:before {
+  content: ""; }
+
+.tempo-icon--filetype_MP3:before {
+  content: ""; }
+
+.tempo-icon--filetype_MP4:before {
+  content: ""; }
+
+.tempo-icon--filetype_MSG:before {
+  content: ""; }
+
+.tempo-icon--filetype_ODM:before {
+  content: ""; }
+
+.tempo-icon--filetype_PDF:before {
+  content: ""; }
+
+.tempo-icon--filetype_PNG:before {
+  content: ""; }
+
+.tempo-icon--filetype_PPT:before {
+  content: ""; }
+
+.tempo-icon--filetype_PPTX:before {
+  content: ""; }
+
+.tempo-icon--filetype_RFT:before {
+  content: ""; }
+
+.tempo-icon--filetype_TIF:before {
+  content: ""; }
+
+.tempo-icon--filetype_TIFF:before {
+  content: ""; }
+
+.tempo-icon--filetype_TXT:before {
+  content: ""; }
+
+.tempo-icon--filetype_WAV:before {
+  content: ""; }
+
+.tempo-icon--filetype_XLS:before {
+  content: ""; }
+
+.tempo-icon--filetype_XLSX:before {
+  content: ""; }
+
+.tempo-icon--filetype_XML:before {
+  content: ""; }
+
+.tempo-icon--filetype_XSD:before {
+  content: ""; }
+
+.tempo-icon--filetype_XTIFF:before {
+  content: ""; }
+
+.tempo-icon--filetype_ZIp:before {
+  content: ""; }
+
+.tempo-icon--sort:before {
+  content: ""; }
+
+.tempo-icon--addressbook2:before {
+  content: ""; }
+
+.tempo-icon--check12:before {
+  content: ""; }
+
+.tempo-icon--check18:before {
+  content: ""; }
+
+.tempo-icon--circlealertoutline:before {
+  content: ""; }
+
+.tempo-icon--circlealertsolid:before {
+  content: ""; }
+
+.tempo-icon--circleinfooutline:before {
+  content: ""; }
+
+.tempo-icon--circleinfosolid:before {
+  content: ""; }
+
+.tempo-icon--close18:before {
+  content: ""; }
+
+.tempo-icon--close24:before {
+  content: ""; }
+
+.tempo-icon--close32:before {
+  content: ""; }
+
+.tempo-icon--close36:before {
+  content: ""; }
+
+.tempo-icon--close48:before {
+  content: ""; }
+
+.tempo-icon--clouddownload:before {
+  content: ""; }
+
+.tempo-icon--cloudoutline:before {
+  content: ""; }
+
+.tempo-icon--cloudsolid:before {
+  content: ""; }
+
+.tempo-icon--dropdown:before {
+  content: ""; }
+
+.tempo-icon--email:before {
+  content: ""; }
+
+.tempo-icon--helpoutline:before {
+  content: ""; }
+
+.tempo-icon--helpsolid:before {
+  content: ""; }
+
+.tempo-icon--hourglassoutline:before {
+  content: ""; }
+
+.tempo-icon--hourglasssolid:before {
+  content: ""; }
+
+.tempo-icon--ic_apps_black_18px:before {
+  content: ""; }
+
+.tempo-icon--ic_arrow_forward_black_18px:before {
+  content: ""; }
+
+.tempo-icon--ic_attach_file_black_18px:before {
+  content: ""; }
+
+.tempo-icon--ic_chat_bubble_black_18px:before {
+  content: ""; }
+
+.tempo-icon--ic_contacts_black_18px:before {
+  content: ""; }
+
+.tempo-icon--ic_group_add_black_18px:before {
+  content: ""; }
+
+.tempo-icon--ic_insert_chart_black_18px:before {
+  content: ""; }
+
+.tempo-icon--ic_insert_comment_black_18px:before {
+  content: ""; }
+
+.tempo-icon--ic_keyboard_backspace_black_18px:before {
+  content: ""; }
+
+.tempo-icon--ic_label_outline_black_18px:before {
+  content: ""; }
+
+.tempo-icon--ic_list_black_18px:before {
+  content: ""; }
+
+.tempo-icon--ic_mic_none_black_18px:before {
+  content: ""; }
+
+.tempo-icon--ic_mode_comment_black_18px:before {
+  content: ""; }
+
+.tempo-icon--ic_notifications_none_black_18px:before {
+  content: ""; }
+
+.tempo-icon--ic_ondemand_video_black_18px:before {
+  content: ""; }
+
+.tempo-icon--ic_personal_video_black_18px:before {
+  content: ""; }
+
+.tempo-icon--ic_view_quilt_black_18px:before {
+  content: ""; }
+
+.tempo-icon--notavailableoutline:before {
+  content: ""; }
+
+.tempo-icon--notavailablesolid:before {
+  content: ""; }
+
+.tempo-icon--playoutline:before {
+  content: ""; }
+
+.tempo-icon--playsolid:before {
+  content: ""; }
+
+.tempo-icon--securelock:before {
+  content: ""; }
+
+.tempo-icon--singlequote:before {
+  content: ""; }
+
+.tempo-icon--starlike:before {
+  content: ""; }
+
+.tempo-icon--addressbook:before {
+  content: ""; }
+
+.tempo-icon--airplane:before {
+  content: ""; }
+
+.tempo-icon--alarmclock:before {
+  content: ""; }
+
+.tempo-icon--alert:before {
+  content: ""; }
+
+.tempo-icon--appsettings:before {
+  content: ""; }
+
+.tempo-icon--arrowdown:before {
+  content: ""; }
+
+.tempo-icon--arrowleft:before {
+  content: ""; }
+
+.tempo-icon--arrowright:before {
+  content: ""; }
+
+.tempo-icon--arrowup:before {
+  content: ""; }
+
+.tempo-icon--assetclass:before {
+  content: ""; }
+
+.tempo-icon--blacklist:before {
+  content: ""; }
+
+.tempo-icon--bot:before {
+  content: ""; }
+
+.tempo-icon--browserooms:before {
+  content: ""; }
+
+.tempo-icon--bulkjobhistory:before {
+  content: ""; }
+
+.tempo-icon--bulkmanageaccounts:before {
+  content: ""; }
+
+.tempo-icon--calendar:before {
+  content: ""; }
+
+.tempo-icon--camera:before {
+  content: ""; }
+
+.tempo-icon--carrotdown:before {
+  content: ""; }
+
+.tempo-icon--carrotleft:before {
+  content: ""; }
+
+.tempo-icon--carrotright:before {
+  content: ""; }
+
+.tempo-icon--carrotup:before {
+  content: ""; }
+
+.tempo-icon--cashtag:before {
+  content: ""; }
+
+.tempo-icon--check:before {
+  content: ""; }
+
+.tempo-icon--circlealert:before {
+  content: ""; }
+
+.tempo-icon--circlecheck:before {
+  content: ""; }
+
+.tempo-icon--circleinfo:before {
+  content: ""; }
+
+.tempo-icon--clipboard:before {
+  content: ""; }
+
+.tempo-icon--cloud:before {
+  content: ""; }
+
+.tempo-icon--cloudupload:before {
+  content: ""; }
+
+.tempo-icon--code:before {
+  content: ""; }
+
+.tempo-icon--collapse:before {
+  content: ""; }
+
+.tempo-icon--commentsmaller:before {
+  content: ""; }
+
+.tempo-icon--company:before {
+  content: ""; }
+
+.tempo-icon--configuresso:before {
+  content: ""; }
+
+.tempo-icon--connectionadd:before {
+  content: ""; }
+
+.tempo-icon--connectionfollowing:before {
+  content: ""; }
+
+.tempo-icon--connectionremove:before {
+  content: ""; }
+
+.tempo-icon--connections:before {
+  content: ""; }
+
+.tempo-icon--copy:before {
+  content: ""; }
+
+.tempo-icon--copydisabled:before {
+  content: ""; }
+
+.tempo-icon--directionbackward:before {
+  content: ""; }
+
+.tempo-icon--directionforward:before {
+  content: ""; }
+
+.tempo-icon--distrobutionlist:before {
+  content: ""; }
+
+.tempo-icon--division:before {
+  content: ""; }
+
+.tempo-icon--document:before {
+  content: ""; }
+
+.tempo-icon--documentcreate:before {
+  content: ""; }
+
+.tempo-icon--download:before {
+  content: ""; }
+
+.tempo-icon--entitlements:before {
+  content: ""; }
+
+.tempo-icon--equalsign:before {
+  content: ""; }
+
+.tempo-icon--error:before {
+  content: ""; }
+
+.tempo-icon--expand:before {
+  content: ""; }
+
+.tempo-icon--exportcontent:before {
+  content: ""; }
+
+.tempo-icon--expressionfilters:before {
+  content: ""; }
+
+.tempo-icon--filterfunnel:before {
+  content: ""; }
+
+.tempo-icon--filters:before {
+  content: ""; }
+
+.tempo-icon--fingerprint:before {
+  content: ""; }
+
+.tempo-icon--flag:before {
+  content: ""; }
+
+.tempo-icon--foldercreate:before {
+  content: ""; }
+
+.tempo-icon--fullscreen:before {
+  content: ""; }
+
+.tempo-icon--fullscreenexit:before {
+  content: ""; }
+
+.tempo-icon--globe:before {
+  content: ""; }
+
+.tempo-icon--gpspin:before {
+  content: ""; }
+
+.tempo-icon--graph:before {
+  content: ""; }
+
+.tempo-icon--hourglass:before {
+  content: ""; }
+
+.tempo-icon--image:before {
+  content: ""; }
+
+.tempo-icon--imagebroken:before {
+  content: ""; }
+
+.tempo-icon--informationbarriers:before {
+  content: ""; }
+
+.tempo-icon--layoutgrid:before {
+  content: ""; }
+
+.tempo-icon--layoutsingle:before {
+  content: ""; }
+
+.tempo-icon--lightbulb:before {
+  content: ""; }
+
+.tempo-icon--lightningbolt:before {
+  content: ""; }
+
+.tempo-icon--link:before {
+  content: ""; }
+
+.tempo-icon--linkunlink:before {
+  content: ""; }
+
+.tempo-icon--listnumbers:before {
+  content: ""; }
+
+.tempo-icon--listtodo:before {
+  content: ""; }
+
+.tempo-icon--logout:before {
+  content: ""; }
+
+.tempo-icon--mailopened:before {
+  content: ""; }
+
+.tempo-icon--mailunopened:before {
+  content: ""; }
+
+.tempo-icon--messagecheck:before {
+  content: ""; }
+
+.tempo-icon--messagenohistory:before {
+  content: ""; }
+
+.tempo-icon--messageplus:before {
+  content: ""; }
+
+.tempo-icon--messageviewhistory:before {
+  content: ""; }
+
+.tempo-icon--microphone:before {
+  content: ""; }
+
+.tempo-icon--microphoneoff:before {
+  content: ""; }
+
+.tempo-icon--minus:before {
+  content: ""; }
+
+.tempo-icon--mobiledevice:before {
+  content: ""; }
+
+.tempo-icon--movie:before {
+  content: ""; }
+
+.tempo-icon--mutualconnections:before {
+  content: ""; }
+
+.tempo-icon--notavailable:before {
+  content: ""; }
+
+.tempo-icon--paintpalette:before {
+  content: ""; }
+
+.tempo-icon--passwordinvisible:before {
+  content: ""; }
+
+.tempo-icon--passwordvisible:before {
+  content: ""; }
+
+.tempo-icon--peopleexternal:before {
+  content: ""; }
+
+.tempo-icon--peopleinternal:before {
+  content: ""; }
+
+.tempo-icon--peoplewhoshere:before {
+  content: ""; }
+
+.tempo-icon--person:before {
+  content: ""; }
+
+.tempo-icon--phone:before {
+  content: ""; }
+
+.tempo-icon--play:before {
+  content: ""; }
+
+.tempo-icon--plussmall:before {
+  content: ""; }
+
+.tempo-icon--print:before {
+  content: ""; }
+
+.tempo-icon--profile:before {
+  content: ""; }
+
+.tempo-icon--profilephoto:before {
+  content: ""; }
+
+.tempo-icon--quicksearch12:before {
+  content: ""; }
+
+.tempo-icon--quotedouble:before {
+  content: ""; }
+
+.tempo-icon--quotesingle:before {
+  content: ""; }
+
+.tempo-icon--read:before {
+  content: ""; }
+
+.tempo-icon--refresh:before {
+  content: ""; }
+
+.tempo-icon--room:before {
+  content: ""; }
+
+.tempo-icon--rtecenter:before {
+  content: ""; }
+
+.tempo-icon--rteindent:before {
+  content: ""; }
+
+.tempo-icon--rteindentremove:before {
+  content: ""; }
+
+.tempo-icon--rtejustified:before {
+  content: ""; }
+
+.tempo-icon--rteleft:before {
+  content: ""; }
+
+.tempo-icon--rteletter:before {
+  content: ""; }
+
+.tempo-icon--rteright:before {
+  content: ""; }
+
+.tempo-icon--rtestrikethrough:before {
+  content: ""; }
+
+.tempo-icon--rteunderline:before {
+  content: ""; }
+
+.tempo-icon--rules:before {
+  content: ""; }
+
+.tempo-icon--screencapture1:before {
+  content: ""; }
+
+.tempo-icon--screencapture2:before {
+  content: ""; }
+
+.tempo-icon--searchpeople:before {
+  content: ""; }
+
+.tempo-icon--securekey:before {
+  content: ""; }
+
+.tempo-icon--secureunlocked:before {
+  content: ""; }
+
+.tempo-icon--sent:before {
+  content: ""; }
+
+.tempo-icon--settingstools:before {
+  content: ""; }
+
+.tempo-icon--settingswrench:before {
+  content: ""; }
+
+.tempo-icon--share:before {
+  content: ""; }
+
+.tempo-icon--signalcreate:before {
+  content: ""; }
+
+.tempo-icon--skiptobottom:before {
+  content: ""; }
+
+.tempo-icon--skiptofirst:before {
+  content: ""; }
+
+.tempo-icon--skiptolast:before {
+  content: ""; }
+
+.tempo-icon--skiptotop:before {
+  content: ""; }
+
+.tempo-icon--star:before {
+  content: ""; }
+
+.tempo-icon--table:before {
+  content: ""; }
+
+.tempo-icon--tag:before {
+  content: ""; }
+
+.tempo-icon--team:before {
+  content: ""; }
+
+.tempo-icon--trashcan:before {
+  content: ""; }
+
+.tempo-icon--update:before {
+  content: ""; }
+
+.tempo-icon--userstatistics:before {
+  content: ""; }
+
+.tempo-icon--verified:before {
+  content: ""; }
+
+.tempo-icon--video:before {
+  content: ""; }
+
+.tempo-icon--videohide:before {
+  content: ""; }
+
+.tempo-icon--volume:before {
+  content: ""; }
+
+.tempo-icon--volumemute:before {
+  content: ""; }
+
+.tempo-icon--warning:before {
+  content: ""; }
+
+.tempo-icon--webhooks:before {
+  content: ""; }
+
+.tempo-icon--smallsearch:before {
+  content: ""; }
+
+.tempo-icon--sort_down:before {
+  content: ""; }
+
+.tempo-icon--sort_up:before {
+  content: ""; }
+
+.tempo-icon--settings:before {
+  content: ""; }
+
+.tempo-icon--pop_in:before {
+  content: ""; }
+
+.tempo-icon--pop_out:before {
+  content: ""; }
+
+.tempo-icon--appstore:before {
+  content: ""; }
+
+.tempo-icon--attach:before {
+  content: ""; }
+
+.tempo-icon--bigsearch:before {
+  content: ""; }
+
+.tempo-icon--chime:before {
+  content: ""; }
+
+.tempo-icon--close:before {
+  content: ""; }
+
+.tempo-icon--closedfolder:before {
+  content: ""; }
+
+.tempo-icon--comment:before {
+  content: ""; }
+
+.tempo-icon--conversations:before {
+  content: ""; }
+
+.tempo-icon--disable:before {
+  content: ""; }
+
+.tempo-icon--grab:before {
+  content: ""; }
+
+.tempo-icon--help:before {
+  content: ""; }
+
+.tempo-icon--inbox:before {
+  content: ""; }
+
+.tempo-icon--mentions:before {
+  content: ""; }
+
+.tempo-icon--messageblast:before {
+  content: ""; }
+
+.tempo-icon--more:before {
+  content: ""; }
+
+.tempo-icon--morevertical:before {
+  content: ""; }
+
+.tempo-icon--multiplepeople:before {
+  content: ""; }
+
+.tempo-icon--openedfolder:before {
+  content: ""; }
+
+.tempo-icon--plussign:before {
+  content: ""; }
+
+.tempo-icon--post:before {
+  content: ""; }
+
+.tempo-icon--quicksearch:before {
+  content: ""; }
+
+.tempo-icon--rtepostmode:before {
+  content: ""; }
+
+.tempo-icon--screenshare:before {
+  content: ""; }
+
+.tempo-icon--screenshare_end:before {
+  content: ""; }
+
+.tempo-icon--securelocked:before {
+  content: ""; }
+
+.tempo-icon--signal:before {
+  content: ""; }
+
+.tempo-icon--smiley:before {
+  content: ""; }
+
+.tempo-icon--thumbtack:before {
+  content: ""; }
+
+.tempo-icon--thumbtackpressed:before {
+  content: ""; }
+
+.tempo-icon--type_bold:before {
+  content: ""; }
+
+.tempo-icon--type_bulletedlist:before {
+  content: ""; }
+
+.tempo-icon--type_italic:before {
+  content: ""; }
+
+.button {
+  padding: 4px 16px;
+  margin-right: 4px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  color: white;
+  background: #3DA2FD; }
+  .button:hover {
+    background-color: #339dfd; }
+  .button:active {
+    background-color: #47a7fd;
+    outline: none; }
+
+.tempo-btn {
+  font-family: "SymphonyLato", "Lato", "Segoe UI", "Helvetica Neue", "Verdana", "Arial", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  color: #FFF;
+  background-color: #3DA2FD;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: none;
+  border: none;
+  border-radius: 20px;
+  font-size: 12px;
+  text-align: center;
+  padding: 8px 32px;
+  margin: 8px 8px 8px 0;
+  outline: none;
+  display: inline-block;
+  text-decoration: none;
+  line-height: 12px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  overflow: hidden;
+  position: relative;
+  transition: all 120ms ease-in-out;
+  z-index: 1;
+  text-transform: uppercase; }
+  .tempo-btn.tempo-btn--flat {
+    color: #3DA2FD;
+    background-color: rgba(255, 255, 255, 0);
+    text-transform: uppercase;
+    box-shadow: 0 0 0 1px #3da2fd; }
+  .tempo-btn.tempo-btn--flat-secondary {
+    color: #9e9e9e;
+    background-color: rgba(255, 255, 255, 0);
+    text-transform: uppercase;
+    box-shadow: 0 0 0 1px #9e9e9e; }
+    .tempo-btn.tempo-btn--flat-secondary:hover {
+      box-shadow: 0 0 0 1px #3da2fd; }
+  .tempo-btn.tempo-btn--link {
+    color: #3DA2FD;
+    background-color: rgba(255, 255, 255, 0);
+    text-transform: uppercase;
+    margin: 0;
+    padding: 8px 16px; }
+    .tempo-btn.tempo-btn--link:hover {
+      background-color: rgba(255, 255, 255, 0);
+      color: #3DA2FD;
+      font-weight: bold; }
+    .tempo-btn.tempo-btn--link:active {
+      background-color: rgba(255, 255, 255, 0);
+      color: #3DA2FD;
+      font-weight: bold;
+      outline: none;
+      box-shadow: none; }
+    .tempo-btn.tempo-btn--link:disabled {
+      opacity: .4; }
+  .tempo-btn.tempo-btn--dismiss {
+    color: rgba(0, 0, 0, 0.38);
+    background-color: rgba(255, 255, 255, 0);
+    text-transform: uppercase;
+    margin: 0;
+    padding: 8px 16px; }
+    .tempo-btn.tempo-btn--dismiss:hover {
+      background-color: rgba(255, 255, 255, 0);
+      color: black; }
+    .tempo-btn.tempo-btn--dismiss:active {
+      background-color: rgba(255, 255, 255, 0);
+      color: rgba(13, 13, 13, 0.38);
+      outline: none;
+      box-shadow: none; }
+  .tempo-btn.tempo-btn--raised {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 0 2px 3px 0 rgba(0, 0, 0, 0.12); }
+  .tempo-btn.tempo-btn--fab {
+    width: 48px;
+    height: 48px;
+    padding: 0;
+    border-radius: 50%;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1), 0 4px 6px 0 rgba(0, 0, 0, 0.12); }
+  .tempo-btn.tempo-btn--primary {
+    color: #FFF;
+    background-color: #3DA2FD;
+    text-transform: uppercase; }
+  .tempo-btn.tempo-btn--mini {
+    padding: 4px 16px;
+    min-width: 100px; }
+  .tempo-btn.tempo-btn--icon {
+    padding-left: 24px; }
+  .tempo-btn.tempo-btn--disabled:not(.tempo-btn--link), .tempo-btn[disabled]:not(.tempo-btn--link) {
+    background-color: #DDD;
+    color: #949494;
+    cursor: default;
+    box-shadow: none; }
+    .tempo-btn.tempo-btn--disabled:not(.tempo-btn--link):hover, .tempo-btn[disabled]:not(.tempo-btn--link):hover {
+      color: #949494;
+      background-color: #DDD; }
+    .tempo-btn.tempo-btn--disabled:not(.tempo-btn--link):active, .tempo-btn[disabled]:not(.tempo-btn--link):active {
+      color: #949494;
+      background-color: #DDD; }
+  .tempo-btn:hover {
+    background-color: #0b8afc;
+    color: #FFFFFF; }
+  .tempo-btn:active {
+    background-color: #027deb;
+    color: #FFFFFF;
+    outline: none; }
+  .tempo-btn:focus {
+    outline: 0; }
+  .tempo-btn:visited {
+    color: #FFFFFF; }
+  .tempo-btn.tempo-btn--warning {
+    color: #FFF;
+    background-color: #EE5555;
+    text-transform: uppercase; }
+    .tempo-btn.tempo-btn--warning:hover {
+      background-color: #e92727; }
+    .tempo-btn.tempo-btn--warning:active {
+      background-color: #e01616; }
+  .tempo-btn.tempo-btn--secondary {
+    color: #FFF;
+    background-color: #FF7043;
+    text-transform: uppercase; }
+    .tempo-btn.tempo-btn--secondary:hover {
+      background-color: #ff4910; }
+    .tempo-btn.tempo-btn--secondary:active {
+      background-color: #f63b00; }
+
+.switch__input {
+  display: none; }
+
+.switch__lever {
+  width: 32px;
+  height: 14px;
+  background: #bdbdbd;
+  display: inline-block;
+  border-radius: 16px;
+  position: relative;
+  margin-right: 4px;
+  transition: all 0.15s cubic-bezier(0.22, 0.61, 0.36, 1) 0.28s; }
+
+.switch__lever:before {
+  content: "";
+  display: block;
+  height: 18px;
+  width: 18px;
+  background: #ececec;
+  border-radius: 50%;
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
+  transition: all 0.25s cubic-bezier(1, -0.07, 0.49, 1.19); }
+
+.switch input[type='checkbox']:checked + .switch__lever {
+  background: #7abffe; }
+
+.switch input[type='checkbox']:checked + .switch__lever:before {
+  left: 16px;
+  background: #3DA2FD; }
+
+input[type="text"].tempo-input-standard, input[type="password"].tempo-input-standard {
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  padding: 8px;
+  width: 100%; }
+  input[type="text"].tempo-input-standard:focus, input[type="password"].tempo-input-standard:focus {
+    border: 1px solid #3DA2FD;
+    outline: none; }
+
+input[type="text"].tempo-input-underlined, input[type="password"].tempo-input-underlined {
+  border: 0;
+  border-bottom: 1px solid #aaa;
+  display: block;
+  width: 100%;
+  z-index: 0;
+  background: rgba(255, 255, 255, 0);
+  padding: 8px; }
+  input[type="text"].tempo-input-underlined:focus, input[type="password"].tempo-input-underlined:focus {
+    border-bottom: 1px solid #3DA2FD;
+    outline: none; }
+    input[type="text"].tempo-input-underlined:focus + .input-label, input[type="password"].tempo-input-underlined:focus + .input-label {
+      font-size: 0.9rem;
+      margin-top: -1.3rem;
+      margin-bottom: 0.5rem;
+      color: #3DA2FD; }
+
+.tempo-input-container {
+  margin-top: 40px;
+  position: relative; }
+  .tempo-input-container input {
+    position: relative; }
+  .tempo-input-container label {
+    display: block;
+    position: absolute;
+    top: 0;
+    padding: 8px;
+    color: rgba(0, 0, 0, 0.38);
+    transition: margin 100ms ease-out, font 100ms ease-out, color 100ms ease-out;
+    z-index: -1; }
+  .tempo-input-container.populated label {
+    font-size: 0.9rem;
+    margin-top: -1.3rem;
+    margin-bottom: 0.5rem; }
+    .tempo-input-container.populated label:focus {
+      color: #3DA2FD; }
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px white inset; }
+
+body {
+  font-family: "SymphonyLato", "Lato", "Segoe UI", "Helvetica Neue", "Verdana", "Arial", sans-serif; }
+
+.tempo-checkbox {
+  display: inline-block; }
+  .tempo-checkbox label {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start; }
+  .tempo-checkbox label:before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: transparent;
+    margin: 1px;
+    border-radius: 3px;
+    margin-right: 8px;
+    box-shadow: inset 0 0 0 2px #ccc;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto; }
+  .tempo-checkbox input[type='checkbox'] {
+    display: none;
+    position: absolute; }
+  .tempo-checkbox input[type='checkbox']:checked + label:before {
+    background-image: url("images/icons/icon_checkmark-light.svg");
+    box-shadow: inset 0 0 0 2px #3b99fc;
+    background-color: #3b99fc; }
+  .tempo-checkbox input[type='checkbox']:disabled + label {
+    opacity: .54; }
+
+.optimal-performance * {
+  transition: none !important; }
+
+body .tempo-text-color--theme-primary {
+  color: #253238; }
+
+body .tempo-text-color--theme-accent {
+  color: #00a4b1; }
+
+body .tempo-bg-color--theme-primary {
+  background-color: #253238; }
+
+body .tempo-bg-color--theme-accent {
+  background-color: #00a4b1; }
+
+.tempo-text-color--white {
+  color: white; }
+
+.tempo-bg-color--white {
+  background-color: white; }
+
+.dark .tempo-text-color--white, .dark-contrast .tempo-text-color--white {
+  color: white; }
+
+.dark .tempo-bg-color--white, .dark-contrast .tempo-bg-color--white {
+  background-color: white; }
+
+.tempo-text-color--black {
+  color: black; }
+
+.tempo-bg-color--black {
+  background-color: black; }
+
+.dark .tempo-text-color--black, .dark-contrast .tempo-text-color--black {
+  color: black; }
+
+.dark .tempo-bg-color--black, .dark-contrast .tempo-bg-color--black {
+  background-color: black; }
+
+.tempo-text-color--red {
+  color: #e53935; }
+
+.tempo-bg-color--red {
+  background-color: #e53935; }
+
+.dark .tempo-text-color--red, .dark-contrast .tempo-text-color--red {
+  color: #e53935; }
+
+.dark .tempo-bg-color--red, .dark-contrast .tempo-bg-color--red {
+  background-color: #e53935; }
+
+.tempo-text-color--green {
+  color: #4caf50; }
+
+.tempo-bg-color--green {
+  background-color: #4caf50; }
+
+.dark .tempo-text-color--green, .dark-contrast .tempo-text-color--green {
+  color: #4caf50; }
+
+.dark .tempo-bg-color--green, .dark-contrast .tempo-bg-color--green {
+  background-color: #4caf50; }
+
+.tempo-text-color--blue {
+  color: #1e88e5; }
+
+.tempo-bg-color--blue {
+  background-color: #1e88e5; }
+
+.dark .tempo-text-color--blue, .dark-contrast .tempo-text-color--blue {
+  color: #1e88e5; }
+
+.dark .tempo-bg-color--blue, .dark-contrast .tempo-bg-color--blue {
+  background-color: #1e88e5; }
+
+.tempo-text-color--yellow {
+  color: #ffb300; }
+
+.tempo-bg-color--yellow {
+  background-color: #ffb300; }
+
+.dark .tempo-text-color--yellow, .dark-contrast .tempo-text-color--yellow {
+  color: #ffb300; }
+
+.dark .tempo-bg-color--yellow, .dark-contrast .tempo-bg-color--yellow {
+  background-color: #ffb300; }
+
+.tempo-text-color--cyan {
+  color: #00acc1; }
+
+.tempo-bg-color--cyan {
+  background-color: #00acc1; }
+
+.dark .tempo-text-color--cyan, .dark-contrast .tempo-text-color--cyan {
+  color: #00acc1; }
+
+.dark .tempo-bg-color--cyan, .dark-contrast .tempo-bg-color--cyan {
+  background-color: #00acc1; }
+
+.tempo-text-color--purple {
+  color: #ab47bc; }
+
+.tempo-bg-color--purple {
+  background-color: #ab47bc; }
+
+.dark .tempo-text-color--purple, .dark-contrast .tempo-text-color--purple {
+  color: #ab47bc; }
+
+.dark .tempo-bg-color--purple, .dark-contrast .tempo-bg-color--purple {
+  background-color: #ab47bc; }
+
+.tempo-text-color--orange {
+  color: #f4511e; }
+
+.tempo-bg-color--orange {
+  background-color: #f4511e; }
+
+.dark .tempo-text-color--orange, .dark-contrast .tempo-text-color--orange {
+  color: #f4511e; }
+
+.dark .tempo-bg-color--orange, .dark-contrast .tempo-bg-color--orange {
+  background-color: #f4511e; }
+
+.tempo-text-color--external {
+  color: #F68128; }
+
+.tempo-bg-color--external {
+  background-color: #F68128; }
+
+.dark .tempo-text-color--external, .dark-contrast .tempo-text-color--external {
+  color: #F68128; }
+
+.dark .tempo-bg-color--external, .dark-contrast .tempo-bg-color--external {
+  background-color: #F68128; }
+
+.theme-color-grey .tempo-text-color--theme-primary {
+  color: #253238; }
+
+.theme-color-grey .tempo-bg-color--theme-primary {
+  background-color: #253238; }
+
+.theme-color-grey .tempo-text-color--theme-accent {
+  color: #00a4b1; }
+
+.theme-color-grey .tempo-bg-color--theme-accent {
+  background-color: #00a4b1; }
+
+.theme-color-grey.dark .tempo-text-color--theme-primary {
+  color: #253238; }
+
+.theme-color-grey.dark .tempo-bg-color--theme-primary {
+  background-color: #253238; }
+
+.theme-color-grey.dark .tempo-text-color--theme-accent {
+  color: #00a4b1; }
+
+.theme-color-grey.dark .tempo-bg-color--theme-accent {
+  background-color: #00a4b1; }
+
+.theme-color-blue .tempo-text-color--theme-primary {
+  color: #01579B; }
+
+.theme-color-blue .tempo-bg-color--theme-primary {
+  background-color: #01579B; }
+
+.theme-color-blue .tempo-text-color--theme-accent {
+  color: #71B94F; }
+
+.theme-color-blue .tempo-bg-color--theme-accent {
+  background-color: #71B94F; }
+
+.theme-color-green .tempo-text-color--theme-primary {
+  color: #14695C; }
+
+.theme-color-green .tempo-bg-color--theme-primary {
+  background-color: #14695C; }
+
+.theme-color-green .tempo-text-color--theme-accent {
+  color: #9575cd; }
+
+.theme-color-green .tempo-bg-color--theme-accent {
+  background-color: #9575cd; }
+
+.theme-color-magenta .tempo-text-color--theme-primary {
+  color: #85174F; }
+
+.theme-color-magenta .tempo-bg-color--theme-primary {
+  background-color: #85174F; }
+
+.theme-color-magenta .tempo-text-color--theme-accent {
+  color: #FF80AB; }
+
+.theme-color-magenta .tempo-bg-color--theme-accent {
+  background-color: #FF80AB; }
+
+.theme-color-yellow .tempo-text-color--theme-primary {
+  color: #3E2723; }
+
+.theme-color-yellow .tempo-bg-color--theme-primary {
+  background-color: #3E2723; }
+
+.theme-color-yellow .tempo-text-color--theme-accent {
+  color: #09A798; }
+
+.theme-color-yellow .tempo-bg-color--theme-accent {
+  background-color: #09A798; }
+
+.light .tempo-text-color--normal, body .tempo-text-color--normal {
+  color: rgba(0, 0, 0, 0.87); }
+
+.light .tempo-text-color--secondary, body .tempo-text-color--secondary {
+  color: rgba(0, 0, 0, 0.54); }
+
+.light .tempo-text-color--placeholder, body .tempo-text-color--placeholder {
+  color: rgba(0, 0, 0, 0.38); }
+
+.light .tempo-text-color--disabled, body .tempo-text-color--disabled {
+  color: rgba(0, 0, 0, 0.2); }
+
+.light .tempo-ui--background, body .tempo-ui--background {
+  background-color: white; }
+
+.light .tempo-ui--layout, body .tempo-ui--layout {
+  background-color: black; }
+
+.dark .tempo-text-color--normal {
+  color: #fff; }
+
+.dark .tempo-text-color--secondary {
+  color: rgba(255, 255, 255, 0.7); }
+
+.dark .tempo-text-color--placeholder {
+  color: rgba(255, 255, 255, 0.5); }
+
+.dark .tempo-text-color--disabled {
+  color: rgba(255, 255, 255, 0.4); }
+
+.dark .tempo-ui--background {
+  background-color: #282828; }
+
+.dark .tempo-ui--layout {
+  background-color: white; }
+
+.dark-contrast .tempo-text-color--normal, .dark.contrast .tempo-text-color--normal {
+  color: #fff; }
+
+.dark-contrast .tempo-text-color--secondary, .dark.contrast .tempo-text-color--secondary {
+  color: rgba(255, 255, 255, 0.7); }
+
+.dark-contrast .tempo-text-color--placeholder, .dark.contrast .tempo-text-color--placeholder {
+  color: rgba(255, 255, 255, 0.5); }
+
+.dark-contrast .tempo-text-color--disabled, .dark.contrast .tempo-text-color--disabled {
+  color: rgba(255, 255, 255, 0.4); }
+
+.dark-contrast .tempo-ui--background, .dark.contrast .tempo-ui--background {
+  background-color: black; }
+
+.dark-contrast .tempo-ui--layout, .dark.contrast .tempo-ui--layout {
+  background-color: white; }
+
+.tempo-text-color--link {
+  cursor: pointer;
+  color: #0091ea; }
+
+.tempo-token {
+  font-size: 0.8rem;
+  padding: 0.1rem 0.2rem;
+  border-radius: 2px;
+  font-weight: 500;
+  display: inline-block; }
+
+.tempo-tabs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  margin-bottom: 16px; }
+
+.tempo-tabs__tab {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 auto;
+          flex: 0 1 auto;
+  display: block;
+  font-weight: normal;
+  padding: 8px 16px;
+  margin: 0px 28px;
+  border-bottom: 3px solid transparent;
+  cursor: pointer;
+  opacity: 0.54;
+  text-transform: uppercase;
+  text-align: center; }
+
+.tempo-tabs__tab--active {
+  cursor: default;
+  border-bottom: 3px solid;
+  opacity: 1; }
+
+@media only screen and (max-width: 980px) {
+  .tempo-tabs__tab {
+    margin: 0; } }
+
+.simple-jack-tiny .tempo-tabs__tab, .simple-jack-small .tempo-tabs__tab {
+  margin: 0; }
+
+.simple-jack-medium .tempo-tabs__tab {
+  margin: 0px 12px; }
+
+html.xsmall {
+  font-size: 12px; }
+
+html.small {
+  font-size: 13px; }
+
+html.medium {
+  font-size: 14px; }
+
+html.large {
+  font-size: 17px; }
+
+label, p, h1, h2, h3, h4, h5, h6, li {
+  color: rgba(0, 0, 0, 0.87); }
+
+.dark label, .dark p, .dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6, .dark li {
+  color: white; }
+
+.dark-contrast label, .dark-contrast p, .dark-contrast h1, .dark-contrast h2, .dark-contrast h3, .dark-contrast h4, .dark-contrast h5, .dark-contrast h6, .dark-contrast li, .dark.contrast label, .dark.contrast p, .dark.contrast h1, .dark.contrast h2, .dark.contrast h3, .dark.contrast h4, .dark.contrast h5, .dark.contrast h6, .dark.contrast li {
+  color: white; }
+
+.dark input[type="text"].tempo-input-standard,
+.dark input[type="password"].tempo-input-standard {
+  background-color: rgba(255, 255, 255, 0.08) !important;
+  border: none !important; }
